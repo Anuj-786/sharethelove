@@ -353,3 +353,52 @@ require get_template_directory() . '/inc/template-tags.php';
  * @since Twenty Fifteen 1.0
  */
 require get_template_directory() . '/inc/customizer.php';
+
+/* Add action for auto login 28-03-2016 **/
+add_action("gform_user_registered", "autologin", 10, 4);
+function autologin($user_id, $config, $entry, $password) {
+        wp_set_auth_cookie($user_id, false, '');
+}
+
+/* for logged-in and logged-out 28-03-2016 **/
+function my_wp_nav_menu_args( $args = '' ) {
+
+    if( is_user_logged_in() ) {
+        $args['menu'] = 'logged-in';
+    } else {
+        $args['menu'] = 'logged-out';
+    }
+        return $args;
+    }
+add_filter( 'wp_nav_menu_args', 'my_wp_nav_menu_args' );
+
+/* add login shortcode 29-03-16**/
+add_action( 'init', 'my_add_shortcodes' );
+
+function my_add_shortcodes() {
+
+    add_shortcode( 'my-login-form', 'my_login_form_shortcode' );
+}
+
+function my_login_form_shortcode( $attr ) {
+
+    if ( is_user_logged_in() )
+        return 'You are already logged in';
+
+    /* Set up some defaults. */
+    $defaults = array(
+        'label_username' => 'Email Id',
+        'label_password' => 'Password',
+        'label_remember' => __( 'Keep me logged in' ),
+        'label_log_in'   => __( 'Go!' ),
+    );
+
+    /* Merge the user input arguments with the defaults. */
+    $attr = shortcode_atts( $defaults, $attr );
+
+    /* Set 'echo' to 'false' because we want it to always return instead of print for shortcodes. */
+    $attr['echo'] = false;
+
+    return wp_login_form( $attr );
+}
+
