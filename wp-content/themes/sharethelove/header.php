@@ -66,7 +66,8 @@
 					<div id="site-header-menu" class="site-header-menu">
 						<?php if ( has_nav_menu( 'primary' ) ) : ?>
 							<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
-							<?php	wp_nav_menu( array(
+							<?php
+									wp_nav_menu( array(
 										'theme_location' => 'primary',
 										'menu_class'     => 'primary-menu',
 									 ) );
@@ -90,25 +91,22 @@
 					</div><!-- .site-header-menu -->
 				<?php endif; ?>
 			</div><!-- .site-header-main -->
-			<?php endif; // End header image check. ?>
-			<?php
-			if (is_user_logged_in()){
-									print('<a href="#menu" id="toggle"><span></span></a>
-										<div id="menu-exp">
-										  <ul>
-										    <li><a href="#home">Settings</a></li>
-										    <li><a href="#about">About</a></li>
-										    <li><a href="#support">Support Us</a></li>
-										    <li><a href="#faqs">FAQs</a></li>
-										    <li><a href="'); echo wp_logout_url(get_bloginfo('url')); print('" title="Logout">Logout</a>
-										  </ul>
-										</div>');								}
-									else {
-									    print('<div><div class="login-trigger">Login</div>');
-									    print('<div class="login-content">'); echo do_shortcode('[my-login-form]'); 
-									    print('</div></div>');
-									};
-			?>
 		</header><!-- .site-header -->
-
+		<?php
+		if (is_user_logged_in()){
+								print('<a href="#menu" id="toggle"><span></span></a>
+									<div id="menu-exp">
+									  <ul>
+									    <li><a href="#home">Settings</a></li>
+									    <li><a href="#about">About</a></li>
+									    <li><a href="#support">Support Us</a></li>
+									    <li><a href="#faqs">FAQs</a></li>
+									    <li><a href="'); echo wp_logout_url(get_bloginfo('url')); print('" title="Logout">Logout</a>
+									  </ul>
+									</div>');								}
+								else {
+								    print('<div><div class="login-trigger">Login</div>');
+								    print('<div class="login-content">'); echo do_shortcode('[my-login-form]'); 
+								    print('</div></div>');
+								}; ?>
 		<div id="content" class="site-content">
