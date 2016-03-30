@@ -1,0 +1,17 @@
+/**** Importing sass files ******/
+@font-face {
+  font-family: Gotham-Book;
+  src: url("../fonts/Gotham Book.ttf");
+}
+/* line 5, ../sass/custom/_global.scss */
+body {
+  font-family: Gotham-Book;
+  width: 1030px;
+  margin: 0 auto;
+}
+
+/* line 3, ../sass/custom/_header.scss */
+.site-header .header-image img {
+  width: 85px;
+  height: 85px;
+}
