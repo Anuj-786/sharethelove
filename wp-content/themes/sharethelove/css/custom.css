@@ -8,12 +8,12 @@ body.home {
   font-family: Gotham-Book;
   width: 1031px;
   margin: 0 auto;
-  background: none;
+  background: none !important;
 }
 
 /* line 1, ../sass/custom/_header.scss */
 .site-header {
-  background: #D9D9D1;
+  background: #D9D9D1 !important;
   padding: 0 !important;
   width: 100%;
   height: 100px;
