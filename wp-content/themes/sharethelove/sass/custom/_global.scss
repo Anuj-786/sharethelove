@@ -1,10 +1,10 @@
 @font-face {
-    font-family: Gotham-Book;
-    src: url("../fonts/Gotham Book.ttf");
+	font-family: Gotham-Book;
+	src: url("../fonts/Gotham Book.ttf");
 }	
 body.home {
 	font-family: Gotham-Book;
 	width: 1031px;
 	margin: 0 auto;
-	background: none;
+	background: none !important;
 }
