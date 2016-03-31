@@ -94,9 +94,8 @@
 		</header><!-- .site-header -->
 		<?php
 		if (is_user_logged_in()){
-								print('<a href="#menu" id="toggle"><span></span></a>
-									<div id="menu-exp">
-									  <ul>
+								print(' <div class="box-shadow-menu"></div>
+									  <ul class="login-menu">
 									    <li><a href="#home">Settings</a></li>
 									    <li><a href="#about">About</a></li>
 									    <li><a href="#support">Support Us</a></li>
