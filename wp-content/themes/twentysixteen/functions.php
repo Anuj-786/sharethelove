@@ -444,14 +444,12 @@ function my_login_form_shortcode( $attr ) {
         'label_remember' => __( 'Keep me logged in' ),
         'label_log_in'   => __( 'Go!' ),
     );
-
     /* Merge the user input arguments with the defaults. */
     $attr = shortcode_atts( $defaults, $attr );
-
     /* Set 'echo' to 'false' because we want it to always return instead of print for shortcodes. */
     $attr['echo'] = false;
-
+    print'<a class="forgot-password" href="http://codebing.com">Forgot Password</a>';
     return wp_login_form( $attr );
-}
 
+}
 
