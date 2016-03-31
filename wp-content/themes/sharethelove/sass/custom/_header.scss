@@ -1,53 +1,26 @@
-.home {
-  padding-top: 30px;
-  .site {
-   background: #F3F3F3;
-   margin: 0 !important;
-   padding-top: 30px;
-   .site-inner {
-
-    .site-header {
-      background: #D9D9D2 !important;
-      padding: 0 !important;
-      width: 94%;
-      height: 100px;
-      margin: 0 auto;
-      .header-image {
-        width: 10%;
-        float: left;
-        margin-top: 0;
-        margin-bottom: 0;	
-        img {
-          height: 85px;
-          width: 85px;
-        }
+.site {
+  margin: 0 !important;
+  background-color: #F3F3F3 !important;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  .site-header {
+    margin: 0 auto;
+    padding: 0;
+    width: 94%;
+    background-color: #d9d9d2;
+    height: 107px;
+    .header-image {
+      width: 20%;
+      margin: 0;
+      float: left;
+      text-align: center;
+      img {
+        width: 100px;
+        height: 100px;
       }
-
-
     }
-    .box-shadow-menu {
-      position: relative;
-      height: 30px;
-      background: none;
-      border: none;
-      width: 35px;
-      cursor: pointer;
-    }
-    .box-shadow-menu:before {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 4px;
-      width: 35px;
-      height: 4px;
-      background: black;
-      box-shadow: 
-      0 10px 0 0 black,
-      0 20px 0 0 black;
-    }
-    .login-menu{
-      display: none;
+    .site-header-main {
+      width: 70%;
     }
   }
-}
 }

@@ -1,0 +1,45 @@
+.site-footer {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #D9D9D2;
+	padding: 0 !important;
+	.footer-wrapper {
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		padding-top: 15px !important;
+		.support.container {
+			width: 100% !important;
+			.support-title {
+				float: left !important;
+				width: 68% !important;
+				padding-left: 25px;
+			}
+			.socialmedia {
+				display: inline-flex;
+				
+			}
+
+		}
+		.footer.container {
+			width: 100%;
+			padding-top: 25px;
+			.footer-left {
+				float: left;
+				padding-left: 25px;
+				
+			}
+			.footer-right {
+				font-size: 15px;
+				padding-left:150px !important;
+				float: left;
+				
+				.footer-nav {
+					li {
+						display: inline;
+					}
+				}
+			}
+		}
+	}
+}

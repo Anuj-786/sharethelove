@@ -1,4 +1,6 @@
-.home  {
+body {
+	padding-top: 24px;
+	background-color: #fff !important;
 	.content-area {
 		width: 100% !important;
 		margin: 0 !important;
@@ -7,6 +9,182 @@
 		.entry-header {
 			display: none !important;
 		}
+		.entry-content {
+			form {
+				width: 100%;
+				padding-left: 170px;
+				.gform_heading {
+					text-align: center;
+					width: 80%;
+					font-size: 18px;
+					color: #405970;
+				}
+				.gform_body {
+					width: 100%;
+					#gform_fields_2 {
+						width: 100% !important;
+						#field_2_1 {
+							label {
+								display: none !important;
+							}
+							.ginput_container {
+								width: 100%;
+								padding-bottom: 5px;
+								input {
+									width: 80%;
+									font-size: 18px;
+									line-height: 1;
+									padding-left: 12px;
+									color: #405970;
+								}
+							}
+						}
+						#field_2_2 {
+							label {
+								display: none !important;
+							}
+							.ginput_container {
+								width: 100%;
+								input {
+									width: 80%;
+									font-size: 18px;
+									line-height: 1;
+									padding-left: 12px;
+									color: #405970;
+								}
+							}
+						}
+						#field_2_3 {
+							.gfield_required {
+								display: none !important;		
+							}
+							.ginput_container {
+								width: 100%;
+								input {
+									width: 80%;
+									font-size: 18px;
+									line-height: 1;
+									padding-left: 12px;
+								}
+								li {
+									float: left;
+									width: 35%;
+									padding-left: 15px !important;
+									input {
+										margin: 0 !important;
+										zoom: 2 !important;
+
+									}
+									label {
+										font-size: 18px;
+										padding-left: 18px;
+										color: #405970;
+									}
+								}
+							}
+						}
+						#field_2_6 {
+							padding-top: 6px;
+							label {
+								width: 20%;
+								float: left;
+								display: inline-block;
+								color: #405970;
+							}
+							.ginput_container {
+								.gfield_date_day {
+
+									width: 12%;
+									padding-bottom: 4px !important;
+									font-size: 18px !important;
+									input {
+										width: 65% !important;
+										border-radius: 12px;
+										padding-left: 10px;
+										line-height: 1;
+										color: #405970;
+									}
+									label {
+										display: none;
+									}
+								}
+								.gfield_date_month {
+
+									width: 12%;
+									input {
+										width: 65% !important;
+										border-radius: 12px;
+										padding-left: 10px;
+										line-height: 1;
+										color: #405970;
+									}
+									label {
+										display: none;
+									}
+								}
+								.gfield_date_year {
+
+									width: 20% !important;
+									input {
+										width: 60% !important;
+										border-radius: 12px;
+										padding-left: 10px;
+										line-height: 1;
+										color: #405970;
+									}
+									label {
+										display: none;
+									}
+								}
+							}
+						}
+						#field_2_9 {
+							padding-top: 5px;
+							.ginput_right {
+								display: none;
+							}
+							.gfield_label {
+								display: none;
+							}
+							.ginput_complex  {
+								width: 100% !important;
+								span {
+									width: 100%;
+									input {
+										width: 80% !important;
+									}
+									label {
+										font-size: 18px;
+										color: #405970;
+									}
+								}
+								
+							}
+						}
+						#field_2_7 {
+							font-size: 18px;
+							letter-spacing: 0.3px;
+							color: #405970;
+						}
+					}
+				}
+				.gform_footer.top_label {
+					width: 80%;
+					text-align: center;
+					padding: 0;
+					.gform_button.button {
+						background: #49647E;
+						border-radius: 25px;
+						font-size: 18px !important;
+						width: 23%;
+						padding: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+		/*
 		.entry-content {
 			width: 100%;
 			.gf_browser_chrome {
@@ -143,4 +321,4 @@
 		}
 	}
 }
-
+*/

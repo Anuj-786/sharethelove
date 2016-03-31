@@ -12,216 +12,433 @@ body.home {
 }
 
 /* line 1, ../sass/custom/_header.scss */
-.home {
-  padding-top: 30px;
-}
-/* line 3, ../sass/custom/_header.scss */
-.home .site {
-  background: #F3F3F3;
+.site {
   margin: 0 !important;
-  padding-top: 30px;
+  background-color: #F3F3F3 !important;
+  padding-top: 50px;
+  padding-bottom: 60px;
 }
-/* line 9, ../sass/custom/_header.scss */
-.home .site .site-inner .site-header {
-  background: #D9D9D2 !important;
-  padding: 0 !important;
-  width: 94%;
-  height: 100px;
+/* line 6, ../sass/custom/_header.scss */
+.site .site-header {
   margin: 0 auto;
+  padding: 0;
+  width: 94%;
+  background-color: #d9d9d2;
+  height: 107px;
 }
-/* line 15, ../sass/custom/_header.scss */
-.home .site .site-inner .site-header .header-image {
-  width: 10%;
+/* line 12, ../sass/custom/_header.scss */
+.site .site-header .header-image {
+  width: 20%;
+  margin: 0;
   float: left;
-  margin-top: 0;
-  margin-bottom: 0;
+  text-align: center;
 }
-/* line 20, ../sass/custom/_header.scss */
-.home .site .site-inner .site-header .header-image img {
-  height: 85px;
-  width: 85px;
+/* line 17, ../sass/custom/_header.scss */
+.site .site-header .header-image img {
+  width: 100px;
+  height: 100px;
 }
-/* line 28, ../sass/custom/_header.scss */
-.home .site .site-inner .box-shadow-menu {
-  position: relative;
-  height: 30px;
-  background: none;
-  border: none;
-  width: 35px;
-  cursor: pointer;
-}
-/* line 36, ../sass/custom/_header.scss */
-.home .site .site-inner .box-shadow-menu:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 4px;
-  width: 35px;
-  height: 4px;
-  background: black;
-  box-shadow: 0 10px 0 0 black, 0 20px 0 0 black;
-}
-/* line 48, ../sass/custom/_header.scss */
-.home .site .site-inner .login-menu {
-  display: none;
+/* line 22, ../sass/custom/_header.scss */
+.site .site-header .site-header-main {
+  width: 70%;
 }
 
-/* line 2, ../sass/custom/_projects.scss */
-.home .content-area {
+/* line 1, ../sass/custom/_footer.scss */
+.site-footer {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #D9D9D2;
+  padding: 0 !important;
+}
+/* line 6, ../sass/custom/_footer.scss */
+.site-footer .footer-wrapper {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-top: 15px !important;
+}
+/* line 11, ../sass/custom/_footer.scss */
+.site-footer .footer-wrapper .support.container {
+  width: 100% !important;
+}
+/* line 13, ../sass/custom/_footer.scss */
+.site-footer .footer-wrapper .support.container .support-title {
+  float: left !important;
+  width: 68% !important;
+  padding-left: 25px;
+}
+/* line 18, ../sass/custom/_footer.scss */
+.site-footer .footer-wrapper .support.container .socialmedia {
+  display: inline-flex;
+}
+/* line 24, ../sass/custom/_footer.scss */
+.site-footer .footer-wrapper .footer.container {
+  width: 100%;
+  padding-top: 25px;
+}
+/* line 27, ../sass/custom/_footer.scss */
+.site-footer .footer-wrapper .footer.container .footer-left {
+  float: left;
+  padding-left: 25px;
+}
+/* line 32, ../sass/custom/_footer.scss */
+.site-footer .footer-wrapper .footer.container .footer-right {
+  font-size: 15px;
+  padding-left: 150px !important;
+  float: left;
+}
+/* line 38, ../sass/custom/_footer.scss */
+.site-footer .footer-wrapper .footer.container .footer-right .footer-nav li {
+  display: inline;
+}
+
+/* line 1, ../sass/custom/_projects.scss */
+body {
+  padding-top: 24px;
+  background-color: #fff !important;
+}
+/* line 4, ../sass/custom/_projects.scss */
+body .content-area {
   width: 100% !important;
   margin: 0 !important;
   padding: 0;
   float: none !important;
 }
-/* line 7, ../sass/custom/_projects.scss */
-.home .content-area .entry-header {
+/* line 9, ../sass/custom/_projects.scss */
+body .content-area .entry-header {
   display: none !important;
 }
-/* line 10, ../sass/custom/_projects.scss */
-.home .content-area .entry-content {
+/* line 13, ../sass/custom/_projects.scss */
+body .content-area .entry-content form {
   width: 100%;
+  padding-left: 170px;
 }
-/* line 12, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome {
-  width: 100%;
-  margin: 0 !important;
-}
-/* line 15, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form {
-  width: 100%;
-}
-/* line 17, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_heading {
-  text-align: center !important;
-}
-/* line 20, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body {
-  width: 100%;
+/* line 16, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_heading {
+  text-align: center;
+  width: 80%;
+  font-size: 18px;
+  color: #405970;
 }
 /* line 22, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 {
+body .content-area .entry-content form .gform_body {
+  width: 100%;
+}
+/* line 24, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 {
   width: 100% !important;
 }
-/* line 25, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_1 label {
+/* line 27, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 label {
   display: none !important;
 }
-/* line 28, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_1 .ginput_container {
+/* line 30, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 .ginput_container {
   width: 100%;
   padding-bottom: 5px;
 }
-/* line 31, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_1 .ginput_container input {
+/* line 33, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 .ginput_container input {
   width: 80%;
   font-size: 18px;
   line-height: 1;
   padding-left: 12px;
-}
-/* line 40, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_2 label {
-  display: none !important;
+  color: #405970;
 }
 /* line 43, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_2 .ginput_container {
-  width: 100%;
-}
-/* line 45, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_2 .ginput_container input {
-  width: 80%;
-  font-size: 18px;
-  line-height: 1;
-  padding-left: 12px;
-}
-/* line 54, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_3 .gfield_required {
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 label {
   display: none !important;
 }
-/* line 57, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_3 .ginput_container {
+/* line 46, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 .ginput_container {
   width: 100%;
 }
-/* line 59, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_3 .ginput_container input {
+/* line 48, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 .ginput_container input {
+  width: 80%;
+  font-size: 18px;
+  line-height: 1;
+  padding-left: 12px;
+  color: #405970;
+}
+/* line 58, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .gfield_required {
+  display: none !important;
+}
+/* line 61, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container {
+  width: 100%;
+}
+/* line 63, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container input {
   width: 80%;
   font-size: 18px;
   line-height: 1;
   padding-left: 12px;
 }
-/* line 65, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_3 .ginput_container li {
+/* line 69, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li {
   float: left;
   width: 35%;
   padding-left: 15px !important;
 }
-/* line 69, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_3 .ginput_container li input {
+/* line 73, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li input {
   margin: 0 !important;
   zoom: 2 !important;
 }
-/* line 74, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_3 .ginput_container li label {
+/* line 78, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li label {
   font-size: 18px;
   padding-left: 18px;
+  color: #405970;
 }
-/* line 81, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_6 {
+/* line 86, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 {
   padding-top: 6px;
 }
-/* line 83, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_6 label {
-  width: 15%;
+/* line 88, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 label {
+  width: 20%;
   float: left;
   display: inline-block;
+  color: #405970;
 }
-/* line 89, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day {
+/* line 95, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day {
   width: 12%;
   padding-bottom: 4px !important;
   font-size: 18px !important;
 }
-/* line 94, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day input {
+/* line 100, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day input {
   width: 65% !important;
   border-radius: 12px;
   padding-left: 10px;
   line-height: 1;
-}
-/* line 100, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day label {
-  display: none;
-}
-/* line 104, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month {
-  width: 12%;
+  color: #405970;
 }
 /* line 107, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month input {
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day label {
+  display: none;
+}
+/* line 111, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month {
+  width: 12%;
+}
+/* line 114, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month input {
   width: 65% !important;
   border-radius: 12px;
   padding-left: 10px;
   line-height: 1;
+  color: #405970;
 }
-/* line 113, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month label {
+/* line 121, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month label {
   display: none;
 }
-/* line 117, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year {
+/* line 125, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year {
   width: 20% !important;
 }
-/* line 120, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year input {
+/* line 128, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year input {
   width: 60% !important;
   border-radius: 12px;
   padding-left: 10px;
   line-height: 1;
+  color: #405970;
 }
-/* line 126, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year label {
+/* line 135, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year label {
   display: none;
 }
-/* line 133, ../sass/custom/_projects.scss */
-.home .content-area .entry-content .gf_browser_chrome form .gform_body #gform_fields_2 #field_2_9 .ginput_right {
+/* line 141, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 {
+  padding-top: 5px;
+}
+/* line 143, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_right {
   display: none;
 }
+/* line 146, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .gfield_label {
+  display: none;
+}
+/* line 149, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex {
+  width: 100% !important;
+}
+/* line 151, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex span {
+  width: 100%;
+}
+/* line 153, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex span input {
+  width: 80% !important;
+}
+/* line 156, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex span label {
+  font-size: 18px;
+  color: #405970;
+}
+/* line 164, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_7 {
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  color: #405970;
+}
+/* line 171, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_footer.top_label {
+  width: 80%;
+  text-align: center;
+  padding: 0;
+}
+/* line 175, ../sass/custom/_projects.scss */
+body .content-area .entry-content form .gform_footer.top_label .gform_button.button {
+  background: #49647E;
+  border-radius: 25px;
+  font-size: 18px !important;
+  width: 23%;
+  padding: 10px;
+}
+
+		/*
+		.entry-content {
+			width: 100%;
+			.gf_browser_chrome {
+				width: 100%;
+				margin: 0 !important;
+				form {
+					width: 100%;
+					.gform_heading {
+						text-align: center !important;
+					}
+					.gform_body {
+						width: 100%;
+						#gform_fields_2 {
+							width: 100% !important;
+							#field_2_1 {
+								label {
+									display: none !important;
+								}
+								.ginput_container {
+									width: 100%;
+									padding-bottom: 5px;
+									input {
+										width: 80%;
+										font-size: 18px;
+										line-height: 1;
+										padding-left: 12px;
+									}
+								}
+							}
+							#field_2_2 {
+								label {
+									display: none !important;
+								}
+								.ginput_container {
+									width: 100%;
+									input {
+										width: 80%;
+										font-size: 18px;
+										line-height: 1;
+										padding-left: 12px;
+									}
+								}
+							}
+							#field_2_3 {
+								.gfield_required {
+									display: none !important;		
+								}
+								.ginput_container {
+									width: 100%;
+									input {
+										width: 80%;
+										font-size: 18px;
+										line-height: 1;
+										padding-left: 12px;
+									}
+									li {
+										float: left;
+										width: 35%;
+										padding-left: 15px !important;
+										input {
+											margin: 0 !important;
+											zoom: 2 !important;
+
+										}
+										label {
+											font-size: 18px;
+											padding-left: 18px;
+										}
+									}
+								}
+							}
+							#field_2_6 {
+								padding-top: 6px;
+								label {
+									width: 15%;
+									float: left;
+									display: inline-block;
+								}
+								.ginput_container {
+									.gfield_date_day {
+
+										width: 12%;
+										padding-bottom: 4px !important;
+										font-size: 18px !important;
+										input {
+											width: 65% !important;
+											border-radius: 12px;
+											padding-left: 10px;
+											line-height: 1;
+										}
+										label {
+											display: none;
+										}
+									}
+									.gfield_date_month {
+
+										width: 12%;
+										input {
+											width: 65% !important;
+											border-radius: 12px;
+											padding-left: 10px;
+											line-height: 1;
+										}
+										label {
+											display: none;
+										}
+									}
+									.gfield_date_year {
+
+										width: 20% !important;
+										input {
+											width: 60% !important;
+											border-radius: 12px;
+											padding-left: 10px;
+											line-height: 1;
+										}
+										label {
+											display: none;
+										}
+									}
+								}
+							}
+							#field_2_9 {
+								.ginput_right {
+									display: none;
+								}
+							}
+						}
+					}
+
+				}
+
+			}
+		}
+	}
+}
+*/
