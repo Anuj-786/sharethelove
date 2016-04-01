@@ -20,10 +20,40 @@
       }
     }
     .site-header-main {
-      width: 70%;
+      width: 55%;
+      float: left;
+      .main-navigation a {
+        font-size: 25px !important;
+        line-height: 0.6;
+        font-family: Gotham-Book !important;
+      }
 
     }
     .stl_login {
+      .login-trigger {
+        display: inline-flex;
+        width: 25%;
+        font-size: 25px;
+        margin-top: 30px;
+        padding-left: 33px;
+      }
+      .login-content {
+        float: right;
+        form {
+          width: 100%;
+          .login-username{
+            label {
+              display: none !important;
+            }
+            .login-password {
+              label {
+                display: none !important;
+              }
+            }
+          }
+        }
+
+      }
       .box-shadow-menu {
         position: relative;
         height: 30px;
@@ -31,7 +61,9 @@
         border: none;
         width: 35px;
         cursor: pointer;
+
       }
+
       .box-shadow-menu:before {
         content: "";
         position: absolute;
