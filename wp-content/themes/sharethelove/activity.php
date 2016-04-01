@@ -8,7 +8,7 @@ get_header(); ?>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 		<?php 
-			$form_id = 6;
+			$form_id = 5;
 			$entries = GFAPI::get_entries( $form_id );
 				foreach ($entries as $entry) {
 					$user_id = get_current_user_id();
