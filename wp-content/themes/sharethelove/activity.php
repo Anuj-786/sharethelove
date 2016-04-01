@@ -49,7 +49,7 @@ get_header(); ?>
 						//echo $project;
 						echo $project;
 					}else{
-						echo "No entries";
+						echo "";
 					}	
 				}
 			?>
