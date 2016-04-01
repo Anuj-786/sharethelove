@@ -1,6 +1,5 @@
-body {
-	padding-top: 24px;
-	background-color: #fff !important;
+body.home {
+	
 	.content-area {
 		width: 100% !important;
 		margin: 0 !important;
@@ -9,6 +8,7 @@ body {
 		.entry-header {
 			display: none !important;
 		}
+
 		.entry-content {
 			form {
 				width: 100%;
@@ -158,7 +158,7 @@ body {
 										color: #405970;
 									}
 								}
-								
+
 							}
 						}
 						#field_2_7 {
@@ -183,6 +183,7 @@ body {
 			}
 		}
 	}
+	
 }
 		/*
 		.entry-content {

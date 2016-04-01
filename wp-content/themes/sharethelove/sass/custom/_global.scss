@@ -3,9 +3,12 @@
 	src: url("../fonts/Gotham Book.ttf");
 }
 	
-body.home {
+body {
 	font-family: Gotham-Book;
 	width: 1031px;
-	margin: 0 auto;
+	margin: 0 auto !important;
 	background: none !important;
+	padding-top: 24px;
+	background-color: #fff !important;
+
 }
