@@ -5,7 +5,7 @@
 }
 /* line 6, ../sass/custom/_global.scss */
 body {
-  font-family: Gotham-Book;
+  font-family: Gotham-Book !important;
   width: 1031px;
   margin: 0 auto !important;
   background: none !important;
@@ -26,7 +26,7 @@ body {
   padding: 0;
   width: 94%;
   background-color: #d9d9d2;
-  height: 107px;
+  height: 130px;
 }
 /* line 12, ../sass/custom/_header.scss */
 .site .site-header .header-image {
@@ -42,9 +42,89 @@ body {
 }
 /* line 22, ../sass/custom/_header.scss */
 .site .site-header .site-header-main {
-  width: 70%;
+  width: 55%;
+  float: left;
 }
-/* line 27, ../sass/custom/_header.scss */
+/* line 25, ../sass/custom/_header.scss */
+.site .site-header .site-header-main .main-navigation a {
+  font-size: 25px !important;
+  line-height: 1.7;
+  font-family: Gotham-Book !important;
+}
+/* line 32, ../sass/custom/_header.scss */
+.site .site-header .stl_login {
+  display: inline-flex !important;
+  width: 25% !important;
+}
+/* line 35, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-trigger {
+  font-size: 25px;
+  margin-top: 32px;
+  padding-left: 33px;
+  line-height: 2.7;
+}
+/* line 42, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content {
+  float: right;
+}
+/* line 44, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content .forgot-password {
+  position: absolute;
+  top: 211px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+/* line 51, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content form {
+  width: 100%;
+}
+/* line 54, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content form .login-username {
+  margin-bottom: 10px !important;
+  padding-top: 2px !important;
+}
+/* line 57, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content form .login-username label {
+  display: none !important;
+}
+/* line 60, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content form .login-username input {
+  padding: 4px !important;
+  width: 75% !important;
+  background: #d9d9d9 none repeat scroll 0 0;
+  border-color: #49647e;
+}
+/* line 67, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content form .login-password {
+  margin-bottom: 10px;
+}
+/* line 69, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content form .login-password label {
+  display: none !important;
+}
+/* line 72, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content form .login-password input {
+  padding: 4px !important;
+  width: 75% !important;
+  border-color: #49647e;
+}
+/* line 79, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content form .login-remember lebel {
+  font-size: 14px;
+}
+/* line 83, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content form .login-submit {
+  padding-left: 15px;
+}
+/* line 85, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content form .login-submit .button-primary {
+  height: 36px;
+  line-height: 0 !important;
+  width: 160px;
+  border-radius: 18px;
+  background-color: #49647e;
+}
+/* line 96, ../sass/custom/_header.scss */
 .site .site-header .stl_login .box-shadow-menu {
   position: relative;
   height: 30px;
@@ -53,7 +133,7 @@ body {
   width: 35px;
   cursor: pointer;
 }
-/* line 35, ../sass/custom/_header.scss */
+/* line 106, ../sass/custom/_header.scss */
 .site .site-header .stl_login .box-shadow-menu:before {
   content: "";
   position: absolute;
@@ -64,7 +144,7 @@ body {
   background: black;
   box-shadow: 0 10px 0 0 black, 0 20px 0 0 black;
 }
-/* line 47, ../sass/custom/_header.scss */
+/* line 118, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-menu {
   display: none;
 }
@@ -325,141 +405,8 @@ body.home .content-area .entry-content form .gform_footer.top_label .gform_butto
   padding: 10px;
 }
 
-		/*
-		.entry-content {
-			width: 100%;
-			.gf_browser_chrome {
-				width: 100%;
-				margin: 0 !important;
-				form {
-					width: 100%;
-					.gform_heading {
-						text-align: center !important;
-					}
-					.gform_body {
-						width: 100%;
-						#gform_fields_2 {
-							width: 100% !important;
-							#field_2_1 {
-								label {
-									display: none !important;
-								}
-								.ginput_container {
-									width: 100%;
-									padding-bottom: 5px;
-									input {
-										width: 80%;
-										font-size: 18px;
-										line-height: 1;
-										padding-left: 12px;
-									}
-								}
-							}
-							#field_2_2 {
-								label {
-									display: none !important;
-								}
-								.ginput_container {
-									width: 100%;
-									input {
-										width: 80%;
-										font-size: 18px;
-										line-height: 1;
-										padding-left: 12px;
-									}
-								}
-							}
-							#field_2_3 {
-								.gfield_required {
-									display: none !important;		
-								}
-								.ginput_container {
-									width: 100%;
-									input {
-										width: 80%;
-										font-size: 18px;
-										line-height: 1;
-										padding-left: 12px;
-									}
-									li {
-										float: left;
-										width: 35%;
-										padding-left: 15px !important;
-										input {
-											margin: 0 !important;
-											zoom: 2 !important;
-
-										}
-										label {
-											font-size: 18px;
-											padding-left: 18px;
-										}
-									}
-								}
-							}
-							#field_2_6 {
-								padding-top: 6px;
-								label {
-									width: 15%;
-									float: left;
-									display: inline-block;
-								}
-								.ginput_container {
-									.gfield_date_day {
-
-										width: 12%;
-										padding-bottom: 4px !important;
-										font-size: 18px !important;
-										input {
-											width: 65% !important;
-											border-radius: 12px;
-											padding-left: 10px;
-											line-height: 1;
-										}
-										label {
-											display: none;
-										}
-									}
-									.gfield_date_month {
-
-										width: 12%;
-										input {
-											width: 65% !important;
-											border-radius: 12px;
-											padding-left: 10px;
-											line-height: 1;
-										}
-										label {
-											display: none;
-										}
-									}
-									.gfield_date_year {
-
-										width: 20% !important;
-										input {
-											width: 60% !important;
-											border-radius: 12px;
-											padding-left: 10px;
-											line-height: 1;
-										}
-										label {
-											display: none;
-										}
-									}
-								}
-							}
-							#field_2_9 {
-								.ginput_right {
-									display: none;
-								}
-							}
-						}
-					}
-
-				}
-
-			}
-		}
-	}
+/* css for activity page */
+/* line 190, ../sass/custom/_projects.scss */
+.page-template-activity-php .toggle-container {
+  display: none;
 }
-*/
