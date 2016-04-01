@@ -4,11 +4,13 @@
   src: url("../fonts/Gotham Book.ttf");
 }
 /* line 6, ../sass/custom/_global.scss */
-body.home {
+body {
   font-family: Gotham-Book;
   width: 1031px;
-  margin: 0 auto;
+  margin: 0 auto !important;
   background: none !important;
+  padding-top: 24px;
+  background-color: #fff !important;
 }
 
 /* line 1, ../sass/custom/_header.scss */
@@ -42,10 +44,34 @@ body.home {
 .site .site-header .site-header-main {
   width: 70%;
 }
+/* line 27, ../sass/custom/_header.scss */
+.site .site-header .stl_login .box-shadow-menu {
+  position: relative;
+  height: 30px;
+  background: none;
+  border: none;
+  width: 35px;
+  cursor: pointer;
+}
+/* line 35, ../sass/custom/_header.scss */
+.site .site-header .stl_login .box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 35px;
+  height: 4px;
+  background: black;
+  box-shadow: 0 10px 0 0 black, 0 20px 0 0 black;
+}
+/* line 47, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-menu {
+  display: none;
+}
 
 /* line 1, ../sass/custom/_footer.scss */
 .site-footer {
-  width: 90%;
+  width: 94% !important;
   margin: 0 auto;
   background-color: #D9D9D2;
   padding: 0 !important;
@@ -92,53 +118,48 @@ body.home {
   display: inline;
 }
 
-/* line 1, ../sass/custom/_projects.scss */
-body {
-  padding-top: 24px;
-  background-color: #fff !important;
-}
-/* line 4, ../sass/custom/_projects.scss */
-body .content-area {
+/* line 3, ../sass/custom/_projects.scss */
+body.home .content-area {
   width: 100% !important;
   margin: 0 !important;
   padding: 0;
   float: none !important;
 }
-/* line 9, ../sass/custom/_projects.scss */
-body .content-area .entry-header {
+/* line 8, ../sass/custom/_projects.scss */
+body.home .content-area .entry-header {
   display: none !important;
 }
 /* line 13, ../sass/custom/_projects.scss */
-body .content-area .entry-content form {
+body.home .content-area .entry-content form {
   width: 100%;
   padding-left: 170px;
 }
 /* line 16, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_heading {
+body.home .content-area .entry-content form .gform_heading {
   text-align: center;
   width: 80%;
   font-size: 18px;
   color: #405970;
 }
 /* line 22, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body {
+body.home .content-area .entry-content form .gform_body {
   width: 100%;
 }
 /* line 24, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 {
   width: 100% !important;
 }
 /* line 27, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 label {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 label {
   display: none !important;
 }
 /* line 30, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 .ginput_container {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 .ginput_container {
   width: 100%;
   padding-bottom: 5px;
 }
 /* line 33, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 .ginput_container input {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 .ginput_container input {
   width: 80%;
   font-size: 18px;
   line-height: 1;
@@ -146,15 +167,15 @@ body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 .g
   color: #405970;
 }
 /* line 43, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 label {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 label {
   display: none !important;
 }
 /* line 46, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 .ginput_container {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 .ginput_container {
   width: 100%;
 }
 /* line 48, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 .ginput_container input {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 .ginput_container input {
   width: 80%;
   font-size: 18px;
   line-height: 1;
@@ -162,56 +183,56 @@ body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 .g
   color: #405970;
 }
 /* line 58, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .gfield_required {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .gfield_required {
   display: none !important;
 }
 /* line 61, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container {
   width: 100%;
 }
 /* line 63, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container input {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container input {
   width: 80%;
   font-size: 18px;
   line-height: 1;
   padding-left: 12px;
 }
 /* line 69, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li {
   float: left;
   width: 35%;
   padding-left: 15px !important;
 }
 /* line 73, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li input {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li input {
   margin: 0 !important;
   zoom: 2 !important;
 }
 /* line 78, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li label {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li label {
   font-size: 18px;
   padding-left: 18px;
   color: #405970;
 }
 /* line 86, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 {
   padding-top: 6px;
 }
 /* line 88, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 label {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 label {
   width: 20%;
   float: left;
   display: inline-block;
   color: #405970;
 }
 /* line 95, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day {
   width: 12%;
   padding-bottom: 4px !important;
   font-size: 18px !important;
 }
 /* line 100, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day input {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day input {
   width: 65% !important;
   border-radius: 12px;
   padding-left: 10px;
@@ -219,15 +240,15 @@ body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .g
   color: #405970;
 }
 /* line 107, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day label {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day label {
   display: none;
 }
 /* line 111, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month {
   width: 12%;
 }
 /* line 114, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month input {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month input {
   width: 65% !important;
   border-radius: 12px;
   padding-left: 10px;
@@ -235,15 +256,15 @@ body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .g
   color: #405970;
 }
 /* line 121, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month label {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month label {
   display: none;
 }
 /* line 125, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year {
   width: 20% !important;
 }
 /* line 128, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year input {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year input {
   width: 60% !important;
   border-radius: 12px;
   padding-left: 10px;
@@ -251,52 +272,52 @@ body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .g
   color: #405970;
 }
 /* line 135, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year label {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year label {
   display: none;
 }
 /* line 141, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 {
   padding-top: 5px;
 }
 /* line 143, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_right {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_right {
   display: none;
 }
 /* line 146, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .gfield_label {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .gfield_label {
   display: none;
 }
 /* line 149, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex {
   width: 100% !important;
 }
 /* line 151, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex span {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex span {
   width: 100%;
 }
 /* line 153, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex span input {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex span input {
   width: 80% !important;
 }
 /* line 156, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex span label {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex span label {
   font-size: 18px;
   color: #405970;
 }
 /* line 164, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_body #gform_fields_2 #field_2_7 {
+body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_7 {
   font-size: 18px;
   letter-spacing: 0.3px;
   color: #405970;
 }
 /* line 171, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_footer.top_label {
+body.home .content-area .entry-content form .gform_footer.top_label {
   width: 80%;
   text-align: center;
   padding: 0;
 }
 /* line 175, ../sass/custom/_projects.scss */
-body .content-area .entry-content form .gform_footer.top_label .gform_button.button {
+body.home .content-area .entry-content form .gform_footer.top_label .gform_button.button {
   background: #49647E;
   border-radius: 25px;
   font-size: 18px !important;
