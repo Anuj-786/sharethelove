@@ -8,7 +8,7 @@
     padding: 0;
     width: 94%;
     background-color: #d9d9d2;
-    height: 107px;
+    height: 130px;
     .header-image {
       width: 20%;
       margin: 0;
@@ -24,31 +24,70 @@
       float: left;
       .main-navigation a {
         font-size: 25px !important;
-        line-height: 0.6;
+        line-height: 1.7;
         font-family: Gotham-Book !important;
       }
 
     }
     .stl_login {
+      display: inline-flex !important;
+      width: 25% !important;
       .login-trigger {
-        display: inline-flex;
-        width: 25%;
+
         font-size: 25px;
-        margin-top: 30px;
+        margin-top: 32px;
         padding-left: 33px;
+        line-height: 2.7;
       }
       .login-content {
         float: right;
+        .forgot-password {
+          position: absolute;
+          top: 211px;
+          padding-left: 20px;
+          font-size: 14px;
+          
+        }
         form {
           width: 100%;
+
           .login-username{
+            margin-bottom: 10px !important;
+            padding-top: 2px !important;
             label {
               display: none !important;
             }
-            .login-password {
-              label {
-                display: none !important;
-              }
+            input {
+              padding: 4px !important;
+              width: 75% !important;
+              background: #d9d9d9 none repeat scroll 0 0;
+              border-color: #49647e
+            }
+          }
+          .login-password {
+            margin-bottom: 10px;
+            label {
+              display: none !important;
+            }
+            input {
+              padding: 4px !important;
+              width: 75% !important;
+              border-color: #49647e
+            }
+          }
+          .login-remember {
+            lebel {
+              font-size: 14px;
+            }
+          }
+          .login-submit {
+            padding-left: 15px;
+            .button-primary {
+              height: 36px;
+              line-height: 0 !important;
+              width: 160px;
+              border-radius: 18px;
+              background-color: #49647e;
             }
           }
         }
