@@ -4,9 +4,8 @@
   padding-top: 50px;
   padding-bottom: 60px;
   .site-header {
-    margin: 0 auto;
     padding: 0;
-    width: 94%;
+    width: 100%;
     background-color: #d9d9d2;
     height: 130px;
     .header-image {
@@ -14,9 +13,10 @@
       margin: 0;
       float: left;
       text-align: center;
+      padding-top: 8px;
       img {
-        width: 100px;
-        height: 100px;
+        width: 110px;
+        height: 110px;
       }
     }
     .site-header-main {
@@ -40,84 +40,89 @@
         line-height: 2.7;
       }
       .login-content {
-        float: right;
+        position: absolute !important;
+        z-index: 10;
         .forgot-password {
           position: absolute;
-          top: 211px;
+          top: 120px;
           padding-left: 20px;
-          font-size: 14px;
+          font-size: 12px !important;
           
         }
         form {
-          width: 100%;
+         padding-left: 25px;
+         width: 86% !important;
 
-          .login-username{
-            margin-bottom: 10px !important;
-            padding-top: 2px !important;
-            label {
-              display: none !important;
-            }
+         .login-username{
+          margin-bottom: 24px !important;
+          padding-top: 8px !important;
+          label {
+            display: none !important;
+          }
+          input {
+            padding: 0px !important;
+            width: 140px !important;
+            background: #d9d9d9 none repeat scroll 0 0;
+            border-color: #49647e
+          }
+        }
+        .login-password {
+          margin-bottom: 5px;
+          label {
+            display: none !important;
+          }
+          input {
+            padding: 0px !important;
+            width: 140px !important;
+            border-color: #49647e
+          }
+        }
+        .login-remember {
+          lebel {
             input {
-              padding: 4px !important;
-              width: 75% !important;
-              background: #d9d9d9 none repeat scroll 0 0;
-              border-color: #49647e
-            }
-          }
-          .login-password {
-            margin-bottom: 10px;
-            label {
-              display: none !important;
-            }
-            input {
-              padding: 4px !important;
-              width: 75% !important;
-              border-color: #49647e
-            }
-          }
-          .login-remember {
-            lebel {
-              font-size: 14px;
-            }
-          }
-          .login-submit {
-            padding-left: 15px;
-            .button-primary {
-              height: 36px;
-              line-height: 0 !important;
-              width: 160px;
-              border-radius: 18px;
-              background-color: #49647e;
+              font-size: 12px !important;
             }
           }
         }
+        .login-submit {
+          padding-left: 15px;
+          padding-top: 4px;
+          .button-primary {
+            height: 30px;
+            line-height: 0 !important;
+            width: 125px;
+            border-radius: 18px;
+            background-color: #49647e;
+          }
+        }
+      }
 
-      }
-      .box-shadow-menu {
-        position: relative;
-        height: 30px;
-        background: none;
-        border: none;
-        width: 35px;
-        cursor: pointer;
+    }
+    .box-shadow-menu {
+      position: relative;
+      height: 30px;
+      background: none;
+      border: none;
+      width: 35px;
+      cursor: pointer;
 
-      }
+    }
 
-      .box-shadow-menu:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 4px;
-        width: 35px;
-        height: 4px;
-        background: black;
-        box-shadow:
-        0 10px 0 0 black,
-        0 20px 0 0 black;
-      }
-      .login-menu{
-        display: none;
-      }
+    .box-shadow-menu:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 4px;
+      width: 35px;
+      height: 4px;
+      background: black;
+      box-shadow:
+      0 10px 0 0 black,
+      0 20px 0 0 black;
+    }
+    .login-menu{
+      display: none;
     }
   }
+}
 }
