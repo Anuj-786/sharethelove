@@ -92,7 +92,7 @@ body {
 /* line 62, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content form .login-username input {
   padding: 0px !important;
-  width: 140px !important;
+  width: !important;
   background: #d9d9d9 none repeat scroll 0 0;
   border-color: #49647e;
 }
@@ -107,7 +107,7 @@ body {
 /* line 74, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content form .login-password input {
   padding: 0px !important;
-  width: 140px !important;
+  width: 59% !important;
   border-color: #49647e;
 }
 /* line 82, ../sass/custom/_header.scss */
@@ -212,36 +212,94 @@ body.home .content-area {
 body.home .content-area .entry-header {
   display: none !important;
 }
-/* line 13, ../sass/custom/_projects.scss */
+/* line 12, ../sass/custom/_projects.scss */
+body.home .content-area .entry-content {
+  font-family: Gotham-Book !important;
+}
+/* line 14, ../sass/custom/_projects.scss */
+body.home .content-area .entry-content .home_text {
+  width: 100%;
+}
+/* line 16, ../sass/custom/_projects.scss */
+body.home .content-area .entry-content .home_text .share-description {
+  text-align: center;
+  width: 100%;
+}
+/* line 20, ../sass/custom/_projects.scss */
+body.home .content-area .entry-content .home_text .share-description span {
+  color: #49647e;
+  font-size: 24px;
+}
+/* line 25, ../sass/custom/_projects.scss */
+body.home .content-area .entry-content .home_text .home_connect {
+  text-align: center;
+}
+/* line 27, ../sass/custom/_projects.scss */
+body.home .content-area .entry-content .home_text .home_connect h3 {
+  color: #49647e;
+  font-size: 36px;
+}
+/* line 32, ../sass/custom/_projects.scss */
+body.home .content-area .entry-content .home_text .featured_project_text {
+  text-align: center;
+  width: 100%;
+}
+/* line 36, ../sass/custom/_projects.scss */
+body.home .content-area .entry-content .home_text .featured_project_text h4 {
+  font-size: 36px !important;
+  color: #405970;
+  text-transform: lowercase !important;
+}
+/* line 43, ../sass/custom/_projects.scss */
+body.home .content-area .entry-content .home_text .img_gallery ul {
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+}
+/* line 46, ../sass/custom/_projects.scss */
+body.home .content-area .entry-content .home_text .img_gallery ul li {
+  border: 1px solid #405970;
+  height: 150px !important;
+  max-width: 150px !important;
+}
+/* line 50, ../sass/custom/_projects.scss */
+body.home .content-area .entry-content .home_text .img_gallery ul li img {
+  border: none !important;
+  height: 150px !important;
+  max-width: 150px !important;
+}
+/* line 60, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form {
   width: 100%;
   padding-left: 170px;
 }
-/* line 16, ../sass/custom/_projects.scss */
+/* line 63, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_heading {
   text-align: center;
   width: 80%;
-  font-size: 18px;
+}
+/* line 66, ../sass/custom/_projects.scss */
+body.home .content-area .entry-content form .gform_heading h3 {
+  font-size: 36px;
   color: #405970;
 }
-/* line 22, ../sass/custom/_projects.scss */
+/* line 71, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body {
   width: 100%;
 }
-/* line 24, ../sass/custom/_projects.scss */
+/* line 73, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 {
   width: 100% !important;
 }
-/* line 27, ../sass/custom/_projects.scss */
+/* line 76, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 label {
   display: none !important;
 }
-/* line 30, ../sass/custom/_projects.scss */
+/* line 79, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 .ginput_container {
   width: 100%;
   padding-bottom: 5px;
 }
-/* line 33, ../sass/custom/_projects.scss */
+/* line 82, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_1 .ginput_container input {
   width: 80%;
   font-size: 18px;
@@ -249,15 +307,15 @@ body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2
   padding-left: 12px;
   color: #405970;
 }
-/* line 43, ../sass/custom/_projects.scss */
+/* line 92, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 label {
   display: none !important;
 }
-/* line 46, ../sass/custom/_projects.scss */
+/* line 95, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 .ginput_container {
   width: 100%;
 }
-/* line 48, ../sass/custom/_projects.scss */
+/* line 97, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_2 .ginput_container input {
   width: 80%;
   font-size: 18px;
@@ -265,56 +323,56 @@ body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2
   padding-left: 12px;
   color: #405970;
 }
-/* line 58, ../sass/custom/_projects.scss */
+/* line 107, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .gfield_required {
   display: none !important;
 }
-/* line 61, ../sass/custom/_projects.scss */
+/* line 110, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container {
   width: 100%;
 }
-/* line 63, ../sass/custom/_projects.scss */
+/* line 112, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container input {
   width: 80%;
   font-size: 18px;
   line-height: 1;
   padding-left: 12px;
 }
-/* line 69, ../sass/custom/_projects.scss */
+/* line 118, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li {
   float: left;
   width: 35%;
   padding-left: 15px !important;
 }
-/* line 73, ../sass/custom/_projects.scss */
+/* line 122, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li input {
   margin: 0 !important;
   zoom: 2 !important;
 }
-/* line 78, ../sass/custom/_projects.scss */
+/* line 127, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li label {
   font-size: 18px;
   padding-left: 18px;
   color: #405970;
 }
-/* line 86, ../sass/custom/_projects.scss */
+/* line 135, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 {
   padding-top: 6px;
 }
-/* line 88, ../sass/custom/_projects.scss */
+/* line 137, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 label {
   width: 20%;
   float: left;
   display: inline-block;
   color: #405970;
 }
-/* line 95, ../sass/custom/_projects.scss */
+/* line 144, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day {
   width: 12%;
   padding-bottom: 4px !important;
   font-size: 18px !important;
 }
-/* line 100, ../sass/custom/_projects.scss */
+/* line 149, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day input {
   width: 65% !important;
   border-radius: 12px;
@@ -322,15 +380,15 @@ body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2
   line-height: 1;
   color: #405970;
 }
-/* line 107, ../sass/custom/_projects.scss */
+/* line 156, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_day label {
   display: none;
 }
-/* line 111, ../sass/custom/_projects.scss */
+/* line 160, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month {
   width: 12%;
 }
-/* line 114, ../sass/custom/_projects.scss */
+/* line 163, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month input {
   width: 65% !important;
   border-radius: 12px;
@@ -338,15 +396,15 @@ body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2
   line-height: 1;
   color: #405970;
 }
-/* line 121, ../sass/custom/_projects.scss */
+/* line 170, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_month label {
   display: none;
 }
-/* line 125, ../sass/custom/_projects.scss */
+/* line 174, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year {
   width: 20% !important;
 }
-/* line 128, ../sass/custom/_projects.scss */
+/* line 177, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year input {
   width: 60% !important;
   border-radius: 12px;
@@ -354,52 +412,52 @@ body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2
   line-height: 1;
   color: #405970;
 }
-/* line 135, ../sass/custom/_projects.scss */
+/* line 184, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_6 .ginput_container .gfield_date_year label {
   display: none;
 }
-/* line 141, ../sass/custom/_projects.scss */
+/* line 190, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 {
   padding-top: 5px;
 }
-/* line 143, ../sass/custom/_projects.scss */
+/* line 192, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_right {
   display: none;
 }
-/* line 146, ../sass/custom/_projects.scss */
+/* line 195, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .gfield_label {
   display: none;
 }
-/* line 149, ../sass/custom/_projects.scss */
+/* line 198, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex {
   width: 100% !important;
 }
-/* line 151, ../sass/custom/_projects.scss */
+/* line 200, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex span {
   width: 100%;
 }
-/* line 153, ../sass/custom/_projects.scss */
+/* line 202, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex span input {
   width: 80% !important;
 }
-/* line 156, ../sass/custom/_projects.scss */
+/* line 205, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_9 .ginput_complex span label {
   font-size: 18px;
   color: #405970;
 }
-/* line 164, ../sass/custom/_projects.scss */
+/* line 213, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_body #gform_fields_2 #field_2_7 {
   font-size: 18px;
   letter-spacing: 0.3px;
   color: #405970;
 }
-/* line 171, ../sass/custom/_projects.scss */
+/* line 220, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_footer.top_label {
   width: 80%;
   text-align: center;
   padding: 0;
 }
-/* line 175, ../sass/custom/_projects.scss */
+/* line 224, ../sass/custom/_projects.scss */
 body.home .content-area .entry-content form .gform_footer.top_label .gform_button.button {
   background: #49647E;
   border-radius: 25px;
@@ -409,7 +467,33 @@ body.home .content-area .entry-content form .gform_footer.top_label .gform_butto
 }
 
 /* css for activity page */
-/* line 190, ../sass/custom/_projects.scss */
+/* line 239, ../sass/custom/_projects.scss */
 .page-template-activity-php .toggle-container {
   display: none;
+}
+
+/* css for add project page */
+/* line 245, ../sass/custom/_projects.scss */
+.page-id-104 .site-content {
+  width: 100% !important;
+}
+/* line 247, ../sass/custom/_projects.scss */
+.page-id-104 .site-content .content-area {
+  width: 100%;
+  padding: 0 !important;
+  float: none !important;
+  margin: 0 !important;
+}
+/* line 252, ../sass/custom/_projects.scss */
+.page-id-104 .site-content .content-area .main {
+  width: 100%;
+}
+/* line 254, ../sass/custom/_projects.scss */
+.page-id-104 .site-content .content-area .main .status-publish {
+  text-align: center;
+}
+/* line 256, ../sass/custom/_projects.scss */
+.page-id-104 .site-content .content-area .main .status-publish h1 {
+  font-size: 20px !important;
+  font-family: Gotham-Book !important;
 }
