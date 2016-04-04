@@ -10,14 +10,63 @@ body.home {
 		}
 
 		.entry-content {
+			font-family: Gotham-Book !important;
+			.home_text {
+				width: 100%;
+				.share-description {
+					
+					text-align: center;
+					width: 100%;
+					span {
+						color: #49647e;
+						font-size: 24px;
+					}
+				}	
+				.home_connect {
+					text-align: center;
+					h3 {
+						color: #49647e;
+						font-size: 36px;
+					}
+				}
+				.featured_project_text {
+					
+					text-align: center;
+					width: 100%;
+					h4 {
+						font-size: 36px !important;
+						color: #405970;
+						text-transform: lowercase !important;
+					}
+				}
+				.img_gallery {
+					ul {
+						background-color: #ffffff !important;
+						box-shadow: none !important;
+						li {
+							border: 1px solid #405970;
+							height: 150px !important;
+							max-width: 150px !important;
+							img {
+								border: none !important;
+								height: 150px !important;
+								max-width: 150px !important;
+								
+							}
+						}
+					}
+				}
+			}
 			form {
 				width: 100%;
 				padding-left: 170px;
 				.gform_heading {
 					text-align: center;
 					width: 80%;
-					font-size: 18px;
+					h3 {
+					font-size: 36px;
 					color: #405970;
+				}
 				}
 				.gform_body {
 					width: 100%;
@@ -189,5 +238,28 @@ body.home {
 .page-template-activity-php {
 	.toggle-container {
 		display: none;
+	}
+}
+/* css for add project page */
+.page-id-104 {
+	.site-content {
+		width: 100% !important;
+		.content-area {
+			width: 100%;
+			padding: 0 !important;
+			float: none !important;
+			margin: 0 !important;
+			.main {
+				width: 100%;
+				.status-publish {
+					text-align: center;
+					h1 {
+						font-size: 20px !important;
+						font-family: Gotham-Book !important
+					}
+				}
+			}
+		}
+
 	}
 }
