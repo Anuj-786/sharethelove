@@ -9,10 +9,10 @@ get_header(); ?>
 if (is_user_logged_in()) {
 print(' <div class="secondary-menu-logo">
     <ul>
-    <li><a href="');echo home_url(); print('/?page_id=35"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/downbtn.png"></a></li>
-    <li><a href="');echo home_url(); print('/?page_id=286"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/downbtn.png"></a></li>
-    <li><a href="');echo home_url(); print('/?page_id=24"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/downbtn.png"></a></li>
-    <li><a href="');echo home_url(); print('/?page_id=104"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/downbtn.png"></a></li>
+    <li><a href="');echo home_url(); print('/?page_id=35"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/1-e1459847100362.png"></a></li>
+    <li><a href="');echo home_url(); print('/?page_id=286"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/2-e1459847082992.png"></a></li>
+    <li><a href="');echo home_url(); print('/?page_id=24"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/3-e1459847059371.png"></a></li>
+    <li><a href="');echo home_url(); print('/?page_id=104"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/4-e1459846938556.png"></a></li>
 	</ul>
 	</div>'); }
 ?>
@@ -52,6 +52,7 @@ print(' <div class="secondary-menu-logo">
 			    $pro_phone = get_post_meta($p,"project-phone",true);
 			    $pro_mobile = get_post_meta($p,"project-mobile",true);
 			    $user_id = get_current_user_id();
+
 		    	if($user_id == $post_by){
 		    		$user_info = get_userdata($user_id);
 					$project = " ";
@@ -62,11 +63,11 @@ print(' <div class="secondary-menu-logo">
 					$project .= "<p>Posted By: " . $user_info->user_login . " Location: " . $pro_loc . "</p>";
 					$project .= "<p>Start Date: " . $pro_s_date . " Ends On: " . $pro_e_date . "</p>";
 					$project .= "<p>". $pro_tags .  "</p>";
-					$project .= "<img src=" . $pro_img1 . ">";
-					$project .= "<img src=" . $pro_img2 . ">";
-					$project .= "<img src=" . $pro_img3 . ">";
-					$project .= "<img src=" . $pro_img4 . ">";
-					$project .= "<img src=" . $pro_img5 . ">";
+					$project .= "<a href='".$pro_img1."'rel='lightbox[".$user_id."]'><img src=" . $pro_img1 . "></a>";
+					$project .= "<a href='".$pro_img2."'rel='lightbox[".$user_id."]'><img src=" . $pro_img2 . "></a>";
+					$project .= "<a href='".$pro_img3."'rel='lightbox[".$user_id."]'><img src=" . $pro_img3 . "></a>";
+					$project .= "<a href='".$pro_img4."'rel='lightbox[".$user_id."]'><img src=" . $pro_img4 . "></a>";
+					$project .= "<a href='".$pro_img5."'rel='lightbox[".$user_id."]'><img src=" . $pro_img5 . "></a>";
 					$project .= "<div class='toggle-container'>";
 					$project .= "<p><h3>Project Description</h3>". $pro_des .  "</p>";
 					$project .= "<p><h3>Role Description</h3>". $pro_rol .  "</p>";
