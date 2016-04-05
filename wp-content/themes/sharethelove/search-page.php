@@ -1,6 +1,6 @@
  <?php
 /*
-Template Name: Project Listing
+Template Name: Search Project Listing
 
 */
 get_header(); ?>
