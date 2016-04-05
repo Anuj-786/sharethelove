@@ -453,3 +453,19 @@ function my_login_form_shortcode( $attr ) {
 
 }
 
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+  register_post_type( 'projects',
+    array(
+      'labels' => array(
+        'name' => __( 'Projects' ),
+        'singular_name' => __( 'Project' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+    )
+  );
+}
+
+add_theme_support('post-thumbnails');
+add_post_type_support( 'projects', 'thumbnail' );
