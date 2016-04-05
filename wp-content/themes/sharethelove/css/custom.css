@@ -536,22 +536,22 @@ body.home .content-area .entry-content form .gform_footer.top_label .gform_butto
   font-weight: 100;
 }
 /* line 297, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_2 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_2 {
   display: inline-flex;
   width: 70%;
 }
 /* line 300, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_2 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_2 label {
   display: none;
 }
 /* line 303, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_2 .ginput_container {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_2 .ginput_container {
   width: 100% !important;
   text-align: right;
   padding-bottom: 10px;
 }
 /* line 307, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_2 .ginput_container input {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_2 .ginput_container input {
   width: 365px !important;
   background: #d9d9d2 none repeat scroll 0 0 !important;
   border-radius: 5px !important;
@@ -559,22 +559,22 @@ body.home .content-area .entry-content form .gform_footer.top_label .gform_butto
   text-align: center;
 }
 /* line 316, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_3 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_3 {
   display: inline-flex;
   width: 70%;
 }
 /* line 319, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_3 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_3 label {
   display: none;
 }
 /* line 322, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_3 .ginput_container {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_3 .ginput_container {
   width: 100% !important;
   text-align: right;
   padding-bottom: 10px;
 }
 /* line 326, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_3 .ginput_container input {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_3 .ginput_container input {
   width: 365px !important;
   background: #d9d9d2 none repeat scroll 0 0 !important;
   border-radius: 5px !important;
@@ -582,22 +582,22 @@ body.home .content-area .entry-content form .gform_footer.top_label .gform_butto
   text-align: center;
 }
 /* line 335, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_4 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_4 {
   display: inline-flex;
   width: 70%;
 }
 /* line 338, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_4 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_4 label {
   display: none;
 }
 /* line 341, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_4 .ginput_container {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_4 .ginput_container {
   width: 100% !important;
   text-align: right;
   padding-bottom: 10px;
 }
 /* line 345, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_4 .ginput_container input {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_4 .ginput_container input {
   width: 365px !important;
   background: #d9d9d2 none repeat scroll 0 0 !important;
   border-radius: 5px !important;
@@ -605,23 +605,23 @@ body.home .content-area .entry-content form .gform_footer.top_label .gform_butto
   text-align: center;
 }
 /* line 354, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_21 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_21 {
   display: inline-flex;
   width: 70%;
   padding-bottom: 10px;
 }
 /* line 358, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_21 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_21 label {
   display: none;
 }
 /* line 361, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_21 .ginput_container {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_21 .ginput_container {
   width: 100% !important;
   text-align: right;
   padding-bottom: 10px;
 }
 /* line 365, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_21 .ginput_container input {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_21 .ginput_container input {
   width: 365px !important;
   background: #d9d9d2 none repeat scroll 0 0 !important;
   border-radius: 5px !important;
@@ -629,26 +629,26 @@ body.home .content-area .entry-content form .gform_footer.top_label .gform_butto
   text-align: center;
 }
 /* line 375, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_6 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_6 {
   display: inline-flex;
   padding-left: 15px;
 }
 /* line 378, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_6 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_6 label {
   font-weight: 100 !important;
   font-size: 18px;
   color: #f3f3f3;
 }
 /* line 383, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_6 .ginput_container_date {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_6 .ginput_container_date {
   padding-left: 10px;
 }
 /* line 385, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_6 .ginput_container_date input {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_6 .ginput_container_date input {
   width: 50%;
 }
 /* line 390, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_20 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_20 {
   width: 25%;
   float: left;
   font-size: 18px;
@@ -657,78 +657,78 @@ body.home .content-area .entry-content form .gform_footer.top_label .gform_butto
   margin-left: 90px !important;
 }
 /* line 398, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_7 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_7 {
   display: inline-flex;
   padding-left: 25px;
 }
 /* line 402, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_7 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_7 label {
   font-size: 18px;
   color: #f3f3f3;
   font-weight: 100;
 }
 /* line 407, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_7 .ginput_container {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_7 .ginput_container {
   padding-left: 25px;
 }
 /* line 409, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_7 .ginput_container input {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_7 .ginput_container input {
   width: 25px;
 }
 /* line 415, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_8 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_8 {
   width: 100%;
   padding-top: 10px;
   padding-left: 90px;
 }
 /* line 419, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_8 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_8 label {
   font-size: 18px;
   font-weight: 100 !important;
   color: #f3f3f3;
 }
 /* line 424, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_8 .ginput_container {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_8 .ginput_container {
   display: inline-flex;
   padding-left: 132px;
   width: 55%;
 }
 /* line 430, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_9 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_9 {
   padding-top: 10px;
   padding-left: 90px;
 }
 /* line 433, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_9 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_9 label {
   font-size: 18px;
   font-weight: 100 !important;
   color: #f3f3f3;
   float: left;
 }
 /* line 439, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_9 .ginput_container {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_9 .ginput_container {
   display: inline-flex !important;
   padding-left: 75px;
 }
 /* line 443, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_9 .ginput_container ul li {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_9 .ginput_container ul li {
   display: inline-flex;
   padding-left: 75px;
 }
 /* line 446, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_9 .ginput_container ul li label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_9 .ginput_container ul li label {
   margin: 0 !important;
 }
 /* line 454, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_22 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_22 {
   width: 100%;
 }
 /* line 456, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_22 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_22 label {
   display: none;
 }
 /* line 459, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_22 textarea {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_22 textarea {
   width: 100% !important;
   background-color: #f3f3f3;
   font-size: 18px;
@@ -737,16 +737,16 @@ body.home .content-area .entry-content form .gform_footer.top_label .gform_butto
   height: 100px !important;
 }
 /* line 468, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_11 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_11 {
   width: 100%;
   padding-top: 10px;
 }
 /* line 471, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_11 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_11 label {
   display: none;
 }
 /* line 474, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_11 textarea {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_11 textarea {
   width: 100% !important;
   background-color: #f3f3f3;
   font-size: 18px;
@@ -755,7 +755,7 @@ body.home .content-area .entry-content form .gform_footer.top_label .gform_butto
   height: 100px !important;
 }
 /* line 483, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_23 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_23 {
   padding-left: 90px;
   color: #f3f3f3;
   font-size: 18px;
@@ -763,27 +763,27 @@ body.home .content-area .entry-content form .gform_footer.top_label .gform_butto
   float: left;
 }
 /* line 491, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_12 {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_12 {
   width: 60%;
   display: inline-flex;
 }
 /* line 494, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_12 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_12 label {
   display: none;
 }
 /* line 497, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_12 .ginput_container {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_12 .ginput_container {
   width: 100%;
 }
 /* line 499, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_12 .ginput_container input {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_12 .ginput_container input {
   width: 100% !important;
 }
 /* line 506, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_13 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_13 label {
   display: none;
 }
 /* line 511, ../sass/custom/_projects.scss */
-.page-id-104 .site-content .content-area .site-main .entry-content form #field_7_14 label {
+.page-id-104 .site-content .content-area .site-main .entry-content form .gform_body ul #field_7_14 label {
   display: none;
 }
