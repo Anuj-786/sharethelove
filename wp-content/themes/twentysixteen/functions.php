@@ -469,14 +469,3 @@ function create_post_type() {
 
 add_theme_support('post-thumbnails');
 add_post_type_support( 'projects', 'thumbnail' );
-/**
- * Redirect user after successful login.
- *
- */
-function admin_default_page() {
-  return home_url() . '/activity';
-}
-
-add_filter('login_redirect', 'admin_default_page');
-
-
