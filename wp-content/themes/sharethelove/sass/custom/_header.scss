@@ -33,6 +33,7 @@
     .stl_login {
       display: inline-flex !important;
       width: 25% !important;
+      
       .login-trigger {
 
         font-size: 25px;
@@ -136,6 +137,7 @@
       li {
         float: left;
         width: 25%;
+        list-style: none;
         img {
           height: 60px;
           width: 60px;
