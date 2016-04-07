@@ -51,13 +51,14 @@ body {
   font-size: 25px !important;
   line-height: 1.7;
   font-family: Gotham-Book !important;
+  color: #49647e;
 }
-/* line 33, ../sass/custom/_header.scss */
+/* line 34, ../sass/custom/_header.scss */
 .site .site-header .stl_login {
   display: inline-flex !important;
   width: 25% !important;
 }
-/* line 37, ../sass/custom/_header.scss */
+/* line 38, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-trigger {
   font-size: 25px;
   margin-top: 32px;
@@ -65,80 +66,97 @@ body {
   line-height: 2.7;
 }
 /* line 44, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-trigger span {
+  font-size: 25px;
+  border-bottom: 2px solid #405970;
+  color: #49647e;
+}
+/* line 51, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content {
   position: absolute !important;
   z-index: 10;
 }
-/* line 47, ../sass/custom/_header.scss */
+/* line 54, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content .forgot-password {
   position: absolute;
-  top: 120px;
+  top: 97px;
   padding-left: 42px;
-  font-size: 12px !important;
+  font-size: 14px !important;
+  color: #49647e !important;
 }
-/* line 54, ../sass/custom/_header.scss */
+/* line 62, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content form {
   padding-left: 25px;
   width: 86% !important;
+  background-color: rgba(233, 233, 230, 0.5);
+  padding-bottom: 2px;
 }
-/* line 58, ../sass/custom/_header.scss */
+/* line 67, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content form label {
+  font-size: 14px !important;
+  color: #49647e !important;
+}
+/* line 72, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-content form .login-remember label {
+  color: #49647e !important;
+}
+/* line 76, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content form .login-username {
-  margin-bottom: 24px !important;
+  margin: 0 !important;
   padding-top: 8px !important;
-  width: 75%;
+  width: 85%;
 }
-/* line 62, ../sass/custom/_header.scss */
+/* line 80, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content form .login-username label {
   display: none !important;
 }
-/* line 65, ../sass/custom/_header.scss */
+/* line 83, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content form .login-username input {
   padding: 0px !important;
   width: !important;
   background: #d9d9d9 none repeat scroll 0 0;
   border-color: #49647e;
 }
-/* line 72, ../sass/custom/_header.scss */
+/* line 90, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content form .login-password {
-  margin-bottom: 5px;
+  padding-top: 5px;
+  margin: 0;
 }
-/* line 74, ../sass/custom/_header.scss */
+/* line 93, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content form .login-password label {
   display: none !important;
 }
-/* line 77, ../sass/custom/_header.scss */
+/* line 96, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content form .login-password input {
   padding: 0px !important;
-  width: 75% !important;
+  width: 85% !important;
   border-color: #49647e;
 }
-/* line 84, ../sass/custom/_header.scss */
-.site .site-header .stl_login .login-content form .login-remember lebel {
-  font-size: 14px !important;
-}
-/* line 90, ../sass/custom/_header.scss */
+/* line 102, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content form .login-submit {
   padding-left: 15px;
   padding-top: 4px;
 }
-/* line 93, ../sass/custom/_header.scss */
+/* line 105, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content form .login-submit .button-primary {
-  height: 30px;
+  height: 35px;
   line-height: 0 !important;
-  width: 125px;
+  width: 150px;
   border-radius: 18px;
   background-color: #49647e;
 }
-/* line 104, ../sass/custom/_header.scss */
+/* line 116, ../sass/custom/_header.scss */
 .site .site-header .stl_login .box-shadow-menu {
   position: relative;
   height: 30px;
   background: none;
   border: none;
   width: 35px;
-  cursor: pointer;
+  cursor: pointer !important;
+  margin-left: 25%;
+  margin-top: 45px;
 }
-/* line 114, ../sass/custom/_header.scss */
+/* line 127, ../sass/custom/_header.scss */
 .site .site-header .stl_login .box-shadow-menu:before {
   content: "";
   position: absolute;
@@ -146,42 +164,61 @@ body {
   top: 4px;
   width: 35px;
   height: 4px;
-  background: black;
-  box-shadow: 0 10px 0 0 black, 0 20px 0 0 black;
+  background: #405970;
+  box-shadow: 0 10px 0 0 #405970, 0 20px 0 0 #405970;
 }
-/* line 126, ../sass/custom/_header.scss */
+/* line 139, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-menu {
+  list-style: outside none none;
+  margin: 0;
+  position: absolute;
+  right: 11%;
+  top: 56%;
+  width: 15%;
+  background: rgba(64, 89, 112, 0.6) none repeat scroll 0 0;
+}
+/* line 147, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-menu li {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+/* line 150, ../sass/custom/_header.scss */
+.site .site-header .stl_login .login-menu li a {
+  color: #f3f3f3;
+}
+/* line 155, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-menu {
   display: none;
 }
-/* line 131, ../sass/custom/_header.scss */
+/* line 160, ../sass/custom/_header.scss */
 .site .secondary-menu {
   width: 100%;
 }
-/* line 133, ../sass/custom/_header.scss */
+/* line 162, ../sass/custom/_header.scss */
 .site .secondary-menu .secondary-menu-logo {
   width: 100%;
   padding-bottom: 45px;
 }
-/* line 137, ../sass/custom/_header.scss */
+/* line 166, ../sass/custom/_header.scss */
 .site .secondary-menu .secondary-menu-logo ul li {
   float: left;
   width: 25%;
   list-style: none;
 }
-/* line 141, ../sass/custom/_header.scss */
+/* line 170, ../sass/custom/_header.scss */
 .site .secondary-menu .secondary-menu-logo ul li img {
   height: 60px;
   width: 60px;
 }
-/* line 146, ../sass/custom/_header.scss */
+/* line 175, ../sass/custom/_header.scss */
 .site .secondary-menu .secondary-menu-logo ul li:nth-child(1) {
   text-align: right;
 }
-/* line 149, ../sass/custom/_header.scss */
+/* line 178, ../sass/custom/_header.scss */
 .site .secondary-menu .secondary-menu-logo ul li:nth-child(2) {
   text-align: center;
 }
-/* line 152, ../sass/custom/_header.scss */
+/* line 181, ../sass/custom/_header.scss */
 .site .secondary-menu .secondary-menu-logo ul li:nth-child(3) {
   width: 15%;
 }
@@ -576,7 +613,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   width: 100%;
   float: none;
   margin: 0;
-  margin-top: 60px !important;
+  margin-top: 30px !important;
 }
 /* line 275, ../sass/custom/_projects.scss */
 .page-template-activity-php .content-area .site-main {
