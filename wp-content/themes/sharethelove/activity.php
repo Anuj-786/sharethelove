@@ -51,10 +51,7 @@ print(' <div class="secondary-menu-logo">
 			    $pro_email = get_post_meta($p,"project-email",true);
 			    $pro_phone = get_post_meta($p,"project-phone",true);
 			    $pro_mobile = get_post_meta($p,"project-mobile",true);
-			    $user_id = get_current_user_id();
-
-		    	if($user_id == $post_by){
-		    		$user_info = get_userdata($user_id);
+		    		$user_info = get_userdata($post_by);
 					$project = " ";
 					$project .= "<div class='activity-main'>";
 					$project .= "<div class='header_image'>" . $pro_h_img . "</div>";
@@ -89,7 +86,6 @@ print(' <div class="secondary-menu-logo">
 					$project .= "</div>";
 					//echo $project;
 					echo $project;	
-				}
 			}
 				?>
 	</main><!-- .site-main -->
