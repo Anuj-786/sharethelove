@@ -104,7 +104,7 @@
 									</ul>
 								</div>');								}
 									else {
-										print('<div><div class="login-trigger">Login</div>');
+										print('<div><div class="login-trigger"><span>Login</span></div>');
 										print('<div class="login-content">'); echo do_shortcode('[my-login-form]'); 
 										print('</div></div>');
 									}; ?>
