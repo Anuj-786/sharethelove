@@ -56,18 +56,25 @@ print(' <div class="secondary-menu-logo">
 		    	if($user_id == $post_by){
 		    		$user_info = get_userdata($user_id);
 					$project = " ";
+					$project .= "<div class='activity-main'>";
 					$project .= "<div class='header_image'>" . $pro_h_img . "</div>";
+					$project .= "<div class='activity-desc'>";
 					$project .= "<p>". $post_title .  "</p>";
 					$project .= "<p>Role Title: ". $role_title .  "</p>";
 					$project .= "<p>Vacancies: ". $pro_vac .  "</p>";
-					$project .= "<p>Posted By: " . $user_info->user_login . " Location: " . $pro_loc . "</p>";
-					$project .= "<p>Start Date: " . $pro_s_date . " Ends On: " . $pro_e_date . "</p>";
+					$project .= "<p>Posted By: " . $user_info->user_login . " </p>";
+					$project .= "<p>Location: " . $pro_loc . "</p>";
+					$project .= "<p>Start Date: " . $pro_s_date . "</p>";
+					$project .= "<p>Ends On: " . $pro_e_date ."</p>";
 					$project .= "<p>". $pro_tags .  "</p>";
+					$project .= "</div>";
+					$project .= "<div class='project-img'>";
 					$project .= "<a href='".$pro_img1."'rel='lightbox[".$user_id."]'><img src=" . $pro_img1 . "></a>";
 					$project .= "<a href='".$pro_img2."'rel='lightbox[".$user_id."]'><img src=" . $pro_img2 . "></a>";
 					$project .= "<a href='".$pro_img3."'rel='lightbox[".$user_id."]'><img src=" . $pro_img3 . "></a>";
 					$project .= "<a href='".$pro_img4."'rel='lightbox[".$user_id."]'><img src=" . $pro_img4 . "></a>";
 					$project .= "<a href='".$pro_img5."'rel='lightbox[".$user_id."]'><img src=" . $pro_img5 . "></a>";
+					$project .= "</div>";
 					$project .= "<div class='toggle-container'>";
 					$project .= "<p><h3>Project Description</h3>". $pro_des .  "</p>";
 					$project .= "<p><h3>Role Description</h3>". $pro_rol .  "</p>";
@@ -76,7 +83,10 @@ print(' <div class="secondary-menu-logo">
 					$project .= "<p><h3>Contact Details</h3>". $pro_email .  "</p>";
 					$project .= "<p>" . $pro_phone . " " . $pro_mobile . "</p>";
 					$project .= "</div>";
+					$project .= "<div class='show-more'>";
 					$project .= "<a class='moreshow'><span>Know More</span></a>";
+					$project .= "</div>";
+					$project .= "</div>";
 					//echo $project;
 					echo $project;	
 				}
