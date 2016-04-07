@@ -448,9 +448,10 @@ function my_login_form_shortcode( $attr ) {
     $attr = shortcode_atts( $defaults, $attr );
     /* Set 'echo' to 'false' because we want it to always return instead of print for shortcodes. */
     $attr['echo'] = false;
-    print'<a class="forgot-password" href="http://codebing.com">Forgot Password</a>';
+    $url = "".home_url()."/forget-password";
+    $forgot_pass = "<a class='forgot-password' href='".$url."'>Forgot Password</a>";
+    echo $forgot_pass;
     return wp_login_form( $attr );
-
 }
 
 add_action( 'init', 'create_post_type' );
@@ -476,7 +477,6 @@ add_post_type_support( 'projects', 'thumbnail' );
 function admin_default_page() {
   return home_url() . '/activity';
 }
-
 add_filter('login_redirect', 'admin_default_page');
 
 
