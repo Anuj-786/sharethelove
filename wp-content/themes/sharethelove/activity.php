@@ -59,8 +59,10 @@ print(' <div class="secondary-menu-logo">
 				$project .= "<p>". $post_title .  "</p>";
 				$project .= "<p>Role Title: ". $role_title .  "</p>";
 				$project .= "<p>Vacancies: ". $pro_vac .  "</p>";
-				$project .= "<p>Posted By: " . $user_info->user_login . " Location: " . $pro_loc . "</p>";
-				$project .= "<p>Start Date: " . $pro_s_date . " Ends On: " . $pro_e_date . "</p>";
+				$project .= "<p>Posted By: " . $user_info->user_login . "</p>";
+				$project .= "<p>Location: " . $pro_loc . "</p>";
+				$project .= "<p>Start Date: " . $pro_s_date . "</p>";
+				$project .= "<p> Ends On: " . $pro_e_date . "</p>";
 				$project .= "<p>". $pro_tags .  "</p>";
 				$project .= "</div>";
 				$project .= "<div class='project-img'>";
