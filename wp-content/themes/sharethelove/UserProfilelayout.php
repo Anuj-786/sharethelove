@@ -47,7 +47,7 @@ print(' <div class="secondary-menu-logo">
 </div><!-- .content-area -->
 
 <div class="add-project-logo">
-    <a href="<?php echo home_url(); ?>/?page_id=104"><img src='<?php echo home_url(); ?>/wp-content/uploads/2016/04/downbtn.png' /></a>
+    <a href="<?php echo home_url(); ?>/?page_id=104"><img src='<?php echo home_url(); ?>/wp-content/uploads/2016/04/4-e1459846938556.png' /></a>
 </div>
 
 <?php get_footer(); ?>
