@@ -58,6 +58,12 @@
           color: #49647e !important;
           
         }
+        .errors {
+          left: 23%;
+          position: absolute;
+          top: 85%;
+          color: red;
+        }
         form {
          padding-left: 25px;
          width: 86% !important;
@@ -83,7 +89,8 @@
             padding: 0px !important;
             width:  !important;
             background: #d9d9d9 none repeat scroll 0 0;
-            border-color: #49647e
+            border-color: #49647e;
+            height: 25px;
           }
         }
         .login-password {
@@ -95,7 +102,9 @@
           input {
             padding: 0px !important;
             width: 85% !important;
-            border-color: #49647e
+            border-color: #49647e;
+            height: 25px;
+            background-color: #d9d9d2;
           }
         }
         .login-submit {
