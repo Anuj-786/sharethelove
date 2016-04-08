@@ -451,6 +451,8 @@ function my_login_form_shortcode( $attr ) {
     $url = "".home_url()."/forget-password";
     $forgot_pass = "<a class='forgot-password' href='".$url."'>Forgot Password</a>";
     echo $forgot_pass;
+    $errors = $_GET['reason'];
+    echo "<div class='errors'>". $errors ."</div>" ;
     return wp_login_form( $attr );
 }
 
@@ -474,9 +476,24 @@ add_post_type_support( 'projects', 'thumbnail' );
  * Redirect user after successful login.
  *
  */
-function admin_default_page() {
-  return home_url() . '/activity';
-}
-add_filter('login_redirect', 'admin_default_page');
 
+add_filter('login_redirect', 'my_login_redirect', 10, 3);
+function my_login_redirect($redirect_to, $requested_redirect_to, $user) {
+    if (is_wp_error($user)) {
+        //Login failed, find out why...
+        $error_types = array_keys($user->errors);
+        //Error type seems to be empty if none of the fields are filled out
+        $error_type = 'Incorrect Data';
+        //Otherwise just get the first error (as far as I know there
+        //will only ever be one)
+        if (is_array($error_types) && !empty($error_types)) {
+            $error_type = $error_types[0];
+        }
+        wp_redirect( home_url() . "?login=failed&reason=" . $error_type ); 
+        exit;
+    } else {
+        //Login OK - redirect to another page?
+        return home_url() . '/activity';
+    }
+}
 
