@@ -4,7 +4,7 @@
 }
 	
 body {
-	font-family: Gotham-Book !important;
+	font-family: Gotham-Book;
 	width: 1031px;
 	margin: 0 auto !important;
 	background: none !important;
@@ -15,9 +15,16 @@ body {
 		margin: 0 !important;
 		padding: 0;
 		float: none !important;
+	
 	}
 	input {
 		border: 1px solid #49647e !important;
 		font-family: Gotham-Book !important
+	}
+}
+/**mixin***/
+@mixin chrome {
+	@media (-webkit-min-device-pixel-ratio:0) {
+		@content;
 	}
 }
