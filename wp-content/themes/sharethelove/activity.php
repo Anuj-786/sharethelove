@@ -32,11 +32,15 @@ print(' <div class="secondary-menu-logo">
 			foreach($posts as $p){
 			    //get the meta you need from each post
 			    $pro_h_img = get_the_post_thumbnail($p);
+			    $hed_img_url = wp_get_attachment_url( get_post_thumbnail_id($p) );
 			    $post_title = get_the_title($p);
 			    $role_title = get_post_meta($p,"role-title",true);
 			    $pro_vac = get_post_meta($p,"project-vacancies",true);
 			    $post_by = get_post_field( 'post_author', $p );
 			    $pro_loc = get_post_meta($p,"project-location",true);
+			    $pro_loc_dl = get_post_meta($p,"location-delhi",true);
+			    $pro_loc_hp = get_post_meta($p,"location-himachal",true);
+			    $pro_loc_pl = get_post_meta($p,"location-place",true);
 			    $pro_s_date = get_post_meta($p,"project-from-date",true);
 			    $pro_e_date = get_post_meta($p,"project-to-date",true);
 			    $pro_tags = get_post_meta($p,"project-tags",true);
@@ -54,13 +58,13 @@ print(' <div class="secondary-menu-logo">
 	    		$user_info = get_userdata($post_by);
 				$project = " ";
 				$project .= "<div class='activity-main'>";
-				$project .= "<div class='header_image'>" . $pro_h_img . "</div>";
+				$project .= "<div class='header_image'><a href='".$hed_img_url."'rel='lightbox[".$p."]'>" . $pro_h_img . "</a></div>";
 				$project .= "<div class='activity-desc'>";
 				$project .= "<p>". $post_title .  "</p>";
 				$project .= "<p>Role Title: ". $role_title .  "</p>";
 				$project .= "<p>Vacancies: ". $pro_vac .  "</p>";
 				$project .= "<p>Posted By: " . $user_info->user_login . "</p>";
-				$project .= "<p>Location: " . $pro_loc . "</p>";
+				$project .= "<p>Location: " . $pro_loc . "," . $pro_loc_dl . "" . $pro_loc_hp . "," . $pro_loc_pl . "</p>";
 				$project .= "<p>Start Date: " . $pro_s_date . "</p>";
 				$project .= "<p> Ends On: " . $pro_e_date . "</p>";
 				$project .= "<p>". $pro_tags .  "</p>";
