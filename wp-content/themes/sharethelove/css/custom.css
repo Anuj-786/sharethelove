@@ -105,7 +105,7 @@ body input {
 /* line 66, ../sass/custom/_header.scss */
 .site .site-header .stl_login .login-content form {
   padding-left: 25px;
-  width: 86%;
+  width: 100%;
   background-color: rgba(233, 233, 230, 0.9);
   padding-bottom: 2px;
 }
