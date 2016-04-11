@@ -856,26 +856,33 @@ body.home {
 
 								}
 								#field_7_13 {
-									padding-left: 140px;
-									float: left;
-									text-align: right !important;
 									margin-top: 10px;
 									padding-bottom: 30px;
-									margin-left: 21px !important;
+									width: 60%;
+									display: inline-block;
+									position: relative;
 
 									label {
 										display: none;
+									}
+									.ginput_container_phone {
+										width: 33.5%;
+										position: absolute;
+										right: 0;
+										top: 4px;
+
 									}
 									input {
 										border-radius: 5px !important;
 										background-color: #d9d9d2;
 										text-align: center;
+										width: 100% !important;
 									}
 								}
 								#field_7_14 {
-									width: 46%;
+									width: 40%;
 									padding-bottom: 30px;
-									display: inline-flex;
+									display: inline-block;
 									margin-top: 10px;
 									label {
 										display: none;
@@ -883,8 +890,9 @@ body.home {
 									.ginput_container {
 										width: 100%;
 										text-align: right;
+										padding-left: 20px;
 										input {
-											width: 90%;
+											width: 100%;
 											border-radius: 5px !important;
 											background-color: #d9d9d2;
 											text-align: center;
