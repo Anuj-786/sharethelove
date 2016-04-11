@@ -31,6 +31,7 @@ print(' <div class="secondary-menu-logo">
 			//loop over each post
 			foreach($posts as $p){
 			    //get the meta you need from each post
+			    $home_url = home_url();
 			    $pro_h_img = get_the_post_thumbnail($p);
 			    $hed_img_url = wp_get_attachment_url( get_post_thumbnail_id($p) );
 			    $post_title = get_the_title($p);
@@ -67,14 +68,17 @@ print(' <div class="secondary-menu-logo">
 				$project .= "<p>Location: " . $pro_loc . "," . $pro_loc_dl . "" . $pro_loc_hp . "," . $pro_loc_pl . "</p>";
 				$project .= "<p>Start Date: " . $pro_s_date . "</p>";
 				$project .= "<p> Ends On: " . $pro_e_date . "</p>";
-				$project .= "<p>". $pro_tags .  "</p>";
+				$tags = explode(" ", $pro_tags);
+				foreach($tags as $pro_tag){
+				$tag_seacrh = preg_replace('/[^A-Za-z0-9\-]/', '', $pro_tag);
+				$project .= "<a href='".$home_url."/?s=%23".$tag_seacrh."'>". $pro_tag . "</a>" ;
+				}
 				$project .= "</div>";
 				$project .= "<div class='project-img'>";
 				$project .= "<a href='".$pro_img1."'rel='lightbox[".$p."]'><img src=" . $pro_img1 . "></a>";
 				$project .= "<a href='".$pro_img2."'rel='lightbox[".$p."]'><img src=" . $pro_img2 . "></a>";
 				$project .= "<a href='".$pro_img3."'rel='lightbox[".$p."]'><img src=" . $pro_img3 . "></a>";
 				$project .= "<a href='".$pro_img4."'rel='lightbox[".$p."]'><img src=" . $pro_img4 . "></a>";
-				$project .= "<a href='".$pro_img5."'rel='lightbox[".$p."]'><img src=" . $pro_img5 . "></a>";
 				$project .= "</div>";
 				$project .= "<div class='toggle-container'>";
 				$project .= "<div class='description'>";
