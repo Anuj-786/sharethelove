@@ -45,7 +45,7 @@ body.home {
 							margin-left: 12%;
 							.ngg-galleryoverview {
 								.slideshowlink {
-									display: none;
+									display: none !important;
 								}
 								.ngg-gallery-thumbnail-box {
 									margin-right: 4% !important;
@@ -294,6 +294,7 @@ body.home {
 }
 /* css for activity page */
 .page-template-activity-php {
+	font-family: Gotham-book;
 	.toggle-container {
 		display: none;
 		.description {
@@ -376,8 +377,9 @@ body.home {
 				background: #d9d9d2 none repeat scroll 0 0;
 				border-radius: 5px;
 				text-align: center;
-				margin-left: 40px;
+				margin-left: 52px;
 				color: #40597e;
+				font-family: 14px;
 			}
 			p:nth-child(3) {
 				background: #d9d9d2 none repeat scroll 0 0;
@@ -388,6 +390,7 @@ body.home {
 				text-align: center;
 				width: 20%;
 				color: #40597e;
+				font-family: 14px;
 			}
 			p:nth-child(4) {
 				display: inline-flex;
@@ -397,9 +400,10 @@ body.home {
 				text-align: center;
 				margin-left: 5%;
 				text-align: center;
-				width: 35%;
+				width: 38%;
 				color: #40597e;
 				padding-left: 70px;
+				font-family: 14px;
 			}
 		}
 	}
@@ -587,6 +591,28 @@ body.home {
 											font-size: 24px !important;
 											text-align: center;
 										}
+									}
+								}
+								#field_7_28 {
+									display: inline-flex;
+									width: 70%;
+									label {
+										display: none;
+									}
+								}
+								#field_7_29 {
+									display: inline-flex;
+									width: 70%;
+									label {
+										display: none;
+									}
+									.ginput_container_select {
+
+									}
+								}
+								#field_7_31 {
+									label {
+										display: none;
 									}
 								}
 								#field_7_21 {

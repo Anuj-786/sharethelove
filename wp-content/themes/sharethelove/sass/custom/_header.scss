@@ -1,7 +1,6 @@
 .site {
   margin: 0 !important;
   background-color: #F3F3F3 !important;
-  padding-bottom: 60px;
   .site-header {
     padding: 0;
     width: 94%;
@@ -43,6 +42,7 @@
         span {
           font-size: 25px;
           color: #49647e;
+          font-family: Gotham-Book;
         }
       }
       .login-content {
@@ -62,10 +62,14 @@
           top: 85%;
           color: red;
         }
+        
         form {
          padding-left: 25px;
-         width: 86% !important;
-         background-color: rgba(233, 233, 230, 0.5);
+         width: 86%;
+        @include chrome {
+          width: 100%;
+         }
+         background-color: rgba(233, 233, 230, 0.9);
          padding-bottom: 2px;
          label {
           font-size: 14px !important;
@@ -107,6 +111,9 @@
         }
         .login-submit {
           padding-left: 11px;
+          @include chrome {
+            padding-left: 0;
+          }
           padding-top: 4px;
           .button-primary {
             height: 35px;
