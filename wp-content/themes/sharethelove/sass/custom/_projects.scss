@@ -1165,7 +1165,9 @@ body.home {
 		display: none;
 	}
 	article { 
-		padding-top: 30px;
+		padding-top: 30px !important;
+		margin-bottom: 0 !important;
+		padding-bottom: 0 !important;
 	}
 	.toggle-container {
 		display: none;
