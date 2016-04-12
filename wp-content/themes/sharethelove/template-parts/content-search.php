@@ -13,13 +13,7 @@
 		<?php the_title( sprintf( '<h2 class="entry-title" style="display:none;"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 		<?php 
             //get your custom posts ids as an array
-			$posts = get_posts(array(
-			    'post_type'   => 'projects',
-			    'post_status' => 'publish',
-			    'posts_per_page' => -1,
-			    'fields' => 'ids'
-			    )
-			);
+			$p = get_the_ID();
 			//loop over each post
 			foreach($posts as $p){
 			    //get the meta you need from each post
