@@ -1661,25 +1661,27 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
 }
 /* line 1167, ../sass/custom/_projects.scss */
 .search-results.logged-in article {
-  padding-top: 30px;
+  padding-top: 30px !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
-/* line 1170, ../sass/custom/_projects.scss */
+/* line 1172, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container {
   display: none;
 }
-/* line 1172, ../sass/custom/_projects.scss */
+/* line 1174, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .description {
   margin: 0 auto;
   width: 80%;
   line-height: 1.2;
 }
-/* line 1177, ../sass/custom/_projects.scss */
+/* line 1179, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .description h3 {
   color: #f3f3f3;
   font-size: 18px;
   padding-top: 3px;
 }
-/* line 1182, ../sass/custom/_projects.scss */
+/* line 1184, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .description p {
   background-color: #d9d9d2;
   color: #40597e;
@@ -1688,7 +1690,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   margin: 0;
   border-radius: 5px;
 }
-/* line 1191, ../sass/custom/_projects.scss */
+/* line 1193, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .role-description {
   border-radius: 10px;
   margin: 0 auto;
@@ -1697,13 +1699,13 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   position: relative;
   top: 10px;
 }
-/* line 1198, ../sass/custom/_projects.scss */
+/* line 1200, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .role-description h3 {
   color: #f3f3f3;
   font-size: 18px;
   padding-top: 3px;
 }
-/* line 1203, ../sass/custom/_projects.scss */
+/* line 1205, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .role-description p {
   border-radius: 5px;
   background-color: #d9d9d2;
@@ -1712,13 +1714,13 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   padding-left: 10px;
   margin: 0;
 }
-/* line 1212, ../sass/custom/_projects.scss */
+/* line 1214, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .facilities {
   width: 80%;
   margin: 0 auto;
   padding-top: 20px;
 }
-/* line 1216, ../sass/custom/_projects.scss */
+/* line 1218, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .facilities h3 {
   color: #f3f3f3 !important;
   font-size: 18px;
@@ -1727,7 +1729,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   width: 35%;
   float: left;
 }
-/* line 1224, ../sass/custom/_projects.scss */
+/* line 1226, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .facilities p {
   color: #f3f3f3;
   font-size: 14px;
@@ -1736,13 +1738,13 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   padding: 0 !important;
   line-height: 2.3;
 }
-/* line 1233, ../sass/custom/_projects.scss */
+/* line 1235, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .contact-details {
   width: 80%;
   margin: 0 auto;
   padding-top: 20px;
 }
-/* line 1237, ../sass/custom/_projects.scss */
+/* line 1239, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .contact-details h3 {
   color: #f3f3f3 !important;
   font-size: 18px;
@@ -1751,7 +1753,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   width: 30%;
   float: left;
 }
-/* line 1246, ../sass/custom/_projects.scss */
+/* line 1248, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .contact-details p:nth-child(2) {
   width: 60% !important;
   float: left;
@@ -1762,7 +1764,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   color: #40597e;
   font-family: 14px;
 }
-/* line 1256, ../sass/custom/_projects.scss */
+/* line 1258, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .contact-details p:nth-child(3) {
   background: #d9d9d2 none repeat scroll 0 0;
   border-radius: 5px;
@@ -1774,7 +1776,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   color: #40597e;
   font-family: 14px;
 }
-/* line 1267, ../sass/custom/_projects.scss */
+/* line 1269, ../sass/custom/_projects.scss */
 .search-results.logged-in .toggle-container .contact-details p:nth-child(4) {
   display: inline-flex;
   background: #d9d9d2 none repeat scroll 0 0;
@@ -1788,70 +1790,70 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   padding-left: 70px;
   font-family: 14px;
 }
-/* line 1282, ../sass/custom/_projects.scss */
+/* line 1284, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area {
   width: 100%;
   float: none;
   margin: 0;
   margin-top: 30px !important;
 }
-/* line 1287, ../sass/custom/_projects.scss */
+/* line 1289, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main {
   width: 100%;
   margin: 0 auto;
 }
-/* line 1290, ../sass/custom/_projects.scss */
+/* line 1292, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main {
   padding-top: 75px;
   width: 100%;
   background-color: #405970;
   margin-bottom: 30px;
 }
-/* line 1295, ../sass/custom/_projects.scss */
+/* line 1297, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main .header_image {
   width: 30%;
   height: 210px;
   float: left;
   padding-left: 75px;
 }
-/* line 1300, ../sass/custom/_projects.scss */
+/* line 1302, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main .header_image img {
   height: 210px;
   width: 210px;
 }
-/* line 1305, ../sass/custom/_projects.scss */
+/* line 1307, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main .activity-desc {
   width: 62%;
   float: right;
   padding-top: 30px;
 }
-/* line 1309, ../sass/custom/_projects.scss */
+/* line 1311, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main .activity-desc p:nth-child(1) {
   font-size: 36px;
   color: #f3f3f3;
 }
-/* line 1313, ../sass/custom/_projects.scss */
+/* line 1315, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main .activity-desc p {
   margin: 0;
   color: #f3f3f3;
 }
-/* line 1318, ../sass/custom/_projects.scss */
+/* line 1320, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main .activity-desc p:nth-child(4) {
   float: left;
 }
-/* line 1321, ../sass/custom/_projects.scss */
+/* line 1323, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main .activity-desc p:nth-child(5) {
   margin-left: 50%;
 }
-/* line 1324, ../sass/custom/_projects.scss */
+/* line 1326, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main .activity-desc p:nth-child(6) {
   float: left;
 }
-/* line 1327, ../sass/custom/_projects.scss */
+/* line 1329, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main .activity-desc p:nth-child(7) {
   margin-left: 50%;
 }
-/* line 1331, ../sass/custom/_projects.scss */
+/* line 1333, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main .project-img {
   clear: both;
   padding-top: 85px;
@@ -1859,13 +1861,13 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   width: 100%;
   padding-bottom: 50px;
 }
-/* line 1337, ../sass/custom/_projects.scss */
+/* line 1339, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main .project-img img {
   height: 145px;
   padding-left: 20px;
   width: 159px;
 }
-/* line 1343, ../sass/custom/_projects.scss */
+/* line 1345, ../sass/custom/_projects.scss */
 .search-results.logged-in .content-area .site-main .activity-main .moreshow {
   background: #d9d9d2;
   padding: 14px 45.2%;
