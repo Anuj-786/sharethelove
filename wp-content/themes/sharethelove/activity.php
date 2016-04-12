@@ -74,7 +74,7 @@ print(' <div class="secondary-menu-logo">
 				$tags = explode(" ", $pro_tags);
 				foreach($tags as $pro_tag){
 				$tag_seacrh = preg_replace('/[^A-Za-z0-9\-]/', '', $pro_tag);
-				$project .= "<a href='".$home_url."/?s=%23".$tag_seacrh."'>". $pro_tag . "</a>" ;
+				$project .= "<a href='".$home_url."/?s=%23".$tag_seacrh."'>". $pro_tag . "&nbsp;</a>" ;
 				}
 				$project .= "</div>";
 				$project .= "<div class='project-img'>";
