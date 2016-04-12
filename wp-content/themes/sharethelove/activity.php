@@ -65,7 +65,10 @@ print(' <div class="secondary-menu-logo">
 				$project .= "<p>Role Title: ". $role_title .  "</p>";
 				$project .= "<p>Vacancies: ". $pro_vac .  "</p>";
 				$project .= "<p>Posted By: " . $user_info->user_login . "</p>";
-				$project .= "<p>Location: " . $pro_loc . "," . $pro_loc_dl . "" . $pro_loc_hp . "," . $pro_loc_pl . "</p>";
+				$project .= "<p>Location: <a href='".$home_url."/?s=".$pro_loc."'>". $pro_loc . "</a>,";
+				$project .= "<a href='".$home_url."/?s=".$pro_loc_dl."'>". $pro_loc_dl . "</a>" ;
+				$project .= "<a href='".$home_url."/?s=".$pro_loc_hp."'>". $pro_loc_hp . "</a>," ;
+				$project .= "<a href='".$home_url."/?s=".$pro_loc_pl."'>". $pro_loc_pl . "</a></p>" ;
 				$project .= "<p>Start Date: " . $pro_s_date . "</p>";
 				$project .= "<p> Ends On: " . $pro_e_date . "</p>";
 				$tags = explode(" ", $pro_tags);
