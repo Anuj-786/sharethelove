@@ -45,7 +45,7 @@ body.home {
 							margin-left: 12%;
 							.ngg-galleryoverview {
 								.slideshowlink {
-									display: none;
+									display: none !important;
 								}
 								.ngg-gallery-thumbnail-box {
 									margin-right: 4% !important;
@@ -294,30 +294,29 @@ body.home {
 }
 /* css for activity page */
 .page-template-activity-php {
+	font-family: Gotham-book;
 	.toggle-container {
 		display: none;
 		.description {
-			background: #d9d9d2 none repeat scroll 0 0;
-			border-radius: 10px;
 			margin: 0 auto;
 			width: 80%;
 			line-height: 1.2;
 
 			h3 {
-				color: #40597e;
-				font-size: 24px;
-				padding-left: 10px;
+				color: #f3f3f3;
+				font-size: 18px;
 				padding-top: 3px;
 			}
 			p {
+				background-color: #d9d9d2;
 				color: #40597e;
-				font-size: 18px;
+				font-size: 14px;
 				padding-left: 10px;
 				margin: 0;
+				border-radius: 5px;
 			}
 		}
 		.role-description {
-			background: #d9d9d2 none repeat scroll 0 0;
 			border-radius: 10px;
 			margin: 0 auto;
 			width: 80%;
@@ -325,14 +324,15 @@ body.home {
 			position: relative;
 			top: 10px;
 			h3 {
-				color: #40597e;
-				font-size: 24px;
-				padding-left: 10px;
+				color: #f3f3f3;
+				font-size: 18px;
 				padding-top: 3px;
 			}
 			p {
+				border-radius: 5px;
+				background-color: #d9d9d2;
 				color: #40597e;
-				font-size: 18px;
+				font-size: 14px;
 				padding-left: 10px;
 				margin: 0;
 			}
@@ -343,7 +343,7 @@ body.home {
 			padding-top: 20px;
 			h3 {
 				color: #f3f3f3 !important;
-				font-size: 24px;
+				font-size: 18px;
 				padding: 0 !important;
 				padding-top: 3px;
 				width: 35%;
@@ -351,7 +351,7 @@ body.home {
 			}
 			p {
 				color: #f3f3f3;
-				font-size: 18px;
+				font-size: 14px;
 				padding-left: 10px;
 				margin: 0;
 				padding: 0 !important;
@@ -364,7 +364,7 @@ body.home {
 			padding-top: 20px;
 			h3 {
 				color: #f3f3f3 !important;
-				font-size: 24px;
+				font-size: 18px;
 				padding: 0 !important;
 				padding-top: 3px;
 				width: 30%;
@@ -377,8 +377,9 @@ body.home {
 				background: #d9d9d2 none repeat scroll 0 0;
 				border-radius: 5px;
 				text-align: center;
-				margin-left: 40px;
+				margin-left: 52px;
 				color: #40597e;
+				font-family: 14px;
 			}
 			p:nth-child(3) {
 				background: #d9d9d2 none repeat scroll 0 0;
@@ -389,6 +390,7 @@ body.home {
 				text-align: center;
 				width: 20%;
 				color: #40597e;
+				font-family: 14px;
 			}
 			p:nth-child(4) {
 				display: inline-flex;
@@ -398,9 +400,10 @@ body.home {
 				text-align: center;
 				margin-left: 5%;
 				text-align: center;
-				width: 35%;
+				width: 38%;
 				color: #40597e;
 				padding-left: 70px;
+				font-family: 14px;
 			}
 		}
 	}
@@ -455,7 +458,7 @@ body.home {
 				}
 				.project-img {
 					clear: both;
-					padding-top: 140px;
+					padding-top: 85px;
 					text-align: center;
 					width: 100%;
 					padding-bottom: 50px;
@@ -590,9 +593,98 @@ body.home {
 										}
 									}
 								}
-								#field_7_21 {
+								#field_7_28 {
 									display: inline-flex;
 									width: 70%;
+									label {
+										display: none;
+									}
+									.ginput_container_select {
+										text-align: right;
+										width: 100% !important;
+										select {
+											-moz-appearance: none;
+											background: #d9d9d2 none repeat scroll 0 0 !important;
+											border: medium none;
+											border-radius: 5px;
+											color: blue;
+											font-family: Gotham-Book !important;
+											font-size: 24px !important;
+											width: 80% !important;
+											color: #405970;
+											text-align: center;
+										}
+									}
+								}
+								#field_7_29 {
+									display: inline-flex;
+									width: 70%;
+									label {
+										display: none;
+									}
+									.ginput_container_select {
+										text-align: right;
+										width: 100% !important;
+										select {
+											-moz-appearance: none;
+											background: #d9d9d2 none repeat scroll 0 0 !important;
+											border: medium none;
+											border-radius: 5px;
+											color: blue;
+											font-family: Gotham-Book !important;
+											font-size: 24px !important;
+											width: 80% !important;
+											color: #405970;
+											text-align: center;
+										}
+									}
+								}
+								#field_7_30 {
+									display: inline-flex;
+									width: 70%;
+									label {
+										display: none;
+									}
+									.ginput_container_select {
+										text-align: right;
+										width: 100% !important;
+										select {
+											-moz-appearance: none;
+											background: #d9d9d2 none repeat scroll 0 0 !important;
+											border: medium none;
+											border-radius: 5px;
+											color: blue;
+											font-family: Gotham-Book !important;
+											font-size: 24px !important;
+											width: 80% !important;
+											color: #405970;
+											text-align: center;
+										}
+									}
+								}
+								#field_7_31 {
+									width: 70%;
+									display: inline-flex;
+									label {
+										display: none;
+									}
+									.ginput_container_text {
+										text-align: right;
+										width: 100% !important;
+										padding-top: 10px;
+										input {
+											width: 80% !important;
+											border-radius: 5px;
+											background-color: #d9d9d2;
+											font-size: 18px;
+											color: #405970;
+											text-align: center;
+											line-height: 1.6;
+										}
+									}
+								}
+								#field_7_21 {
+									width: 100%;
 									padding-bottom: 10px;
 									label {
 										display: none;
@@ -634,7 +726,7 @@ body.home {
 									font-size: 18px;
 									color: #f3f3f3;
 									margin-top: 7px;
-									margin-left: 90px !important;
+									margin-left: 50px !important;
 								}
 								#field_7_7 {
 									display: inline-flex;
@@ -658,7 +750,7 @@ body.home {
 								#field_7_8 {
 									width: 100%;
 									padding-top: 10px;
-									padding-left: 90px;
+									padding-left: 50px;
 									label {
 										font-size: 18px;
 										font-weight: 100 !important;
@@ -666,8 +758,8 @@ body.home {
 									}
 									.ginput_container {
 										display: inline-flex;
-										padding-left: 148px;
-										width: 66%;
+										padding-left: 127px;
+										width: 59%;
 										input {
 											background-color: #d9d9d2;
 											border-radius: 5px;
@@ -676,7 +768,7 @@ body.home {
 								}
 								#field_7_9 {
 									padding-top: 10px;
-									padding-left: 90px;
+									padding-left: 50px;
 									label {
 										font-size: 18px;
 										font-weight: 100 !important;
@@ -737,7 +829,7 @@ body.home {
 									}
 								}
 								#field_7_23 {
-									padding-left: 90px;
+									padding-left: 50px;
 									color: #f3f3f3;
 									font-size: 18px;
 									width: 40%;
@@ -764,24 +856,33 @@ body.home {
 
 								}
 								#field_7_13 {
-									padding-left: 140px;
-									float: left;
-									text-align: right !important;
 									margin-top: 10px;
 									padding-bottom: 30px;
+									width: 60%;
+									display: inline-block;
+									position: relative;
+
 									label {
 										display: none;
+									}
+									.ginput_container_phone {
+										width: 33.5%;
+										position: absolute;
+										right: 0;
+										top: 4px;
+
 									}
 									input {
 										border-radius: 5px !important;
 										background-color: #d9d9d2;
 										text-align: center;
+										width: 100% !important;
 									}
 								}
 								#field_7_14 {
-									width: 42%;
+									width: 40%;
 									padding-bottom: 30px;
-									display: inline-flex;
+									display: inline-block;
 									margin-top: 10px;
 									label {
 										display: none;
@@ -789,8 +890,9 @@ body.home {
 									.ginput_container {
 										width: 100%;
 										text-align: right;
+										padding-left: 20px;
 										input {
-											width: 90%;
+											width: 100%;
 											border-radius: 5px !important;
 											background-color: #d9d9d2;
 											text-align: center;
@@ -801,6 +903,7 @@ body.home {
 									font-size: 18px !important;
 									color: #f3f3f3;
 									float: left;
+									padding-left: 50px;
 								}
 								
 								#field_7_15 {
@@ -812,8 +915,8 @@ body.home {
 									line-height: 5 !important;
 									text-align: center;
 									vertical-align: middle;
-									width: 12%;
-									margin-left:15px !important;
+									width: 13%;
+									margin-left:40px !important;
 									
 									label {
 										color: #405970;
@@ -835,7 +938,7 @@ body.home {
 									line-height: 5 !important;
 									text-align: center;
 									vertical-align: middle;
-									width: 12%;
+									width: 13%;
 									margin-left:15px !important;
 									label {
 										color: #405970;
@@ -855,7 +958,7 @@ body.home {
 									line-height: 5 !important;
 									text-align: center;
 									vertical-align: middle;
-									width: 12%;
+									width: 13%;
 									margin-left:15px !important;
 									label {
 										color: #405970;
@@ -874,7 +977,7 @@ body.home {
 									line-height: 5 !important;
 									text-align: center;
 									vertical-align: middle;
-									width: 12%;
+									width: 13%;
 									margin-left:15px !important;
 									display: inline-flex;
 									label {
@@ -895,7 +998,7 @@ body.home {
 									line-height: 5 !important;
 									text-align: center;
 									vertical-align: middle;
-									width: 12%;
+									width: 13%;
 									margin-left:15px !important;
 									label {
 										color: #405970;
@@ -909,7 +1012,7 @@ body.home {
 							}
 						}
 						.gform_footer.top_label {
-							left: 25%;
+							left: 34%;
 							position: relative;
 							width: 10%;
 							padding-top: 25px;
@@ -922,7 +1025,8 @@ body.home {
 						font-size: 24px !important;
 						padding-top: 50px;
 						float: right;
-						width: 60%
+						width: 60%;
+						padding-left:6%;
 					}
 				}
 				.entry-footer {
