@@ -227,32 +227,37 @@ body input {
 /* line 174, ../sass/custom/_header.scss */
 .site .secondary-menu {
   width: 100%;
+  padding-bottom: 40px;
 }
-/* line 176, ../sass/custom/_header.scss */
+/* line 177, ../sass/custom/_header.scss */
 .site .secondary-menu .secondary-menu-logo {
   width: 100%;
   padding-bottom: 45px;
 }
 /* line 180, ../sass/custom/_header.scss */
+.site .secondary-menu .secondary-menu-logo ul {
+  padding-left: 7%;
+}
+/* line 182, ../sass/custom/_header.scss */
 .site .secondary-menu .secondary-menu-logo ul li {
   float: left;
   width: 25%;
   list-style: none;
 }
-/* line 184, ../sass/custom/_header.scss */
+/* line 186, ../sass/custom/_header.scss */
 .site .secondary-menu .secondary-menu-logo ul li img {
   height: 60px;
   width: 60px;
 }
-/* line 189, ../sass/custom/_header.scss */
+/* line 191, ../sass/custom/_header.scss */
 .site .secondary-menu .secondary-menu-logo ul li:nth-child(1) {
   text-align: right;
 }
-/* line 192, ../sass/custom/_header.scss */
+/* line 194, ../sass/custom/_header.scss */
 .site .secondary-menu .secondary-menu-logo ul li:nth-child(2) {
   text-align: center;
 }
-/* line 195, ../sass/custom/_header.scss */
+/* line 197, ../sass/custom/_header.scss */
 .site .secondary-menu .secondary-menu-logo ul li:nth-child(3) {
   width: 15%;
 }
@@ -1582,3 +1587,86 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
 }
 
 /*End css for forget password page */
+/* css for search result page */
+/* line 1101, ../sass/custom/_projects.scss */
+.page-template-search-page form {
+  clear: both;
+  width: 65%;
+  margin: 0 auto;
+  right: 19px;
+}
+/* line 1106, ../sass/custom/_projects.scss */
+.page-template-search-page form input {
+  border-radius: 50px !important;
+  background-color: #d9d9d2;
+  border: none !important;
+  line-height: 2;
+  padding-left: 7em;
+}
+/* line 1113, ../sass/custom/_projects.scss */
+.page-template-search-page form .search-submit {
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  right: 0;
+  top: 4px;
+  width: 42px;
+  float: left;
+  left: 55px;
+  background-color: #d9d9d2;
+  color: #645970;
+}
+/* line 1125, ../sass/custom/_projects.scss */
+.page-template-search-page form input[type="search"]:focus {
+  background: #d9d9d2 !important;
+}
+
+/* end of css for search result page */
+/* css for search-results page */
+/* line 1134, ../sass/custom/_projects.scss */
+.search-results.logged-in form {
+  clear: both;
+  width: 65%;
+  margin: 0 auto;
+  right: 19px;
+}
+/* line 1140, ../sass/custom/_projects.scss */
+.search-results.logged-in form input {
+  border-radius: 50px !important;
+  background-color: #d9d9d2;
+  border: none !important;
+  line-height: 2;
+  padding-left: 7em;
+}
+/* line 1147, ../sass/custom/_projects.scss */
+.search-results.logged-in form .search-submit {
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  right: 0;
+  top: 4px;
+  width: 42px;
+  float: left;
+  left: 55px;
+  background-color: #d9d9d2;
+  color: #645970;
+}
+/* line 1159, ../sass/custom/_projects.scss */
+.search-results.logged-in form input[type="search"]:focus {
+  background: #d9d9d2 !important;
+}
+/* line 1164, ../sass/custom/_projects.scss */
+.search-results.logged-in .page-header {
+  display: none;
+}
+/* line 1167, ../sass/custom/_projects.scss */
+.search-results.logged-in article {
+  padding-top: 30px;
+}
+/* line 1169, ../sass/custom/_projects.scss */
+.search-results.logged-in article .entry-header {
+  background: #405970;
+  width: 100%;
+}
+
+/*end of css for search-results page */

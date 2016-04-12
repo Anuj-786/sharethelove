@@ -1096,3 +1096,80 @@ body.home {
 	}
 }
 /*End css for forget password page */
+/* css for search result page */
+.page-template-search-page {
+	form {
+		clear: both;
+		width: 65%;
+		margin: 0 auto;
+		right: 19px;
+		input {
+			border-radius: 50px !important;
+			background-color: #d9d9d2;
+			border: none !important;
+			line-height: 2;
+			padding-left: 7em;
+		}
+		.search-submit {
+			overflow: hidden;
+			padding: 0;
+			position: relative;
+			right: 0;
+			top: 4px;
+			width: 42px;
+			float: left;
+			left: 55px; 
+			background-color: #d9d9d2;
+			color: #645970; 
+		}
+		input[type="search"]:focus {
+			background: #d9d9d2 !important;
+		}
+
+	}
+}
+/* end of css for search result page */
+/* css for search-results page */
+.search-results.logged-in {
+	form {
+		clear: both;
+		width: 65%;
+		margin: 0 auto;
+		right: 19px;
+
+		input {
+			border-radius: 50px !important;
+			background-color: #d9d9d2;
+			border: none !important;
+			line-height: 2;
+			padding-left: 7em;
+		}
+		.search-submit {
+			overflow: hidden;
+			padding: 0;
+			position: relative;
+			right: 0;
+			top: 4px;
+			width: 42px;
+			float: left;
+			left: 55px; 
+			background-color: #d9d9d2;
+			color: #645970; 
+		}
+		input[type="search"]:focus {
+			background: #d9d9d2 !important;
+		}
+
+	}
+	.page-header {
+		display: none;
+	}
+	article {
+		padding-top: 30px;
+		.entry-header {
+			background: #405970;
+			width: 100%;
+		}
+	}
+}
+/*end of css for search-results page */
