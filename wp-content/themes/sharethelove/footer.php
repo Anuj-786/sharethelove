@@ -63,10 +63,10 @@
 				</div>
 				<div class="footer-right">
 					<ul class="footer-nav">
-						<li><a href="#">Home</a>|</li>
-						<li><a href="#">About</a>|</li>
-						<li><a href="#">Legal Information</a>|</li>
-						<li><a href="#">Privacy Policy</a>|</li>
+						<li><a href="<?php echo home_url(); ?>">Home</a>|</li>
+						<li><a href="<?php echo home_url(); ?>//about">About</a>|</li>
+						<li><a href="<?php echo home_url(); ?>/legal-information">Legal Information</a>|</li>
+						<li><a href="<?php echo home_url(); ?>/privacy-policy">Privacy Policy</a>|</li>
 						<li><a href="#">T&C</a></li>		
 					</ul>
 				</div>
