@@ -282,8 +282,11 @@ body.home {
 							background: #49647E;
 							border-radius: 25px;
 							font-size: 18px !important;
-							width: 23%;
-							padding: 10px;
+							width: 100%;
+							padding: 15px 0 10px;
+							max-width: 23%	;
+							display: block;
+							margin: 0 auto
 						}
 					}
 				}
@@ -434,7 +437,7 @@ body.home {
 					}
 				}
 				.activity-desc {
-					width: 62%;
+					width: 65%;
 					float: right;
 					p:nth-child(1) {
 						font-size: 36px;
@@ -610,21 +613,24 @@ body.home {
 										width: 100% !important;
 										select {
 											-moz-appearance: none;
+											-webkit-appearance: none;
 											background: #d9d9d2 none repeat scroll 0 0 !important;
 											border: medium none;
 											border-radius: 5px;
 											color: blue;
 											font-family: Gotham-Book !important;
-											font-size: 24px !important;
-											width: 80% !important;
+											font-size: 22px !important;
+											width: 79% !important;
 											color: #405970;
-											text-align: center;
+											text-align: center !important;
+											
 										}
 									}
 								}
 								#field_7_29 {
 									display: inline-flex;
 									width: 70%;
+									padding-top: 10px;
 									label {
 										display: none;
 									}
@@ -633,21 +639,24 @@ body.home {
 										width: 100% !important;
 										select {
 											-moz-appearance: none;
+											-webkit-appearance: none;
 											background: #d9d9d2 none repeat scroll 0 0 !important;
 											border: medium none;
 											border-radius: 5px;
 											color: blue;
 											font-family: Gotham-Book !important;
-											font-size: 24px !important;
-											width: 80% !important;
+											font-size: 22px !important;
+											width: 79% !important;
 											color: #405970;
 											text-align: center;
+											
 										}
 									}
 								}
 								#field_7_30 {
 									display: inline-flex;
 									width: 70%;
+									padding-top: 10px;
 									label {
 										display: none;
 									}
@@ -655,16 +664,17 @@ body.home {
 										text-align: right;
 										width: 100% !important;
 										select {
+											-webkit-appearance: none;
 											-moz-appearance: none;
 											background: #d9d9d2 none repeat scroll 0 0 !important;
 											border: medium none;
 											border-radius: 5px;
 											color: blue;
 											font-family: Gotham-Book !important;
-											font-size: 24px !important;
-											width: 80% !important;
+											font-size: 22px !important;
+											width: 79% !important;
 											color: #405970;
-											text-align: center;
+											text-align: center !important;
 										}
 									}
 								}
@@ -687,11 +697,15 @@ body.home {
 											text-align: center;
 											line-height: 1.6;
 										}
+										::-webkit-input-placeholder {
+											font-size: 24px;
+										}
 									}
 								}
 								#field_7_21 {
 									width: 100%;
 									padding-bottom: 10px;
+									padding-top: 10px;
 									label {
 										display: none;
 									}
@@ -783,23 +797,37 @@ body.home {
 									}
 									.ginput_container {
 										display: inline-flex !important;
-										padding-left: 55px;
-										ul {
+										padding-left: 35px;
+										.gfield_checkbox{
 											li {
 												display: inline-flex;
-												padding-left: 75px;
-												input {
-													margin-right: 0;
+												input[type="checkbox"] {
+													display: none;
 												}
-												label {
-													margin: 0 !important;
+												label { 
+													padding-left: 25px;
+													position: relative;
+													&:after {
+														content: "";
+														height: 15px;
+														width: 15px;
+														display: inline-block;
+														border: 1px solid;
+														position: absolute;
+														left: 0px;
+														top: 6px;
+														text-align: right;
+														margin-left: 5px;
+														background: #f3f3f3;
+														color: #405970;
+
+													}
 												}
-												#label_7_9_1 {
-													padding-right: 26px; 
+												input[type="checkbox"]:checked + label:after {
+													content: "\2713";
+													line-height: 15px;
 												}
-												#label_7_9_2 {
-													padding-right: 26px;
-												}
+												
 											}
 										}
 
@@ -1316,7 +1344,7 @@ body.home {
 					}
 				}
 				.activity-desc {
-					width: 62%;
+					width: 65%;
 					float: right;
 					p:nth-child(1) {
 						font-size: 36px;
