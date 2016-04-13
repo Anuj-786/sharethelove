@@ -304,14 +304,15 @@ body.home {
 
 			h3 {
 				color: #f3f3f3;
-				font-size: 18px;
+				font-size: 24px;
 				padding-top: 3px;
+				padding-bottom: 3px; 
 			}
 			p {
 				background-color: #d9d9d2;
 				color: #40597e;
-				font-size: 14px;
-				padding-left: 10px;
+				font-size: 18px;
+				padding: 5px;
 				margin: 0;
 				border-radius: 5px;
 			}
@@ -325,15 +326,16 @@ body.home {
 			top: 10px;
 			h3 {
 				color: #f3f3f3;
-				font-size: 18px;
+				font-size: 24px;
 				padding-top: 3px;
+				padding-bottom: 3px; 
 			}
 			p {
 				border-radius: 5px;
 				background-color: #d9d9d2;
 				color: #40597e;
-				font-size: 14px;
-				padding-left: 10px;
+				font-size: 18px;
+				padding: 5px;
 				margin: 0;
 			}
 		}
@@ -343,7 +345,7 @@ body.home {
 			padding-top: 20px;
 			h3 {
 				color: #f3f3f3 !important;
-				font-size: 18px;
+				font-size: 24px;
 				padding: 0 !important;
 				padding-top: 3px;
 				width: 35%;
@@ -351,7 +353,7 @@ body.home {
 			}
 			p {
 				color: #f3f3f3;
-				font-size: 14px;
+				font-size: 18px;
 				padding-left: 10px;
 				margin: 0;
 				padding: 0 !important;
@@ -364,7 +366,7 @@ body.home {
 			padding-top: 20px;
 			h3 {
 				color: #f3f3f3 !important;
-				font-size: 18px;
+				font-size: 24px;
 				padding: 0 !important;
 				padding-top: 3px;
 				width: 30%;
@@ -411,7 +413,6 @@ body.home {
 		width: 100%;
 		float: none;
 		margin: 0;
-		margin-top: 30px !important;
 		.site-main {
 			width: 100%;
 			margin: 0 auto;
@@ -428,12 +429,12 @@ body.home {
 					img {
 						height: 210px;
 						width: 210px;
+						border-radius: 15px !important;
 					}
 				}
 				.activity-desc {
 					width: 62%;
 					float: right;
-					padding-top: 30px;	
 					p:nth-child(1) {
 						font-size: 36px;
 						color: #f3f3f3;
@@ -458,14 +459,15 @@ body.home {
 				}
 				.project-img {
 					clear: both;
-					padding-top: 85px;
-					text-align: center;
-					width: 100%;
+					padding-top: 30px;
+					width: 88%;
 					padding-bottom: 50px;
+					margin: 0 auto;
 					img {
 						height: 145px;
-						padding-left: 20px;
+						margin-left:40px;
 						width: 159px;
+						border-radius: 15px;
 					}
 				}
 				.moreshow {
@@ -856,20 +858,20 @@ body.home {
 
 								}
 								#field_7_13 {
+									display: inline-block;
 									margin-top: 10px;
 									padding-bottom: 30px;
-									width: 60%;
-									display: inline-block;
 									position: relative;
+									width: 68%;
 
 									label {
 										display: none;
 									}
 									.ginput_container_phone {
-										width: 33.5%;
 										position: absolute;
 										right: 0;
 										top: 4px;
+										width: 41.4%;
 
 									}
 									input {
@@ -880,17 +882,17 @@ body.home {
 									}
 								}
 								#field_7_14 {
-									width: 40%;
-									padding-bottom: 30px;
 									display: inline-block;
 									margin-top: 10px;
+									padding-bottom: 30px;
+									width: 32%;
 									label {
 										display: none;
 									}
 									.ginput_container {
-										width: 100%;
-										text-align: right;
 										padding-left: 20px;
+										text-align: right;
+										width: 100%;
 										input {
 											width: 100%;
 											border-radius: 5px !important;
@@ -1137,8 +1139,6 @@ body.home {
 		width: 65%;
 		margin: 0 auto;
 		right: 19px;
-		padding-top: 30px;
-
 		input {
 			border-radius: 50px !important;
 			background-color: #d9d9d2;
@@ -1180,14 +1180,15 @@ body.home {
 
 			h3 {
 				color: #f3f3f3;
-				font-size: 18px;
+				font-size: 24px;
 				padding-top: 3px;
+				padding-bottom: 3px; 
 			}
 			p {
 				background-color: #d9d9d2;
 				color: #40597e;
-				font-size: 14px;
-				padding-left: 10px;
+				font-size: 18px;
+				padding: 5px;
 				margin: 0;
 				border-radius: 5px;
 			}
@@ -1201,15 +1202,16 @@ body.home {
 			top: 10px;
 			h3 {
 				color: #f3f3f3;
-				font-size: 18px;
+				font-size: 24px;
 				padding-top: 3px;
+				padding-bottom: 3px; 
 			}
 			p {
 				border-radius: 5px;
 				background-color: #d9d9d2;
 				color: #40597e;
-				font-size: 14px;
-				padding-left: 10px;
+				font-size: 18px;
+				padding: 5px;
 				margin: 0;
 			}
 		}
@@ -1219,7 +1221,7 @@ body.home {
 			padding-top: 20px;
 			h3 {
 				color: #f3f3f3 !important;
-				font-size: 18px;
+				font-size: 24px;
 				padding: 0 !important;
 				padding-top: 3px;
 				width: 35%;
@@ -1227,7 +1229,7 @@ body.home {
 			}
 			p {
 				color: #f3f3f3;
-				font-size: 14px;
+				font-size: 18px;
 				padding-left: 10px;
 				margin: 0;
 				padding: 0 !important;
@@ -1240,7 +1242,7 @@ body.home {
 			padding-top: 20px;
 			h3 {
 				color: #f3f3f3 !important;
-				font-size: 18px;
+				font-size: 24px;
 				padding: 0 !important;
 				padding-top: 3px;
 				width: 30%;
@@ -1287,7 +1289,6 @@ body.home {
 		width: 100%;
 		float: none;
 		margin: 0;
-		margin-top: 30px !important;
 		.site-main {
 			width: 100%;
 			margin: 0 auto;
@@ -1304,12 +1305,12 @@ body.home {
 					img {
 						height: 210px;
 						width: 210px;
+						border-radius: 15px !important;
 					}
 				}
 				.activity-desc {
 					width: 62%;
 					float: right;
-					padding-top: 30px;	
 					p:nth-child(1) {
 						font-size: 36px;
 						color: #f3f3f3;
@@ -1334,14 +1335,15 @@ body.home {
 				}
 				.project-img {
 					clear: both;
-					padding-top: 85px;
-					text-align: center;
-					width: 100%;
+					padding-top: 30px;
+					width: 88%;
 					padding-bottom: 50px;
+					margin: 0 auto;
 					img {
 						height: 145px;
-						padding-left: 20px;
+						margin-left:40px;
 						width: 159px;
+						border-radius: 15px;
 					}
 				}
 				.moreshow {
@@ -1355,5 +1357,6 @@ body.home {
 		}
 	}
 }
+
 
 /*end of css for search-results page */
