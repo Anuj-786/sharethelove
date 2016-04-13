@@ -107,6 +107,7 @@
 										print('<div><div class="login-trigger"><span>Login</span></div>');
 										print('<div class="login-content">'); echo do_shortcode('[my-login-form]'); 
 										print('</div></div>');
+										get_search_form();
 									}; ?>
 								</div>
 							</header><!-- .site-header -->
