@@ -23,7 +23,11 @@ body .content-area {
 body .content-area .entry-content {
   margin: 0 !important;
 }
-/* line 22, ../sass/custom/_global.scss */
+/* line 21, ../sass/custom/_global.scss */
+body .content-area .entry-header {
+  margin: 0 !important;
+}
+/* line 25, ../sass/custom/_global.scss */
 body input {
   border: 1px solid #49647e !important;
   font-family: Gotham-Book !important;
