@@ -8,7 +8,6 @@ body {
 	width: 1031px;
 	margin: 0 auto !important;
 	background: none !important;
-	padding-top: 24px;
 	background-color: #fff !important;
 	.content-area {
 		width: 100% !important;
@@ -26,6 +25,9 @@ body {
 		border: 1px solid #49647e !important;
 		font-family: Gotham-Book !important
 	}
+}
+body:not(.custom-background-image)::before, body:not(.custom-background-image)::after {
+	height: 0 !important;
 }
 /**mixin***/
 @mixin chrome {
