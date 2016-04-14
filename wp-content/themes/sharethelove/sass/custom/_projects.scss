@@ -518,6 +518,16 @@ body.home {
 						top: 25px;
 						width: 5%;
 					}
+					#project_image {
+						position: absolute;
+						left: 141px;
+						top: 102px;
+						img {
+							height: 208px;
+							width: 200px;
+							border-radius: 10px;
+						}
+					}
 					.gform_wrapper {
 						max-width: 100% !important;
 						margin: 0;
