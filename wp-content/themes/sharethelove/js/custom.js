@@ -14,7 +14,7 @@ if (jQuery('.errors').text())
      }
 // Activity Project page expand and collapse 
 jQuery('.moreshow').click(function(){
-jQuery(this).prev('.toggle-container').slideToggle();
+jQuery(this).prev('.toggle-container').slideToggle('slow');
 jQuery(this).toggleClass('active');
 if (jQuery(this).hasClass('active')){
 	jQuery(this).find('span').html('Know&nbsp;Less');
@@ -27,5 +27,50 @@ if (jQuery(this).hasClass('active')){
 jQuery('#user_login').attr( 'placeholder', ' Email Id' );
 jQuery('#user_pass').attr( 'placeholder', ' Password' );
 
+// Add Project page thumbnail display
+  jQuery('#gform_7 .ginput_container_fileupload').on('click', function (e) {
+  	var fileFieldId = jQuery(this).find('input:first-child').next().attr('id'); 
+      var id = jQuery(this).find('input:first-child').next().attr('id');
+  	 jQuery('#' + id ).on('change', function () {
+  	var fileFieldId = jQuery(this).attr('id');
+  	var image_holder = jQuery("#result");
+  	var reader = new FileReader();
+          reader.onloadend = function (e) {
+              jQuery("<img />", {
+                  "src": e.target.result,
+                  "class": "thumb-image"
+              }).appendTo(image_holder);
+
+          }
+          image_holder.show();
+          reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
+   });
+  }); 
+  jQuery('#input_7_1').on('change', function () {
+    var fileFieldId = jQuery(this).attr('id');
+    var image_holder = jQuery("#project_image");
+    var reader = new FileReader();
+          reader.onloadend = function (e) {
+              jQuery("<img />", {
+                  "src": e.target.result,
+                  "class": "thumb-image"
+              }).appendTo(image_holder);
+
+          }
+          image_holder.show();
+          reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
+   });
+
+// Search page for logged out users
+  jQuery( ".know-more" ).on('click',function() {
+    alert( "Please login or sign up to see full details" );
+  });
+
+//User Profile Page Edit toggle
+jQuery('.profile-edit').click(function(){
+   jQuery('.profile-form').toggle();
+});
 
 });
+
+
