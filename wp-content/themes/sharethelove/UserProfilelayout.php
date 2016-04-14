@@ -39,8 +39,75 @@ print(' <div class="secondary-menu-logo">
 			// End of the loop.
 		endwhile;
 		?>
+		<?php 
+		  $user_id = get_current_user_id();
+		  //$user_meta = get_user_meta($user_id ,$key, $single);
+		  //echo "<pre>";
+		  //print_r($user_meta["first_name"][0]);
+		 	
+		  $Image = get_user_meta($user_id ,"profile_image", true);
+		  $Name = get_user_meta($user_id ,"first_name", true);
+		  $State = get_user_meta($user_id ,"State", true); 
+		 
+		  //global $District[];
+		  //$District = array();
+		  $District = get_user_meta($user_id ,"District", true);
+		  $District1 = get_user_meta($user_id ,"District1", true); 
+		  $District2 = get_user_meta($user_id ,"District2", true); 
+		  $District3 = get_user_meta($user_id ,"District3", true); 
+		  $District4 = get_user_meta($user_id ,"District4", true); 
+		  $District5 = get_user_meta($user_id ,"District5", true); 
+		  $District6 = get_user_meta($user_id ,"District6", true); 
+		  $District7 = get_user_meta($user_id ,"District7", true); 
+		  $District8 = get_user_meta($user_id ,"District8", true); 
+		  $District9 = get_user_meta($user_id ,"District9", true); 
+		  $District10 = get_user_meta($user_id ,"District10", true); 
+		  $District11 = get_user_meta($user_id ,"District11", true); 
+		  $District12 = get_user_meta($user_id ,"District12", true); 
+		  $District13 = get_user_meta($user_id ,"District13", true); 
+		  $District14 = get_user_meta($user_id ,"District14", true); 
+		  $District15 = get_user_meta($user_id ,"District15", true); 
+		  $District16 = get_user_meta($user_id ,"District16", true); 
+		  $District17 = get_user_meta($user_id ,"District17", true); 
+		  $District18 = get_user_meta($user_id ,"District18", true); 
+		  $District19 = get_user_meta($user_id ,"District19", true); 
+		  $District20 = get_user_meta($user_id ,"District20", true); 
+		  $District21 = get_user_meta($user_id ,"District21", true); 
+		  $District22 = get_user_meta($user_id ,"District22", true); 
+		  $District23 = get_user_meta($user_id ,"District23", true); 
+		  $District24 = get_user_meta($user_id ,"District24", true); 
+		  $District25 = get_user_meta($user_id ,"District25", true); 
+		  $District26 = get_user_meta($user_id ,"District26", true); 
+		  $District27 = get_user_meta($user_id ,"District27", true); 
+		  $District28 = get_user_meta($user_id ,"District28", true); 
+		  $District29 = get_user_meta($user_id ,"District29", true); 
+		  $District30 = get_user_meta($user_id ,"District30", true); 
+		  $District31 = get_user_meta($user_id ,"District31", true); 
+		  $District32 = get_user_meta($user_id ,"District32", true); 
+		  $District33 = get_user_meta($user_id ,"District33", true); 
+		  $District34 = get_user_meta($user_id ,"District34", true); 
+		  $District35 = get_user_meta($user_id ,"District35", true); 
 
-	</main><!-- .site-main -->
+		  $usr_distrt = $District.$District1.$District2.$District3.$District4.$District5.$District6.$District7.$District8.$District9.$District10.$District11.$District12.$District13.$District14.$District15.$District16.$District17.$District18.$District19.$District20.$District21.$District22.$District23.$District24.$District25.$District26.$District27.$District28.$District29.$District30.$$District31.$$District32.$District33.$District34.$District35;
+		  $Website = get_user_meta($user_id ,"website", true); 
+		  $Bio = get_user_meta($user_id ,"description", true); 
+		  $form =  do_shortcode('[gravityform id="4" title="true" description="false" ajax="true"]');
+		  $user_profile = " ";
+		  $user_profile .= "<div class='profile-form'>" .$form. "</div><span class='profile-edit'><a href='#'>Edit</a></span>" ;
+		  $user_profile .= "<div class='user-prof-img'><div class='usr-img'><img src=".$Image."></div><div class='user-prof-img-txt'>Image</div></div>";
+		  $user_profile .= "<div class='user-prof-main'>";
+		  
+		  $user_profile .= "<div class='user-prof-name'><div class='user-prof-name-txt'>Name:"." ".$Name."</div></div>";
+          $user_profile .= "<div class='user-prof-state'><div class='user-prof-state-txt'>State:"." ".$State."</div></div>";
+          $user_profile .= "<div class='user-prof-district'><div class='user-prof-district-txt'>District:"." ".$usr_distrt."</div></div>";
+          $user_profile .= "<div class='user-prof-website'><div class='user-prof-website-txt'>Website:"." ".$Website."</div></div>";
+          $user_profile .= "<div class='user-prof-bio'><div class='user-prof-bio-txt'>Bio:</div><div class='usr-bio'><textarea row='50' cols='100'>".$Bio."</textarea></div></div>";
+		  $user_profile .= "</div>";
+
+		  echo $user_profile;
+		  ?>
+
+   </main><!-- .site-main -->
 </div><!-- .content-area -->
 <h3 class="my-projects"> My Projects </h3>
 <?php 

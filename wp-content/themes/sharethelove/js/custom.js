@@ -65,6 +65,12 @@ jQuery('#user_pass').attr( 'placeholder', ' Password' );
   jQuery( ".know-more" ).on('click',function() {
     alert( "Please login or sign up to see full details" );
   });
+
+//User Profile Page Edit toggle
+jQuery('.profile-edit').click(function(){
+   jQuery('.profile-form').toggle();
+});
+
 });
 
 
