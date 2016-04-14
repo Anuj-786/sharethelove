@@ -86,6 +86,9 @@ jQuery('.profile-edit').click(function(){
    jQuery('.profile-form').toggle();
 });
 
+// js for add project images 
+jQuery("#result").appendTo("#gform_fields_7");
+
 });
 
 
