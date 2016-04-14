@@ -3,14 +3,19 @@ jQuery(document).ready(function(){
 jQuery( ".login-trigger" ).click(function() {
   jQuery(this).next().slideToggle()
 });
+jQuery(document).mouseup(function(){
+      jQuery('.login-content').slideUp();  
+});
+jQuery('.login-content').mouseup(function(){
+      return false; 
+});
+jQuery('.login-trigger').mouseup(function(){
+      return false; 
+});
 if(jQuery('.errors').text()){
     jQuery(".login-trigger").next().slideToggle()
 }
-jQuery('body').click(function(e) {
-   if (!jQuery(e.target).is('.login-trigger span')) {
-      jQuery('.login-content').fadeOut(200);
-   }
-});
+
 // Menu toggle for logged in users
 jQuery('.box-shadow-menu').click(function(){
    		jQuery('.login-menu').toggle();
