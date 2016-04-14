@@ -3,15 +3,25 @@ jQuery(document).ready(function(){
 jQuery( ".login-trigger" ).click(function() {
   jQuery(this).next().slideToggle()
 });
-
+if(jQuery('.errors').text()){
+    jQuery(".login-trigger").next().slideToggle()
+}
+jQuery('body').click(function(e) {
+   if (!jQuery(e.target).is('.login-trigger span')) {
+      jQuery('.login-content').fadeOut(200);
+   }
+});
+// Menu toggle for logged in users
 jQuery('.box-shadow-menu').click(function(){
    		jQuery('.login-menu').toggle();
 
 });
-if (jQuery('.errors').text())
-     {
-         jQuery(".login-trigger").next().slideToggle()
-     }
+jQuery('body').click(function(e) {
+   if (!jQuery(e.target).is('.box-shadow-menu')) {
+      jQuery('.login-menu').fadeOut(200);
+   }
+});
+
 // Activity Project page expand and collapse 
 jQuery('.moreshow').click(function(){
 jQuery(this).prev('.toggle-container').slideToggle('slow');
