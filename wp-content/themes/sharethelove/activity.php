@@ -28,7 +28,7 @@ print(' <div class="secondary-menu-logo">
 			    'fields' => 'ids'
 			    )
 			);
-			//loop over each post
+			//loop over each post 
 			foreach($posts as $p){
 			    //get the meta you need from each post
 			    $home_url = home_url();
@@ -56,7 +56,7 @@ print(' <div class="secondary-menu-logo">
 			    $pro_email = get_post_meta($p,"project-email",true);
 			    $pro_phone = get_post_meta($p,"project-phone",true);
 			    $pro_mobile = get_post_meta($p,"project-mobile",true);
-	    		$user_info = get_userdata($post_by);
+	    		$user_info = get_userdata($post_by);	
 				$project = " ";
 				$project .= "<div class='activity-main'>";
 				$project .= "<div class='header_image'><a href='".$hed_img_url."'rel='lightbox[".$p."]'>" . $pro_h_img . "</a></div>";
@@ -64,7 +64,7 @@ print(' <div class="secondary-menu-logo">
 				$project .= "<p>". $post_title .  "</p>";
 				$project .= "<p>Role Title: ". $role_title .  "</p>";
 				$project .= "<p>Vacancies: ". $pro_vac .  "</p>";
-				$project .= "<p>Posted By: " . $user_info->user_login . "</p>";
+				$project .= "<p>Posted By: <a href='". $home_url."/user-profile-listing/?id=". $post_by ."'>" . $user_info->user_login . "</a></p>";
 				$project .= "<p>Location: <a href='".$home_url."/?s=".$pro_loc."'>". $pro_loc . "</a>,";
 				$project .= "<a href='".$home_url."/?s=".$pro_loc_dl."'>". $pro_loc_dl . "</a>" ;
 				$project .= "<a href='".$home_url."/?s=".$pro_loc_hp."'>". $pro_loc_hp . "</a>," ;
