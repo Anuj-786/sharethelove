@@ -44,13 +44,12 @@ print(' <div class="secondary-menu-logo">
 		  //$user_meta = get_user_meta($user_id ,$key, $single);
 		  //echo "<pre>";
 		  //print_r($user_meta["first_name"][0]);
+		  //print_r($user_meta);
 		 	
 		  $Image = get_user_meta($user_id ,"profile_image", true);
 		  $Name = get_user_meta($user_id ,"first_name", true);
 		  $State = get_user_meta($user_id ,"State", true); 
 		 
-		  //global $District[];
-		  //$District = array();
 		  $District = get_user_meta($user_id ,"District", true);
 		  $District1 = get_user_meta($user_id ,"District1", true); 
 		  $District2 = get_user_meta($user_id ,"District2", true); 
@@ -98,8 +97,7 @@ print(' <div class="secondary-menu-logo">
 		  $user_profile .= "<div class='user-prof-main'>";
 		  
 		  $user_profile .= "<div class='user-prof-name'><div class='user-prof-name-txt'>Name:"." ".$Name."</div></div>";
-          $user_profile .= "<div class='user-prof-state'><div class='user-prof-state-txt'>State:"." ".$State."</div></div>";
-          $user_profile .= "<div class='user-prof-district'><div class='user-prof-district-txt'>District:"." ".$usr_distrt."</div></div>";
+          $user_profile .= "<div class='user-prof-state'><div class='user-prof-state-txt'>Location:"." ".$State."(".$usr_distrt.")</div></div>";
           $user_profile .= "<div class='user-prof-website'><div class='user-prof-website-txt'>Website:"." ".$Website."</div></div>";
           $user_profile .= "<div class='user-prof-bio'><div class='user-prof-bio-txt'>Bio:</div><div class='usr-bio'><textarea row='50' cols='100'>".$Bio."</textarea></div></div>";
 		  $user_profile .= "</div>";
