@@ -41,7 +41,19 @@ body.home {
 						}
 					}
 					.img_gallery {
-						
+						.ngg-galleryoverview {
+							margin-left: 15% !important;
+							.slideshowlink {
+								display: none !important;
+							}
+							img {
+							width: 210px;
+							height: 200px;
+							border-radius: 10px;
+							border: none !important;
+							background-color: none !important;
+							}
+						}
 					}
 				}
 				form {

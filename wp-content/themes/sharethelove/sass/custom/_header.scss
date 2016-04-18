@@ -204,3 +204,11 @@
   }
 }
 }
+/* css for error pages */
+.gfield.gfield_error {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border: medium none !important;
+}
+.validation_error{
+  display:none;
+}
