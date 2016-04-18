@@ -41,11 +41,6 @@ get_header(); ?>
 				?>
 				<?php 
 				$user_id = get_current_user_id();
-		  //$user_meta = get_user_meta($user_id ,$key, $single);
-		  //echo "<pre>";
-		  //print_r($user_meta["first_name"][0]);
-		  //print_r($user_meta);
-				
 				$Image = get_user_meta($user_id ,"profile_image", true);
 				$Name = get_user_meta($user_id ,"first_name", true);
 				$State = get_user_meta($user_id ,"State", true); 
