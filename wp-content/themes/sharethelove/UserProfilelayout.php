@@ -107,7 +107,7 @@ print(' <div class="secondary-menu-logo">
 
    </main><!-- .site-main -->
 </div><!-- .content-area -->
-<h3 class="my-projects"> My Projects </h3>
+<h3 class="my-projects">My Projects</h3>
 <?php 
             //get your custom posts ids as an array
 			$posts = get_posts(array(
