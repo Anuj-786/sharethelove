@@ -149,7 +149,9 @@ print(' <div class="secondary-menu-logo">
 			    $pro_mobile = get_post_meta($p,"project-mobile",true);
 	    		$user_info = get_userdata($post_by);
 	    		$user_id = get_current_user_id();
-	    		if($user_id == $post_by){
+	    		if($user_id == $post_by){?>
+				<a onclick="return confirm('Are you SURE you want to delete this post?')" href="<?php echo get_delete_post_link( $p ) ?>">Delete Post</a>
+				<?php
 			    $project = " ";
 				$project .= "<div class='activity-main'>";
 				$project .= "<div class='header_image'><a href='".$hed_img_url."'rel='lightbox[".$p."]'>" . $pro_h_img . "</a></div>";
