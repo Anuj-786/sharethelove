@@ -2335,3 +2335,63 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
 }
 
 /* end of css for privacy policy page */
+/* css for profile page */
+/* line 1713, ../sass/custom/_projects.scss */
+.page-template-user-profile .site-main {
+  padding-bottom: 10px;
+  background-color: #182633;
+}
+/* line 1716, ../sass/custom/_projects.scss */
+.page-template-user-profile .site-main .profile-form {
+  display: none;
+}
+/* line 1719, ../sass/custom/_projects.scss */
+.page-template-user-profile .site-main .profile-edit {
+  position: absolute;
+  right: 15%;
+}
+/* line 1723, ../sass/custom/_projects.scss */
+.page-template-user-profile .site-main .user-prof-img {
+  margin-left: 10%;
+  width: 20%;
+  display: inline-block;
+  float: left;
+  margin-top: 40px;
+}
+/* line 1729, ../sass/custom/_projects.scss */
+.page-template-user-profile .site-main .user-prof-img img {
+  border-radius: 10px;
+  height: 170px;
+  width: 180px;
+}
+/* line 1734, ../sass/custom/_projects.scss */
+.page-template-user-profile .site-main .user-prof-img .user-prof-img-txt {
+  display: none;
+}
+/* line 1738, ../sass/custom/_projects.scss */
+.page-template-user-profile .site-main .user-prof-main {
+  display: inline-block;
+  width: 70%;
+  color: #f3f3f3;
+  font-size: 18px;
+  padding-left: 25px;
+}
+/* line 1744, ../sass/custom/_projects.scss */
+.page-template-user-profile .site-main .user-prof-main .user-prof-name-txt {
+  font-size: 24px !important;
+}
+/* line 1749, ../sass/custom/_projects.scss */
+.page-template-user-profile .site-main .user-prof-main .user-prof-bio .usr-bio {
+  width: 85%;
+  margin-top: 10px;
+}
+/* line 1752, ../sass/custom/_projects.scss */
+.page-template-user-profile .site-main .user-prof-main .user-prof-bio .usr-bio textarea {
+  border-radius: 10px;
+  font-family: Gotham-Book;
+  font-size: 18px;
+  margin: 0 !important;
+  padding: 0;
+}
+
+/* end of css for profile page */
