@@ -53,7 +53,7 @@
 
 		<div class="footer-wrapper">
 			<div class="support container" >
-				<h3 class="support-title">Support Us</h3>
+				<h3 class="support-title"><a href="">Support Us</a></h3>
 				<div class="socialmedia"><h3 class="follow-us">Follow Us: </h3><a href="https://www.facebook.com/sharethelovecoin-1507486976240873/" target="_blank"><img src="<?php echo home_url(); ?>/wp-content/uploads/2016/03/fb.png" /></a> <a href="https://www.instagram.com/sharethelove.co.in/" target="_blank"><img src="<?php echo home_url(); ?>/wp-content/uploads/2016/03/insta.png" /></a> <a href="https://twitter.com/SharetheloveIn" target="_blank"><img src="<?php echo home_url(); ?>/wp-content/uploads/2016/03/twitter.png" /></a></h3></div>
 				<div class="clearfix"></div>
 			</div>

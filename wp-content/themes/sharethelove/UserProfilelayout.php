@@ -44,13 +44,12 @@ print(' <div class="secondary-menu-logo">
 		  //$user_meta = get_user_meta($user_id ,$key, $single);
 		  //echo "<pre>";
 		  //print_r($user_meta["first_name"][0]);
+		  //print_r($user_meta);
 		 	
 		  $Image = get_user_meta($user_id ,"profile_image", true);
 		  $Name = get_user_meta($user_id ,"first_name", true);
 		  $State = get_user_meta($user_id ,"State", true); 
 		 
-		  //global $District[];
-		  //$District = array();
 		  $District = get_user_meta($user_id ,"District", true);
 		  $District1 = get_user_meta($user_id ,"District1", true); 
 		  $District2 = get_user_meta($user_id ,"District2", true); 
@@ -98,8 +97,7 @@ print(' <div class="secondary-menu-logo">
 		  $user_profile .= "<div class='user-prof-main'>";
 		  
 		  $user_profile .= "<div class='user-prof-name'><div class='user-prof-name-txt'>Name:"." ".$Name."</div></div>";
-          $user_profile .= "<div class='user-prof-state'><div class='user-prof-state-txt'>State:"." ".$State."</div></div>";
-          $user_profile .= "<div class='user-prof-district'><div class='user-prof-district-txt'>District:"." ".$usr_distrt."</div></div>";
+          $user_profile .= "<div class='user-prof-state'><div class='user-prof-state-txt'>Location:"." ".$State."(".$usr_distrt.")</div></div>";
           $user_profile .= "<div class='user-prof-website'><div class='user-prof-website-txt'>Website:"." ".$Website."</div></div>";
           $user_profile .= "<div class='user-prof-bio'><div class='user-prof-bio-txt'>Bio:</div><div class='usr-bio'><textarea row='50' cols='100'>".$Bio."</textarea></div></div>";
 		  $user_profile .= "</div>";
@@ -109,7 +107,7 @@ print(' <div class="secondary-menu-logo">
 
    </main><!-- .site-main -->
 </div><!-- .content-area -->
-<h3 class="my-projects"> My Projects </h3>
+<h3 class="my-projects">My Projects</h3>
 <?php 
             //get your custom posts ids as an array
 			$posts = get_posts(array(
@@ -149,7 +147,9 @@ print(' <div class="secondary-menu-logo">
 			    $pro_mobile = get_post_meta($p,"project-mobile",true);
 	    		$user_info = get_userdata($post_by);
 	    		$user_id = get_current_user_id();
-	    		if($user_id == $post_by){
+	    		if($user_id == $post_by){?>
+				<a onclick="return confirm('Are you SURE you want to delete this post?')" href="<?php echo get_delete_post_link( $p ) ?>">Delete Post</a>
+				<?php
 			    $project = " ";
 				$project .= "<div class='activity-main'>";
 				$project .= "<div class='header_image'><a href='".$hed_img_url."'rel='lightbox[".$p."]'>" . $pro_h_img . "</a></div>";
