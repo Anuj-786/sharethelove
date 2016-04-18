@@ -94,15 +94,16 @@
                     <div class="stl_login stl_logout">
                         <?php
                         if (is_user_logged_in()){
-                            print(' <div class="box-shadow-menu"></div>
-                                <ul class="login-menu">
-                                    <li><a href="#home">Settings</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#support">Support Us</a></li>
-                                    <li><a href="#faqs">FAQs</a></li>
-                                    <li><a href="'); echo wp_logout_url(get_bloginfo('url')); print('" title="Logout">Logout</a>
-                                    </ul>
-                                </div>');                               }
+                            $home_url = home_url();
+                            $ham_menu = "";
+                            $ham_menu .="<div class='box-shadow-menu'></div><ul class='login-menu'>";
+                            $ham_menu .="<li><a href='" .$home_url. "/change-password'>Settings</a></li>";
+                            $ham_menu .="<li><a href='" .$home_url. "/about'>About</a></li>";
+                            $ham_menu .="<li><a href='" .$home_url. "/about'>Support Us</a></li>";
+                            $ham_menu .="<li><a href='" .$home_url. "/faqs'>FAQs</a></li>";
+                            echo $ham_menu;
+                            print('<li><a href="'); echo wp_logout_url(get_bloginfo('url')); print('" title="Logout">Logout</a>
+                                </ul></div>');                               }
                                     else {
                                         print('<div><div class="login-trigger"><span>Login</span></div>');
                                         print('<div class="login-content">'); echo do_shortcode('[my-login-form]'); 
