@@ -41,29 +41,7 @@ body.home {
 						}
 					}
 					.img_gallery {
-						.ngg-template-caption {
-							margin-left: 12%;
-							.ngg-galleryoverview {
-								.slideshowlink {
-									display: none !important;
-								}
-								.ngg-gallery-thumbnail-box {
-									margin-right: 4% !important;
-									.ngg-gallery-thumbnail {
-										height: 200px !important;
-										border: none !important;
-										border-radius: 15px;
-										span {
-											background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
-											border-radius: 5px;
-											color: #f3f3f3;
-											margin-left: 11px;
-											width: 90%;
-										}
-									}
-								}
-							}
-						}
+						
 					}
 				}
 				form {
@@ -623,8 +601,6 @@ body.home {
 										text-align: right;
 										width: 100% !important;
 										select {
-											-moz-appearance: none;
-											-webkit-appearance: none;
 											background: #d9d9d2 none repeat scroll 0 0 !important;
 											border: medium none;
 											border-radius: 5px;
@@ -634,6 +610,7 @@ body.home {
 											width: 79% !important;
 											color: #405970;
 											text-align: center !important;
+											padding: 8px 80px;
 											
 										}
 									}
@@ -649,8 +626,7 @@ body.home {
 										text-align: right;
 										width: 100% !important;
 										select {
-											-moz-appearance: none;
-											-webkit-appearance: none;
+											padding: 8px 80px;
 											background: #d9d9d2 none repeat scroll 0 0 !important;
 											border: medium none;
 											border-radius: 5px;
@@ -725,7 +701,7 @@ body.home {
 										text-align: right;
 										padding-bottom: 10px;
 										input {
-											width: 365px !important;
+											width: 362px !important;
 											background: #d9d9d2 none repeat scroll 0 0 !important;
 											border-radius: 5px !important;
 											font-size: 24px !important;
@@ -949,6 +925,7 @@ body.home {
 									color: #f3f3f3;
 									float: left;
 									padding-left: 50px;
+									width: 25%;
 								}
 								
 								#field_7_15 {
@@ -961,7 +938,7 @@ body.home {
 									text-align: center;
 									vertical-align: middle;
 									width: 13%;
-									margin-left:40px !important;
+									margin-left:15% !important;
 									
 									label {
 										color: #405970;
@@ -1158,35 +1135,37 @@ body.home {
 /*End css for forget password page */
 /* css for search result page */
 .page-template-search-page {
-	form {
-		clear: both;
-		width: 65%;
-		margin: 0 auto;
-		right: 19px;
-		margin-top: 25px !important;
-		input {
-			border-radius: 50px !important;
-			background-color: #d9d9d2;
-			border: none !important;
-			line-height: 2;
-			padding-left: 7em;
-		}
-		.search-submit {
-			overflow: hidden;
-			padding: 0;
-			position: relative;
-			right: 0;
-			top: 4px;
-			width: 42px;
-			float: left;
-			left: 55px; 
-			background-color: #d9d9d2;
-			color: #645970; 
-		}
-		input[type="search"]:focus {
-			background: #d9d9d2 !important;
-		}
+	.site-content {
+		form {
+			width: 65%;
+			margin: 0 auto;
+			right: 19px;
+			padding-bottom: 280px;
+			padding-top: 30px !important;
+			input {
+				border-radius: 50px !important;
+				background-color: #d9d9d2;
+				border: none !important;
+				line-height: 2;
+				padding-left: 7em;
+			}
+			.search-submit {
+				overflow: hidden;
+				padding: 0;
+				position: relative;
+				right: 0;
+				top: 4px;
+				width: 42px;
+				float: left;
+				left: 55px; 
+				background-color: #d9d9d2;
+				color: #645970; 
+			}
+			input[type="search"]:focus {
+				background: #d9d9d2 !important;
+			}
 
+		}
 	}
 }
 /* end of css for search result page */
@@ -1618,6 +1597,7 @@ body.home {
 			p {
 				color: #405970;
 				font-size: 24px;
+				line-height: 1.3;
 			}
 			p:nth-child(2) {
 				margin-top: 50px;
@@ -1666,6 +1646,7 @@ body.home {
 			margin: 0;
 			padding: 0;
 			text-align: center;
+			line-height: 1.3;
 		}
 		.stl_account {
 			background: #405970;
@@ -1692,7 +1673,7 @@ body.home {
 	}
 	.privacy-policy {
 		font-family: Gotham-Book !important;
-		span {
+		.privacy-heading {
 			font-size: 36px;
 			color: #405970;
 			text-align: center;
@@ -1710,6 +1691,7 @@ body.home {
 			font-size: 24px;
 			color: #405970; 
 			margin: 0;
+			line-height: 1.3;
 		}
 	}
 }
