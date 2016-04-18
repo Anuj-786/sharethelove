@@ -26,13 +26,17 @@ body .content-area .entry-content {
 body .content-area .entry-header {
   margin: 0 !important;
 }
-/* line 24, ../sass/custom/_global.scss */
+/* line 23, ../sass/custom/_global.scss */
+body .content-area .entry-footer {
+  display: none;
+}
+/* line 27, ../sass/custom/_global.scss */
 body input {
   border: 1px solid #49647e !important;
   font-family: Gotham-Book !important;
 }
 
-/* line 29, ../sass/custom/_global.scss */
+/* line 32, ../sass/custom/_global.scss */
 body:not(.custom-background-image)::before, body:not(.custom-background-image)::after {
   height: 0 !important;
 }
@@ -2173,3 +2177,129 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
 }
 
 /* end about page*/
+/* end about page*/
+/* line 1605, ../sass/custom/_projects.scss */
+.page-legal-information .entry-header {
+  display: none;
+}
+/* line 1609, ../sass/custom/_projects.scss */
+.page-legal-information .entry-content .legal-information {
+  margin-top: 50px;
+  width: 100%;
+}
+/* line 1612, ../sass/custom/_projects.scss */
+.page-legal-information .entry-content .legal-information .leagal-heading {
+  color: #405970;
+  font-size: 36px;
+  text-align: center;
+}
+/* line 1618, ../sass/custom/_projects.scss */
+.page-legal-information .entry-content .legal-information p {
+  color: #405970;
+  font-size: 24px;
+}
+/* line 1622, ../sass/custom/_projects.scss */
+.page-legal-information .entry-content .legal-information p:nth-child(2) {
+  margin-top: 50px;
+}
+/* line 1625, ../sass/custom/_projects.scss */
+.page-legal-information .entry-content .legal-information .legal-inquery {
+  background: #405970 none repeat scroll 0 0;
+  border-radius: 10px;
+  color: #f3f3f3;
+  margin-bottom: 15px;
+  padding: 25px 65px 0;
+  width: 90%;
+}
+/* line 1632, ../sass/custom/_projects.scss */
+.page-legal-information .entry-content .legal-information .legal-inquery span {
+  font-size: 24px;
+}
+/* line 1635, ../sass/custom/_projects.scss */
+.page-legal-information .entry-content .legal-information .legal-inquery p {
+  color: #f3f3f3;
+}
+
+/* css for profile page */
+/* line 1644, ../sass/custom/_projects.scss */
+.page-id-24 .site-main {
+  background: #405970 none repeat scroll 0 0;
+  margin-bottom: 3.5em;
+  width: 100%;
+}
+/* line 1648, ../sass/custom/_projects.scss */
+.page-id-24 .site-main article {
+  display: none !important;
+}
+
+/* end of css for profile page */
+/* css for terms and conditions page */
+/* line 1656, ../sass/custom/_projects.scss */
+.page-terms-and-conditions .entry-header {
+  display: none;
+}
+/* line 1659, ../sass/custom/_projects.scss */
+.page-terms-and-conditions .terms-conditions {
+  margin-top: 50px;
+  width: 100%;
+  color: #405970;
+  font-size: 24px;
+  font-family: Gotham-Book !important;
+}
+/* line 1665, ../sass/custom/_projects.scss */
+.page-terms-and-conditions .terms-conditions p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 1670, ../sass/custom/_projects.scss */
+.page-terms-and-conditions .terms-conditions .stl_account {
+  background: #405970;
+  color: #f3f3f3;
+  width: 40%;
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+/* line 1679, ../sass/custom/_projects.scss */
+.page-terms-and-conditions .terms-conditions .terms-heading {
+  font-size: 36px;
+  color: #405970;
+  text-align: center;
+}
+
+/* end of cs for t&c */
+/* css for polocy privacy page */
+/* line 1690, ../sass/custom/_projects.scss */
+.page-privacy-policy .entry-header {
+  display: none;
+}
+/* line 1693, ../sass/custom/_projects.scss */
+.page-privacy-policy .privacy-policy {
+  font-family: Gotham-Book !important;
+}
+/* line 1695, ../sass/custom/_projects.scss */
+.page-privacy-policy .privacy-policy span {
+  font-size: 36px;
+  color: #405970;
+  text-align: center;
+}
+/* line 1700, ../sass/custom/_projects.scss */
+.page-privacy-policy .privacy-policy .stl_heading {
+  width: 42%;
+  font-size: 24px;
+  background: #405970;
+  border-radius: 10PX;
+  color: #F3F3F3;
+  padding: 5px 15px;
+  margin-bottom: 7px;
+}
+/* line 1709, ../sass/custom/_projects.scss */
+.page-privacy-policy .privacy-policy p {
+  font-size: 24px;
+  color: #405970;
+  margin: 0;
+}
+
+/* end of css for privacy policy page */

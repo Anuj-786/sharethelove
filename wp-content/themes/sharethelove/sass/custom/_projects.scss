@@ -1039,11 +1039,11 @@ body.home {
 									margin-left: 39%;
 									/*	*/
 									img.thumb-image {
-									    width: 88px;
-									    height: 92px;
-									    border-radius: 10px;
-									    margin-left: 12px;
-									    margin-top: -123px;
+										width: 88px;
+										height: 92px;
+										border-radius: 10px;
+										margin-left: 12px;
+										margin-top: -123px;
 									}
 									
 								}
@@ -1600,3 +1600,117 @@ body.home {
 	text-align: center;
 }
 /* end about page*/
+/* end about page*/
+.page-legal-information {
+	.entry-header {
+		display: none;
+	}
+	.entry-content {
+		.legal-information {
+			margin-top: 50px;
+			width: 100%;
+			.leagal-heading {
+				color: #405970;
+				font-size: 36px;
+				text-align: center;
+			}
+
+			p {
+				color: #405970;
+				font-size: 24px;
+			}
+			p:nth-child(2) {
+				margin-top: 50px;
+			}
+			.legal-inquery {
+				background: #405970 none repeat scroll 0 0;
+				border-radius: 10px;
+				color: #f3f3f3;
+				margin-bottom: 15px;
+				padding: 25px 65px 0;
+				width: 90%;
+				span {
+					font-size: 24px;
+				}
+				p {
+					color: #f3f3f3;
+				}
+			}
+		}
+	}
+}
+/* css for profile page */
+.page-id-24 {
+	.site-main {
+		background: #405970 none repeat scroll 0 0;
+		margin-bottom: 3.5em;
+		width: 100%;
+		article {
+			display: none !important;
+		}
+	}
+}
+/* end of css for profile page */
+/* css for terms and conditions page */
+.page-terms-and-conditions{
+	.entry-header {
+		display: none;
+	}
+	.terms-conditions{
+		margin-top: 50px;
+		width: 100%;
+		color: #405970;
+		font-size: 24px;
+		font-family: Gotham-Book !important;
+		p {
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+		.stl_account {
+			background: #405970;
+			color: #f3f3f3;
+			width: 40%;
+			border-radius: 10px;
+			padding: 5px 15px;
+			margin-top: 30px;
+			margin-left: 20px;
+		}
+		.terms-heading {
+			font-size: 36px;
+			color: #405970;
+			text-align: center;
+		}
+	}
+}
+/* end of cs for t&c */
+
+/* css for polocy privacy page */
+.page-privacy-policy {
+	.entry-header {
+		display: none;
+	}
+	.privacy-policy {
+		font-family: Gotham-Book !important;
+		span {
+			font-size: 36px;
+			color: #405970;
+			text-align: center;
+		}
+		.stl_heading {
+			width: 42%;
+			font-size: 24px;
+			background: #405970;
+			border-radius: 10PX;
+			color: #F3F3F3;
+			padding: 5px 15px;
+			margin-bottom: 7px;
+		}
+		p {
+			font-size: 24px;
+			color: #405970; 
+			margin: 0;
+		}
+	}
+}
+/* end of css for privacy policy page */
