@@ -76,7 +76,7 @@ function twentysixteen_setup() {
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'twentysixteen' ),
 		'social'  => __( 'Social Links Menu', 'twentysixteen' ),
-	) );
+		) );
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments
@@ -88,7 +88,7 @@ function twentysixteen_setup() {
 		'comment-list',
 		'gallery',
 		'caption',
-	) );
+		) );
 
 	/*
 	 * Enable support for Post Formats.
@@ -105,7 +105,7 @@ function twentysixteen_setup() {
 		'status',
 		'audio',
 		'chat',
-	) );
+		) );
 
 	/*
 	 * This theme styles the visual editor to resemble the theme style,
@@ -146,7 +146,7 @@ function twentysixteen_widgets_init() {
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
-	) );
+		) );
 
 	register_sidebar( array(
 		'name'          => __( 'Content Bottom 1', 'twentysixteen' ),
@@ -156,7 +156,7 @@ function twentysixteen_widgets_init() {
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
-	) );
+		) );
 
 	register_sidebar( array(
 		'name'          => __( 'Content Bottom 2', 'twentysixteen' ),
@@ -166,7 +166,7 @@ function twentysixteen_widgets_init() {
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
-	) );
+		) );
 }
 add_action( 'widgets_init', 'twentysixteen_widgets_init' );
 
@@ -204,7 +204,7 @@ function twentysixteen_fonts_url() {
 		$fonts_url = add_query_arg( array(
 			'family' => urlencode( implode( '|', $fonts ) ),
 			'subset' => urlencode( $subsets ),
-		), 'https://fonts.googleapis.com/css' );
+			), 'https://fonts.googleapis.com/css' );
 	}
 
 	return $fonts_url;
@@ -269,7 +269,7 @@ function twentysixteen_scripts() {
 	wp_localize_script( 'twentysixteen-script', 'screenReaderText', array(
 		'expand'   => __( 'expand child menu', 'twentysixteen' ),
 		'collapse' => __( 'collapse child menu', 'twentysixteen' ),
-	) );
+		) );
 }
 add_action( 'wp_enqueue_scripts', 'twentysixteen_scripts' );
 
@@ -409,19 +409,19 @@ add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
 /* Add action for auto login 28-03-2016 **/
 add_action("gform_user_registered", "autologin", 10, 4);
 function autologin($user_id, $config, $entry, $password) {
-        wp_set_auth_cookie($user_id, false, '');
+	wp_set_auth_cookie($user_id, false, '');
 }
 
 /* for logged-in and logged-out 28-03-2016 **/
 function my_wp_nav_menu_args( $args = '' ) {
 
-    if( is_user_logged_in() ) {
-        $args['menu'] = 'logged-in';
-    } else {
-        $args['menu'] = 'logged-out';
-    }
-        return $args;
-    }
+	if( is_user_logged_in() ) {
+		$args['menu'] = 'logged-in';
+	} else {
+		$args['menu'] = 'logged-out';
+	}
+	return $args;
+}
 add_filter( 'wp_nav_menu_args', 'my_wp_nav_menu_args' );
 
 /* add login shortcode 29-03-16**/
@@ -429,45 +429,45 @@ add_action( 'init', 'my_add_shortcodes' );
 
 function my_add_shortcodes() {
 
-    add_shortcode( 'my-login-form', 'my_login_form_shortcode' );
+	add_shortcode( 'my-login-form', 'my_login_form_shortcode' );
 }
 
 function my_login_form_shortcode( $attr ) {
 
-    if ( is_user_logged_in() )
-        return 'You are already logged in';
+	if ( is_user_logged_in() )
+		return 'You are already logged in';
 
-    /* Set up some defaults. */
-    $defaults = array(
-        'label_username' => 'Email Id',
-        'label_password' => 'Password',
-        'label_remember' => __( 'Keep me logged in' ),
-        'label_log_in'   => __( 'Go!' ),
-    );
-    /* Merge the user input arguments with the defaults. */
-    $attr = shortcode_atts( $defaults, $attr );
-    /* Set 'echo' to 'false' because we want it to always return instead of print for shortcodes. */
-    $attr['echo'] = false;
-    $url = "".home_url()."/forget-password";
-    $forgot_pass = "<a class='forgot-password' href='".$url."'>Forgot Password</a>";
-    echo $forgot_pass;
-    $errors = $_GET['reason'];
-    echo "<div class='errors'>". $errors ."</div>" ;
-    return wp_login_form( $attr );
+	/* Set up some defaults. */
+	$defaults = array(
+		'label_username' => 'Email Id',
+		'label_password' => 'Password',
+		'label_remember' => __( 'Keep me logged in' ),
+		'label_log_in'   => __( 'Go!' ),
+		);
+	/* Merge the user input arguments with the defaults. */
+	$attr = shortcode_atts( $defaults, $attr );
+	/* Set 'echo' to 'false' because we want it to always return instead of print for shortcodes. */
+	$attr['echo'] = false;
+	$url = "".home_url()."/forget-password";
+	$forgot_pass = "<a class='forgot-password' href='".$url."'>Forgot Password</a>";
+	echo $forgot_pass;
+	$errors = $_GET['reason'];
+	echo "<div class='errors'>". $errors ."</div>" ;
+	return wp_login_form( $attr );
 }
 
 add_action( 'init', 'create_post_type' );
 function create_post_type() {
-  register_post_type( 'projects',
-    array(
-      'labels' => array(
-        'name' => __( 'Projects' ),
-        'singular_name' => __( 'Project' )
-      ),
-      'public' => true,
-      'has_archive' => true,
-    )
-  );
+	register_post_type( 'projects',
+		array(
+			'labels' => array(
+				'name' => __( 'Projects' ),
+				'singular_name' => __( 'Project' )
+				),
+			'public' => true,
+			'has_archive' => true,
+			)
+		);
 }
 
 add_theme_support('post-thumbnails');
@@ -479,22 +479,22 @@ add_post_type_support( 'projects', 'thumbnail' );
 
 add_filter('login_redirect', 'my_login_redirect', 10, 3);
 function my_login_redirect($redirect_to, $requested_redirect_to, $user) {
-    if (is_wp_error($user)) {
+	if (is_wp_error($user)) {
         //Login failed, find out why...
-        $error_types = array_keys($user->errors);
+		$error_types = array_keys($user->errors);
         //Error type seems to be empty if none of the fields are filled out
-        $error_type = 'Incorrect Data';
+		$error_type = 'Incorrect Data';
         //Otherwise just get the first error (as far as I know there
         //will only ever be one)
-        if (is_array($error_types) && !empty($error_types)) {
-            $error_type = $error_types[0];
-        }
-        wp_redirect( home_url() . "?login=failed&reason=" . $error_type ); 
-        exit;
-    } else {
+		if (is_array($error_types) && !empty($error_types)) {
+			$error_type = $error_types[0];
+		}
+		wp_redirect( home_url() . "?login=failed&reason=" . $error_type ); 
+		exit;
+	} else {
         //Login OK - redirect to another page?
-        return home_url() . '/activity';
-    }
+		return home_url() . '/activity';
+	}
 }
 
 // Disable dashboard for non admin users 
@@ -502,17 +502,17 @@ function my_login_redirect($redirect_to, $requested_redirect_to, $user) {
 add_action('after_setup_theme', 'remove_admin_bar');
 
 function remove_admin_bar() {
-if (!current_user_can('administrator') && !is_admin()) {
-  show_admin_bar(false);
-}
+	if (!current_user_can('administrator') && !is_admin()) {
+		show_admin_bar(false);
+	}
 }
 
 //Page Slug Body Class
 function add_slug_body_class( $classes ) {
-global $post;
-if ( isset( $post ) ) {
-$classes[] = $post->post_type . '-' . $post->post_name;
-}
-return $classes;
+	global $post;
+	if ( isset( $post ) ) {
+		$classes[] = $post->post_type . '-' . $post->post_name;
+	}
+	return $classes;
 }
 add_filter( 'body_class', 'add_slug_body_class' );
