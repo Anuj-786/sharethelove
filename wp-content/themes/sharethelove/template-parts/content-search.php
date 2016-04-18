@@ -62,6 +62,7 @@
 				$project .= "<a href='".$home_url."/?s=%23".$tag_seacrh."'>". $pro_tag . "&nbsp;</a>" ;
 				}
 				$project .= "</div>";
+				$project .= "<div class='wrapper-toggle'>";
 				$project .= "<div class='toggle-container'>";
 				$project .= "<div class='project-img'>";
 				$project .= "<a href='".$pro_img1."'rel='lightbox[".$p."]'><img src=" . $pro_img1 . "></a>";
@@ -89,7 +90,7 @@
 				$project .= "</div>";
 				$project .= "</div>";
 				$project .= "<a class='moreshow'><span>Know More</span></a>";
-				$project .= "</div>";
+				$project .= "</div> </div>";
 				//echo $project;
 				echo $project;	
 			} else {
