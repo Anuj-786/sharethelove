@@ -1735,6 +1735,9 @@ body.home {
 /* css for profile page */
 .page-template-user-profile {
 	font-family: Gotham-Book !important;
+	.secondary-menu {
+		padding-bottom: 30px;
+	}
 	.site-main {
 		padding-bottom: 10px;
 		background-color: #182633;
@@ -2135,6 +2138,27 @@ body.home {
 								}
 							}
 						}
+						#field_4_27 {
+							padding-left: 112px;
+							label {
+								font-size: 18px;
+								color: #f3f3f3;
+								float: left;
+								display: inline-block;
+								width: 10%;
+							}
+							select {
+								padding: 8px;
+								color: #405970;
+								text-align: center !important;
+								font-size: 18px;
+								border-radius: 5px;
+								display: inline-block;
+							}
+						}
+					}
+					.gform_footer  {
+						text-align: center;
 					}
 				}
 			}
