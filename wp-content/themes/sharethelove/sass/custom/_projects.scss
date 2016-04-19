@@ -161,7 +161,7 @@ body.home {
 									}
 								}
 							}
-							#field_2_12 {
+							#field_2_11 {
 								padding-top: 6px;
 								label {
 									width: 30%;
@@ -1559,8 +1559,11 @@ body.home {
 .about-team-first-block,
 .about-team-last-block{
 	.about-team-member {
-		margin-left: 22em;
+		margin-left: 35%;
 	}
+}
+.about-team-second-block {
+    padding-top: 3em;
 }
 .about-team-name {
 	color: #fff;
