@@ -81,11 +81,10 @@ get_header(); ?>
 				$District33 = get_user_meta($user_id ,"District33", true); 
 				$District34 = get_user_meta($user_id ,"District34", true); 
 				$District35 = get_user_meta($user_id ,"District35", true); 
-
+				$home_url = home_url();
 				$usr_distrt = $District.$District1.$District2.$District3.$District4.$District5.$District6.$District7.$District8.$District9.$District10.$District11.$District12.$District13.$District14.$District15.$District16.$District17.$District18.$District19.$District20.$District21.$District22.$District23.$District24.$District25.$District26.$District27.$District28.$District29.$District30.$$District31.$$District32.$District33.$District34.$District35;
 				$Website = get_user_meta($user_id ,"website", true); 
 				$Bio = get_user_meta($user_id ,"description", true); 
-				$form =  do_shortcode('[gravityform id="4" title="true" description="false" ajax="true"]');
 				$user_profile = " ";
 				$user_profile .= "<a class='profile-edit' href='".$home_url."/update-profile'>Update Profile</a>";
 				$user_profile .= "<div class='user-prof-img'><div class='usr-img'><img src=".$Image."></div><div class='user-prof-img-txt'>Image</div></div>";
