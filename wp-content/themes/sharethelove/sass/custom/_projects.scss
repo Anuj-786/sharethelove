@@ -532,6 +532,7 @@ body.home {
 									display: inline-block;
 									float: left;
 									width: 30%;
+									padding-bottom: 60px;
 									.ginput_container_post_image {
 										display: none;
 									}
@@ -619,7 +620,7 @@ body.home {
 											border-radius: 5px;
 											color: blue;
 											font-family: Gotham-Book !important;
-											font-size: 21px !important;
+											font-size: 20px !important;
 											width: 79% !important;
 											color: #405970;
 											text-align: center !important;
@@ -702,7 +703,8 @@ body.home {
 									}
 								}
 								#field_7_21 {
-									width: 100%;
+									width: 70%;
+									display: inline-block;
 									padding-bottom: 10px;
 									padding-top: 10px;
 									label {
