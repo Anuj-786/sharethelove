@@ -28,8 +28,10 @@ jQuery('body').click(function(e) {
 });
 
 // Activity Project page expand and collapse 
+/*jQuery('.toggle-container').insertAfter('.moreshow');*/
+
 jQuery('.moreshow').click(function(){
-jQuery(this).prev('.toggle-container').slideToggle('slow');
+jQuery(this).prev('.toggle-container').slideToggle('slow', function(){});
 jQuery(this).toggleClass('active');
 if (jQuery(this).hasClass('active')){
 	jQuery(this).find('span').html('Know&nbsp;Less');
@@ -37,13 +39,13 @@ if (jQuery(this).hasClass('active')){
 	jQuery(this).find('span').html('Know&nbsp;More');
 	}	
 });
-
+  
 // Login page placeholder
 jQuery('#user_login').attr( 'placeholder', ' Email Id' );
 jQuery('#user_pass').attr( 'placeholder', ' Password' );
 
 // Add Project page thumbnail display
-  jQuery('#gform_7 .ginput_container_fileupload').on('click', function (e) {
+  /*jQuery('#gform_7 .ginput_container_fileupload').on('click', function (e) {
   	var fileFieldId = jQuery(this).find('input:first-child').next().attr('id'); 
       var id = jQuery(this).find('input:first-child').next().attr('id');
   	 jQuery('#' + id ).on('change', function () {
@@ -60,7 +62,67 @@ jQuery('#user_pass').attr( 'placeholder', ' Password' );
           image_holder.show();
           reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
    });
-  }); 
+  }); */
+  // Add project first image
+  jQuery('#input_7_15').on('change', function () {
+    var fileFieldId = jQuery(this).attr('id');
+    var image_holder = jQuery("#result");
+    var reader = new FileReader();
+          reader.onloadend = function (e) {
+              jQuery("<img />", {
+                  "src": e.target.result,
+                  "class": "thumb-image"
+              }).appendTo(image_holder);
+
+          }
+          image_holder.show();
+          reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
+   });
+  // Add project second image
+  jQuery('#input_7_16').on('change', function () {
+    var fileFieldId = jQuery(this).attr('id');
+    var image_holder = jQuery("#result");
+    var reader = new FileReader();
+          reader.onloadend = function (e) {
+              jQuery("<img />", {
+                  "src": e.target.result,
+                  "class": "thumb-image"
+              }).appendTo(image_holder);
+
+          }
+          image_holder.show();
+          reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
+   });
+  // Add project third image
+  jQuery('#input_7_17').on('change', function () {
+    var fileFieldId = jQuery(this).attr('id');
+    var image_holder = jQuery("#result");
+    var reader = new FileReader();
+          reader.onloadend = function (e) {
+              jQuery("<img />", {
+                  "src": e.target.result,
+                  "class": "thumb-image"
+              }).appendTo(image_holder);
+
+          }
+          image_holder.show();
+          reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
+   });
+  // Add project fourth image
+  jQuery('#input_7_18').on('change', function () {
+    var fileFieldId = jQuery(this).attr('id');
+    var image_holder = jQuery("#result");
+    var reader = new FileReader();
+          reader.onloadend = function (e) {
+              jQuery("<img />", {
+                  "src": e.target.result,
+                  "class": "thumb-image"
+              }).appendTo(image_holder);
+
+          }
+          image_holder.show();
+          reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
+   });
   jQuery('#input_7_1').on('change', function () {
     var fileFieldId = jQuery(this).attr('id');
     var image_holder = jQuery("#project_image");
