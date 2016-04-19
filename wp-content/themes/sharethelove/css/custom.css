@@ -2393,5 +2393,218 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   margin: 0 !important;
   padding: 0;
 }
+/* line 1764, ../sass/custom/_projects.scss */
+.page-template-user-profile .my-projects {
+  color: #405970;
+  font-family: Gotham-Book;
+  font-size: 24px;
+  text-align: center;
+}
+/* line 1770, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container {
+  display: none;
+}
+/* line 1772, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .description {
+  margin: 0 auto;
+  width: 80%;
+  line-height: 1.2;
+}
+/* line 1777, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .description h3 {
+  color: #f3f3f3;
+  font-size: 24px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+/* line 1783, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .description p {
+  background-color: #d9d9d2;
+  color: #40597e;
+  font-size: 18px;
+  padding: 5px;
+  margin: 0;
+  border-radius: 5px;
+}
+/* line 1792, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .role-description {
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 80%;
+  line-height: 1.2;
+  position: relative;
+  top: 10px;
+}
+/* line 1799, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .role-description h3 {
+  color: #f3f3f3;
+  font-size: 24px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+/* line 1805, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .role-description p {
+  border-radius: 5px;
+  background-color: #d9d9d2;
+  color: #40597e;
+  font-size: 18px;
+  padding: 5px;
+  margin: 0;
+}
+/* line 1814, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .facilities {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+/* line 1818, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .facilities h3 {
+  color: #f3f3f3 !important;
+  font-size: 24px;
+  padding: 0 !important;
+  padding-top: 3px;
+  width: 35%;
+  float: left;
+}
+/* line 1826, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .facilities p {
+  color: #f3f3f3;
+  font-size: 18px;
+  padding-left: 10px;
+  margin: 0;
+  padding: 0 !important;
+  line-height: 2.3;
+}
+/* line 1835, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .contact-details {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+/* line 1839, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .contact-details h3 {
+  color: #f3f3f3 !important;
+  font-size: 24px;
+  padding: 0 !important;
+  padding-top: 3px;
+  width: 30%;
+  float: left;
+}
+/* line 1848, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .contact-details p:nth-child(2) {
+  width: 60% !important;
+  float: left;
+  background: #d9d9d2 none repeat scroll 0 0;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 52px;
+  color: #40597e;
+  font-family: 14px;
+}
+/* line 1858, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .contact-details p:nth-child(3) {
+  background: #d9d9d2 none repeat scroll 0 0;
+  border-radius: 5px;
+  clear: both;
+  float: left;
+  margin-left: 35%;
+  text-align: center;
+  width: 20%;
+  color: #40597e;
+  font-family: 14px;
+}
+/* line 1869, ../sass/custom/_projects.scss */
+.page-template-user-profile .toggle-container .contact-details p:nth-child(4) {
+  display: inline-flex;
+  background: #d9d9d2 none repeat scroll 0 0;
+  border-radius: 5px;
+  clear: both;
+  text-align: center;
+  margin-left: 5%;
+  text-align: center;
+  width: 38%;
+  color: #40597e;
+  padding-left: 70px;
+  font-family: 14px;
+}
+/* line 1884, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main {
+  padding-top: 75px;
+  width: 91%;
+  margin: 0 auto;
+  background-color: #405970;
+  margin-bottom: 30px;
+}
+/* line 1890, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main .header_image {
+  width: 30%;
+  height: 210px;
+  float: left;
+  padding-left: 75px;
+}
+/* line 1895, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main .header_image img {
+  height: 210px;
+  width: 210px;
+  border-radius: 15px !important;
+}
+/* line 1901, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main .activity-desc {
+  width: 65%;
+  float: right;
+}
+/* line 1904, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main .activity-desc p:nth-child(1) {
+  font-size: 36px;
+  color: #f3f3f3;
+}
+/* line 1908, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main .activity-desc p {
+  margin: 0;
+  color: #f3f3f3;
+}
+/* line 1913, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main .activity-desc p:nth-child(4) {
+  float: left;
+}
+/* line 1916, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main .activity-desc p:nth-child(5) {
+  margin-left: 50%;
+}
+/* line 1919, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main .activity-desc p:nth-child(6) {
+  float: left;
+}
+/* line 1922, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main .activity-desc p:nth-child(7) {
+  margin-left: 50%;
+}
+/* line 1926, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main .project-img {
+  clear: both;
+  padding-top: 30px;
+  width: 88%;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+/* line 1932, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main .project-img img {
+  height: 145px;
+  margin-left: 40px;
+  width: 159px;
+  border-radius: 15px;
+}
+/* line 1939, ../sass/custom/_projects.scss */
+.page-template-user-profile .activity-main .moreshow {
+  background: #d9d9d2;
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #49647e;
+  font-family: Gotham-Book !important;
+  cursor: pointer;
+}
 
 /* end of css for profile page */
