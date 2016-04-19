@@ -13,47 +13,9 @@
 		</div><!-- .site-content -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
-			<?php // if ( has_nav_menu( 'primary' ) ) : ?>
-				 <!-- <nav class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Primary Menu', 'twentysixteen' ); ?>"> -->
-					<?php
-					//	wp_nav_menu( array(
-					//		'theme_location' => 'primary',
-					//		'menu_class'     => 'primary-menu',
-					//	 ) );
-					?>
-				<!-- </nav> --><!-- .main-navigation -->
-			<?php //endif; ?>
-
-			<?php //if ( has_nav_menu( 'social' ) ) : ?>
-				<!-- <nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentysixteen' ); ?>"> -->
-					<?php
-						//wp_nav_menu( array(
-							//'theme_location' => 'social',
-							//'menu_class'     => 'social-links-menu',
-						//	'depth'          => 1,
-						//	'link_before'    => '<span class="screen-reader-text">',
-						//	'link_after'     => '</span>',
-						//) );
-					?>
-				<!-- </nav> --><!-- .social-navigation -->
-			<?php //endif; ?>
-
-			<!-- <div class="site-info"> -->
-				<?php
-					/**
-					 * Fires before the twentysixteen footer text for footer customization.
-					 *
-					 * @since Twenty Sixteen 1.0
-					 */
-					//do_action( 'twentysixteen_credits' );
-				?>
-				<!-- <span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentysixteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentysixteen' ), 'WordPress' ); ?></a> -->
-			<!-- </div> --><!-- .site-info -->
-
 		<div class="footer-wrapper">
 			<div class="support container" >
-				<h3 class="support-title"><a href="">Support Us</a></h3>
+				<h3 class="support-title"><a href="<?php echo home_url(); ?>/about">Support Us</a></h3>
 				<div class="socialmedia"><h3 class="follow-us">Follow Us: </h3><a href="https://www.facebook.com/sharethelovecoin-1507486976240873/" target="_blank"><img src="<?php echo home_url(); ?>/wp-content/uploads/2016/03/fb.png" /></a> <a href="https://www.instagram.com/sharethelove.co.in/" target="_blank"><img src="<?php echo home_url(); ?>/wp-content/uploads/2016/03/insta.png" /></a> <a href="https://twitter.com/SharetheloveIn" target="_blank"><img src="<?php echo home_url(); ?>/wp-content/uploads/2016/03/twitter.png" /></a></h3></div>
 				<div class="clearfix"></div>
 			</div>
