@@ -87,7 +87,7 @@ get_header(); ?>
 				$Bio = get_user_meta($user_id ,"description", true); 
 				$form =  do_shortcode('[gravityform id="4" title="true" description="false" ajax="true"]');
 				$user_profile = " ";
-				$user_profile .= "<div class='profile-form'>" .$form. "</div><span class='profile-edit'><a href='#'>Edit</a></span>" ;
+				$user_profile .= "<div class='profile-form'>" .$form. "</div><span class='profile-edit'><a href='#'>Update</a></span>" ;
 				$user_profile .= "<div class='user-prof-img'><div class='usr-img'><img src=".$Image."></div><div class='user-prof-img-txt'>Image</div></div>";
 				$user_profile .= "<div class='user-prof-main'>";
 				
