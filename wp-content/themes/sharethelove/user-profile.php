@@ -142,64 +142,63 @@ get_header(); ?>
 			$pro_mobile = get_post_meta($p,"project-mobile",true);
 			$user_info = get_userdata($post_by);
 			$user_id = get_current_user_id();
-			if($user_id == $post_by){?>
-			<a onclick="return confirm('Are you SURE you want to delete this post?')" href="<?php echo get_delete_post_link( $p ) ?>">Delete Post</a>
-			<?php
-			$project = " ";
-			$project .= "<div class='activity-main'>";
-			$project .= "<div class='header_image'><a href='".$hed_img_url."'rel='lightbox[".$p."]'>" . $pro_h_img . "</a></div>";
-			$project .= "<div class='activity-desc'>";
-			$project .= "<p>". $post_title .  "</p>";
-			$project .= "<p>Role Title: ". $role_title .  "</p>";
-			$project .= "<p>Vacancies: ". $pro_vac .  "</p>";
-			$project .= "<p>Posted By: " . $user_info->user_login . "</p>";
-			$project .= "<p>Location: <a href='".$home_url."/?s=".$pro_loc."'>". $pro_loc . "</a>,";
-			$project .= "<a href='".$home_url."/?s=".$pro_loc_dl."'>". $pro_loc_dl . "</a>" ;
-			$project .= "<a href='".$home_url."/?s=".$pro_loc_hp."'>". $pro_loc_hp . "</a>," ;
-			$project .= "<a href='".$home_url."/?s=".$pro_loc_pl."'>". $pro_loc_pl . "</a></p>" ;
-			$project .= "<p>Start Date: " . $pro_s_date . "</p>";
-			$project .= "<p> Ends On: " . $pro_e_date . "</p>";
-			$tags = explode(" ", $pro_tags);
-			foreach($tags as $pro_tag){
-				$tag_seacrh = preg_replace('/[^A-Za-z0-9\-]/', '', $pro_tag);
-				$project .= "<a href='".$home_url."/?s=%23".$tag_seacrh."'>". $pro_tag . "&nbsp;</a>" ;
-			}
-			$project .= "</div>";
-			$project .= "<div class='project-img'>";
-			$project .= "<a href='".$pro_img1."'rel='lightbox[".$p."]'><img src=" . $pro_img1 . "></a>";
-			$project .= "<a href='".$pro_img2."'rel='lightbox[".$p."]'><img src=" . $pro_img2 . "></a>";
-			$project .= "<a href='".$pro_img3."'rel='lightbox[".$p."]'><img src=" . $pro_img3 . "></a>";
-			$project .= "<a href='".$pro_img4."'rel='lightbox[".$p."]'><img src=" . $pro_img4 . "></a>";
-			$project .= "</div>";
-			$project .= "<div class='toggle-container'>";
-			$project .= "<div class='description'>";
-			$project .= "<h3>Project Description </h3>";
-			$project .= "<p>". $pro_des .  "</p>";
-			$project .= "</div>";
-			$project .= "<div class='role-description'>";
-			$project .= "<h3>Role Description </h3>";
-			$project .= "<p>". $pro_rol .  "</p>";
-			$project .= "</div>";
-			$project .= "<div class='facilities'>";
-			$project .= "<h3>Facilities:</h3>";
-			$project .= "<p>" . implode($pro_fac,', ') . "</p>";
-			$project .= "</div>";
-			$project .= "<div class='contact-details'>";
-			$project .= "<h3>Contact Details</h3>";
-			$project .= "<p> ". $pro_email .  "</p>";
-			$project .= "<p>" . $pro_phone . "</p>";
-			$project .= "<p>" . $pro_mobile . "</p>";
-			$project .= "</div>";
-			$project .= "</div>";
-			$project .= "<a class='moreshow'><span>Know More</span></a>";
-			$project .= "</div>";
+			if($user_id == $post_by){
+				$project = " ";
+				$project .= "<div class='activity-main'>";
+				$project .= "<a href='".$home_url."/manage-projects'>Manage Projects</a>";
+				$project .= "<div class='header_image'><a href='".$hed_img_url."'rel='lightbox[".$p."]'>" . $pro_h_img . "</a></div>";
+				$project .= "<div class='activity-desc'>";
+				$project .= "<p>". $post_title .  "</p>";
+				$project .= "<p>Role Title: ". $role_title .  "</p>";
+				$project .= "<p>Vacancies: ". $pro_vac .  "</p>";
+				$project .= "<p>Posted By: " . $user_info->user_login . "</p>";
+				$project .= "<p>Location: <a href='".$home_url."/?s=".$pro_loc."'>". $pro_loc . "</a>,";
+				$project .= "<a href='".$home_url."/?s=".$pro_loc_dl."'>". $pro_loc_dl . "</a>" ;
+				$project .= "<a href='".$home_url."/?s=".$pro_loc_hp."'>". $pro_loc_hp . "</a>," ;
+				$project .= "<a href='".$home_url."/?s=".$pro_loc_pl."'>". $pro_loc_pl . "</a></p>" ;
+				$project .= "<p>Start Date: " . $pro_s_date . "</p>";
+				$project .= "<p> Ends On: " . $pro_e_date . "</p>";
+				$tags = explode(" ", $pro_tags);
+				foreach($tags as $pro_tag){
+					$tag_seacrh = preg_replace('/[^A-Za-z0-9\-]/', '', $pro_tag);
+					$project .= "<a href='".$home_url."/?s=%23".$tag_seacrh."'>". $pro_tag . "&nbsp;</a>" ;
+				}
+				$project .= "</div>";
+				$project .= "<div class='project-img'>";
+				$project .= "<a href='".$pro_img1."'rel='lightbox[".$p."]'><img src=" . $pro_img1 . "></a>";
+				$project .= "<a href='".$pro_img2."'rel='lightbox[".$p."]'><img src=" . $pro_img2 . "></a>";
+				$project .= "<a href='".$pro_img3."'rel='lightbox[".$p."]'><img src=" . $pro_img3 . "></a>";
+				$project .= "<a href='".$pro_img4."'rel='lightbox[".$p."]'><img src=" . $pro_img4 . "></a>";
+				$project .= "</div>";
+				$project .= "<div class='toggle-container'>";
+				$project .= "<div class='description'>";
+				$project .= "<h3>Project Description </h3>";
+				$project .= "<p>". $pro_des .  "</p>";
+				$project .= "</div>";
+				$project .= "<div class='role-description'>";
+				$project .= "<h3>Role Description </h3>";
+				$project .= "<p>". $pro_rol .  "</p>";
+				$project .= "</div>";
+				$project .= "<div class='facilities'>";
+				$project .= "<h3>Facilities:</h3>";
+				$project .= "<p>" . implode($pro_fac,', ') . "</p>";
+				$project .= "</div>";
+				$project .= "<div class='contact-details'>";
+				$project .= "<h3>Contact Details</h3>";
+				$project .= "<p> ". $pro_email .  "</p>";
+				$project .= "<p>" . $pro_phone . "</p>";
+				$project .= "<p>" . $pro_mobile . "</p>";
+				$project .= "</div>";
+				$project .= "</div>";
+				$project .= "<a class='moreshow'><span>Know More</span></a>";
+				$project .= "</div>";
 				//echo $project;
-			echo $project;	
+				echo $project;	
+			}
 		}
-	}
-	?>
-	<div class="add-project-logo">
-		<a href="<?php echo home_url(); ?>/?page_id=104"><img src='<?php echo home_url(); ?>/wp-content/uploads/2016/04/4-e1459846938556.png' /></a>
-	</div>
-
-	<?php get_footer(); ?>
+		?>
+		<div class="add-project-logo">
+			<a href="<?php echo home_url(); ?>/?page_id=104"><img src='<?php echo home_url(); ?>/wp-content/uploads/2016/04/4-e1459846938556.png' /></a>
+			<div class="add-project">Add Project</div>
+		</div>
+		<?php get_footer(); ?>
