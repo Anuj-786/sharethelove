@@ -107,7 +107,6 @@ function readURL4(input) {
         reader.readAsDataURL(input.files[0]);
     }
 }
-jQuery('.medium').hide();
 jQuery('#header_image').click(function(){
   jQuery('.header_img .medium').trigger('click');
 });
