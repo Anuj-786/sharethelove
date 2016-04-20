@@ -122,8 +122,6 @@ get_header(); ?>
 			$pro_vac = get_post_meta($p,"project-vacancies",true);
 			$post_by = get_post_field( 'post_author', $p );
 			$pro_loc = get_post_meta($p,"project-location",true);
-			$pro_loc_dl = get_post_meta($p,"location-delhi",true);
-			$pro_loc_hp = get_post_meta($p,"location-himachal",true);
 			$pro_loc_pl = get_post_meta($p,"location-place",true);
 			$pro_s_date = get_post_meta($p,"project-from-date",true);
 			$pro_e_date = get_post_meta($p,"project-to-date",true);
@@ -132,10 +130,10 @@ get_header(); ?>
 			$pro_img2 = get_post_meta($p,"project-image-2",true);
 			$pro_img3 = get_post_meta($p,"project-image-3",true);
 			$pro_img4 = get_post_meta($p,"project-image-4",true);
-			$pro_img5 = get_post_meta($p,"project-image-5",true);
 			$pro_des = get_post_meta($p,"project-description",true);
 			$pro_rol = get_post_meta($p,"role-description",true);
 			$pro_fac = get_post_meta($p,"project-facilities",false);
+			$pro_fac_dt = get_post_meta($p,"project-facility-details",true);
 			$pro_email = get_post_meta($p,"project-email",true);
 			$pro_phone = get_post_meta($p,"project-phone",true);
 			$pro_mobile = get_post_meta($p,"project-mobile",true);
@@ -144,17 +142,15 @@ get_header(); ?>
 			if($user_id == $post_by){
 				$project = " ";
 				$project .= "<div class='activity-main'>";
-				$project .= "<a href='".$home_url."/manage-projects'>Manage Projects</a>";
+				$project .= "<a href='".$home_url."/manage-projects'>Manage</a>";
 				$project .= "<div class='header_image'><a href='".$hed_img_url."'rel='lightbox[".$p."]'>" . $pro_h_img . "</a></div>";
 				$project .= "<div class='activity-desc'>";
 				$project .= "<p>". $post_title .  "</p>";
 				$project .= "<p>Role Title: ". $role_title .  "</p>";
 				$project .= "<p>Vacancies: ". $pro_vac .  "</p>";
-				$project .= "<p>Posted By: " . $user_info->user_login . "</p>";
-				$project .= "<p>Location: <a href='".$home_url."/?s=".$pro_loc."'>". $pro_loc . "</a>,";
-				$project .= "<a href='".$home_url."/?s=".$pro_loc_dl."'>". $pro_loc_dl . "</a>" ;
-				$project .= "<a href='".$home_url."/?s=".$pro_loc_hp."'>". $pro_loc_hp . "</a>," ;
-				$project .= "<a href='".$home_url."/?s=".$pro_loc_pl."'>". $pro_loc_pl . "</a></p>" ;
+				$project .= "<p>Posted By: <a href='". $home_url."/user-profile-listing/?id=". $post_by ."'>" . $user_info->user_login . "</a></p>";
+				$project .= "<p>Location: <a href='".$home_url."/?s=".$pro_loc_pl."'>". $pro_loc_pl . "</a>";
+				$project .= "<a href='".$home_url."/?s=".$pro_loc."'>(". $pro_loc . ")</a></p>" ;
 				$project .= "<p>Start Date: " . $pro_s_date . "</p>";
 				$project .= "<p> Ends On: " . $pro_e_date . "</p>";
 				$tags = explode(" ", $pro_tags);
@@ -181,6 +177,10 @@ get_header(); ?>
 				$project .= "<div class='facilities'>";
 				$project .= "<h3>Facilities:</h3>";
 				$project .= "<p>" . implode($pro_fac,', ') . "</p>";
+				$project .= "</div>";
+				$project .= "<div class='role-description'>";
+				$project .= "<h3>Details:</h3>";
+				$project .= "<p>" . $pro_fac_dt . "</p>";
 				$project .= "</div>";
 				$project .= "<div class='contact-details'>";
 				$project .= "<h3>Contact Details</h3>";
