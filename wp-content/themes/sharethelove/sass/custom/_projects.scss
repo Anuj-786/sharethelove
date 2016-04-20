@@ -15,34 +15,36 @@ body.home {
 				.home_text {
 					width: 100%;
 					.share-description {
-
+						color: #49647e;
+						font-size: 24px;
+						line-height: 1.5;
 						text-align: center;
 						width: 100%;
-						color: #49647e;
-						font-size: 26px;
-						
 					}	
 					.home_connect {
-						padding-top: 30px;
+						padding-top: 8px;
 						text-align: center;
 						h3 {
 							color: #49647e;
-							font-size: 36px;
+							font-size: 26px;
+							margin: 0;
 						}
 					}
 					.featured_project_text {
-
 						text-align: center;
 						width: 100%;
 						h4 {
-							font-size: 36px !important;
 							color: #405970;
 							font-family: Gotham-Book !important;
+							font-size: 26px !important;
+							margin: 0;
+							padding-top: 10px;
 						}
 					}
 					.img_gallery {
 						.ngg-galleryoverview {
-							margin-left: 15% !important;
+							margin-left: 20% !important;
+							margin-top: 0;
 							.slideshowlink {
 								display: none !important;
 							}
@@ -2060,9 +2062,7 @@ body.home {
 							}
 						}
 						#field_4_50 {
-							padding-left: 112px;
-							font-size: 18px;
-							color: #f3f3f3;
+							display: none;
 						}
 						#field_4_13 {
 							padding-left: 112px;

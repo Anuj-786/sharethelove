@@ -3,6 +3,7 @@
 	width: 100% !important;
 	background-color: #D9D9D2;
 	padding: 0 !important;
+	font-family: Gotham-book !important;
 	.footer-wrapper {
 		width: 100% !important;
 		margin: 0 !important;
@@ -18,14 +19,16 @@
 				float: left !important;
 				width: 55% !important;
 				padding-left: 25px;
+				a {
+					color: #405970;
+					font-family: Gotham-Book;
+				}
 			} 
 			.socialmedia {
 				clear: both;
 				width: 45%;
 				display: inline-flex;
-				h3 {
-					padding-right: 46px;
-				}
+				padding-left: 70px;
 				a {
 					padding-left: 20px; 
 				}
@@ -55,6 +58,7 @@
 				width: 53%;
 				display: inline-block;
 				ul {
+					margin-left: 50px;
 					li 	{
 						a {
 							font-size: 16px;
