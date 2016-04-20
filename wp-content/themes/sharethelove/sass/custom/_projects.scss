@@ -408,18 +408,14 @@ body.home {
 		}
 	}
 	.content-area {
-		width: 100%;
-		float: none;
-		margin: 0;
-		padding-top: 30px !important;
 		.site-main {
 			width: 100%;
 			margin: 0 auto;
 			.activity-main {
-				padding-top: 75px;
 				width: 100%;
 				background-color: #405970;
 				margin-bottom: 30px;
+				padding-top: 15px;
 				.header_image {
 					width: 30%;
 					height: 210px;
@@ -489,15 +485,13 @@ body.home {
 	font-family: Gotham-Book !important;
 	.site-content {
 		width: 100% !important;
-		.content-area {
+		.site-main {
 			width: 100%;
-			padding-top: 32px !important;
-			float: none !important;
-			margin: 0 !important;
-			.site-main {
-				width: 100%;
-				background: #405970;
-				margin-bottom: 3.5em;
+			background: #405970;
+			margin-bottom: 3.5em;
+			.status-publish {
+				margin-top: 30px;
+
 				.entry-header {
 					text-align: center;
 					h1 {
@@ -630,7 +624,7 @@ body.home {
 											color: #405970;
 											text-align: center !important;
 											padding: 8px 80px;
-											
+
 										}
 									}
 								}
@@ -655,7 +649,7 @@ body.home {
 											width: 79% !important;
 											color: #405970;
 											text-align: center;
-											
+
 										}
 									}
 								}
@@ -833,7 +827,7 @@ body.home {
 													content: "\2713";
 													line-height: 15px;
 												}
-												
+
 											}
 										}
 
@@ -964,7 +958,7 @@ body.home {
 									padding-left: 50px;
 									width: 25%;
 								}
-								
+
 								#field_7_15 {
 									display: inline-flex;
 									background: #d9d9d2 none repeat scroll 0 0;
@@ -976,7 +970,7 @@ body.home {
 									vertical-align: middle;
 									width: 13%;
 									margin-left:15% !important;
-									
+
 									label {
 										color: #405970;
 										padding-top: 10px;
@@ -1042,13 +1036,13 @@ body.home {
 									label {
 										color: #405970;
 									}
-									
+
 									.ginput_container {
 										display: none;
 									}
 								}
 								div#result {
-									
+
 									width: 100%;
 									margin-left: 38%;
 									/*	*/
@@ -1059,7 +1053,7 @@ body.home {
 										margin-left: 12px;
 										margin-top: -120px;
 									}
-									
+
 								}
 								#field_7_19 {
 									padding-top: 10px;
@@ -1081,7 +1075,7 @@ body.home {
 										display: none;
 									}
 								}
-								
+
 							}
 						}
 						.gform_footer.top_label {
@@ -1105,6 +1099,7 @@ body.home {
 				.entry-footer {
 					display: none;
 				}
+
 			}
 		}
 	}
@@ -1113,60 +1108,56 @@ body.home {
 
 /* css for forget password page */
 .page-id-87 {
-	.content-area {
-		width: 100%;
-		margin:	0;
-		float: none;
-		.entry-header {
-			display: none;
-		}
-		.entry-content {
-			form {
-				text-align: center;
-				padding-top: 20px;
-				padding-bottom: 12em;
-				.gform_heading {
-					display: none;
+	.entry-header {
+		display: none;
+	}
+	.entry-content {
+		form {
+			text-align: center;
+			padding-top: 20px;
+			padding-bottom: 12em;
+			.gform_heading {
+				display: none;
+			}
+			.gform_body {
+				width: 100%;
+				.gfield_label {
+					color: #49647e;
+					font-family: Gotham-Book;
+					font-size: 18px;
 				}
-				.gform_body {
-					width: 100%;
-					.gfield_label {
-						color: #49647e;
-						font-family: Gotham-Book;
-						font-size: 18px;
-					}
 
-					.ginput_complex {
-						span {
-							width: 100%;
-							margin: 0;
-							input {
-								width: 35%;
-								font-family: Gotham-Book;
-								font-size: 18px;
-							}
-						}
-						label {
-							display: none;
+				.ginput_complex {
+					span {
+						width: 100%;
+						margin: 0;
+						input {
+							width: 35%;
+							font-family: Gotham-Book;
+							font-size: 18px;
 						}
 					}
-					.gfield_password_strength {
-						width: 35% !important;
-						margin: 0 auto;
-						font-size: 18px;
-						font-family: Gotham-Book;
-						color: #49647e;
+					label {
+						display: none;
 					}
 				}
-				.gform_footer {
-					input {
-						background: #405970 none repeat scroll 0 0;
-						border-radius: 10px;
-						width: 15%;
-					}
+				.gfield_password_strength {
+					width: 35% !important;
+					margin: 0 auto;
+					font-size: 18px;
+					font-family: Gotham-Book;
+					color: #49647e;
+				}
+			}
+			.gform_footer {
+				input {
+					background: #405970 none repeat scroll 0 0;
+					border-radius: 10px;
+					width: 15%;
 				}
 			}
 		}
+
 	}
 }
 /*End css for forget password page */
@@ -1176,9 +1167,10 @@ body.home {
 		form {
 			width: 65%;
 			margin: 0 auto;
-			right: 19px;
+			right: 20px;
 			padding-bottom: 280px;
-			padding-top: 30px !important;
+			padding-top: 15px !important;
+			clear: both;
 			input {
 				border-radius: 50px !important;
 				background-color: #d9d9d2;
@@ -1214,7 +1206,6 @@ body.home {
 		width: 65%;
 		margin: 0 auto;
 		right: 19px;
-		padding-top: 30px;
 		input {
 			border-radius: 50px !important;
 			background-color: #d9d9d2;
@@ -1366,18 +1357,14 @@ body.home {
 		}
 	}
 	.content-area {
-		width: 100%;
-		float: none;
-		margin: 0;
-
 		.site-main {
 			width: 100%;
 			margin: 0 auto;
 			.activity-main {
-				padding-top: 75px;
 				width: 100%;
 				background-color: #405970;
 				margin-bottom: 30px;
+				padding-top: 15px;
 				.header_image {
 					width: 30%;
 					height: 210px;
@@ -1399,7 +1386,7 @@ body.home {
 					p {
 						margin: 0;
 						color: #f3f3f3;
-						
+
 					}
 					p:nth-child(4) {
 						float: left;
@@ -1445,121 +1432,113 @@ body.home {
 /*end of css for search-results page */
 .search {
 	font-family: Gotham-Book !important;
-	.content-area {
+	.site-main {
 		width: 100%;
-		float: none;
-		margin: 0;
-
-		.site-main {
-			width: 100%;
+		margin: 0 auto;
+		form {
+			clear: both;
+			width: 65%;
 			margin: 0 auto;
-			form {
-				clear: both;
-				width: 65%;
-				margin: 0 auto;
-				right: 19px;
-				padding-top: 30px;
-				input {
-					border-radius: 50px !important;
-					background-color: #d9d9d2;
-					border: none !important;
-					line-height: 2;
-					padding-left: 7em;
-				}
-				.search-submit {
-					overflow: hidden;
-					padding: 0;
-					position: relative;
-					right: 0;
-					top: 4px;
-					width: 42px;
-					float: left;
-					left: 55px; 
-					background-color: #d9d9d2;
-					color: #645970; 
-				}
-				input[type="search"]:focus {
-					background: #d9d9d2 !important;
-				}
-
-
-
+			right: 19px;
+			input {
+				border-radius: 50px !important;
+				background-color: #d9d9d2;
+				border: none !important;
+				line-height: 2;
+				padding-left: 7em;
 			}
-			.page-header {
-				display: none;
+			.search-submit {
+				overflow: hidden;
+				padding: 0;
+				position: relative;
+				right: 0;
+				top: 4px;
+				width: 42px;
+				float: left;
+				left: 55px; 
+				background-color: #d9d9d2;
+				color: #645970; 
 			}
-			article { 
-				padding-top: 10px !important;
-				margin-bottom: 0 !important;
-				padding-bottom: 0 !important;
+			input[type="search"]:focus {
+				background: #d9d9d2 !important;
 			}
-			.activity-main {
-				padding-top: 75px;
-				width: 100%;
-				background-color: #405970;
-				margin-bottom: 30px;
-				.header_image {
-					width: 30%;
-					height: 210px;
-					float: left;
-					padding-left: 75px;
-					img {
-						height: 210px;
-						width: 210px;
-						border-radius: 15px !important;
-					}
-				}
-				.activity-desc {
-					width: 65%;
-					float: right;
-					p:nth-child(1) {
-						font-size: 36px;
-						color: #f3f3f3;
-					}
-					p {
-						margin: 0;
-						color: #f3f3f3;
 
-					}
-					p:nth-child(4) {
-						float: left;
-					}
-					p:nth-child(5) {
-						margin-left: 50%;
-					}
-					p:nth-child(6) {
-						float: left;
-					}
-					p:nth-child(7) {
-						margin-left: 50%;	
-					}
-				}
-				.project-img {
-					clear: both;
-					padding-top: 30px;
-					width: 88%;
-					padding-bottom: 50px;
-					margin: 0 auto;
-					img {
-						height: 145px;
-						margin-left:40px;
-						width: 159px;
-						border-radius: 15px;
-					}
-				}
-				.know-more {
-					background: #d9d9d2;
-					width: 100%;
-					display: inline-block;
-					padding:10px;
-					text-align: center;
-					font-size: 16px;
-					color: #49647e;
-					font-family: Gotham-Book !important;
-					cursor: pointer;
-				}
-			} 
+
+
 		}
+		.page-header {
+			display: none;
+		}
+		article { 
+			padding-top: 10px !important;
+			margin-bottom: 0 !important;
+			padding-bottom: 0 !important;
+		}
+		.activity-main {
+			width: 100%;
+			background-color: #405970;
+			margin-bottom: 30px;
+			.header_image {
+				width: 30%;
+				height: 210px;
+				float: left;
+				padding-left: 75px;
+				img {
+					height: 210px;
+					width: 210px;
+					border-radius: 15px !important;
+				}
+			}
+			.activity-desc {
+				width: 65%;
+				float: right;
+				p:nth-child(1) {
+					font-size: 36px;
+					color: #f3f3f3;
+				}
+				p {
+					margin: 0;
+					color: #f3f3f3;
+
+				}
+				p:nth-child(4) {
+					float: left;
+				}
+				p:nth-child(5) {
+					margin-left: 50%;
+				}
+				p:nth-child(6) {
+					float: left;
+				}
+				p:nth-child(7) {
+					margin-left: 50%;	
+				}
+			}
+			.project-img {
+				clear: both;
+				padding-top: 30px;
+				width: 88%;
+				padding-bottom: 50px;
+				margin: 0 auto;
+				img {
+					height: 145px;
+					margin-left:40px;
+					width: 159px;
+					border-radius: 15px;
+				}
+			}
+			.know-more {
+				background: #d9d9d2;
+				width: 100%;
+				display: inline-block;
+				padding:10px;
+				text-align: center;
+				font-size: 16px;
+				color: #49647e;
+				font-family: Gotham-Book !important;
+				cursor: pointer;
+			}
+		} 
 	}
 }
 
@@ -1762,9 +1741,6 @@ body.home {
 /* css for profile page */
 .page-template-user-profile {
 	font-family: Gotham-Book !important;
-	.secondary-menu {
-		padding-bottom: 30px;
-	}
 	.site-main {
 		padding-bottom: 10px;
 		background-color: #182633;
@@ -1898,7 +1874,7 @@ body.home {
 				padding-top: 3px;
 				width: 30%;
 				float: left;
-				
+
 			}
 			p:nth-child(2) {
 				width: 60% !important;
@@ -1937,11 +1913,11 @@ body.home {
 		}
 	}
 	.activity-main {
-		padding-top: 75px;
 		width: 91%;
 		margin: 0 auto;
 		background-color: #405970;
 		margin-bottom: 30px;
+		padding-top: 15px;
 		.header_image {
 			width: 30%;
 			height: 210px;
@@ -2028,166 +2004,161 @@ body.home {
 	font-family: Gotham-Book !important;
 	.site-content {
 		width: 100% !important;
-		.content-area {
+		.site-main {
 			width: 100%;
-			padding-top: 32px !important;
-			float: none !important;
-			margin: 0 !important;
-			.site-main {
-				width: 100%;
-				background: #405970;
-				margin-bottom: 3.5em;
-				.entry-header {
-					display: none;
-				}
-				.entry-content {
-					form {
-						.gform_heading {
-							width: 100%;
-							text-align: center;
-							color: #f3f3f3;
-							font-size: 24px;
+			background: #405970;
+			margin-bottom: 3.5em;
+			.entry-header {
+				display: none;
+			}
+			.entry-content {
+				form {
+					.gform_heading {
+						width: 100%;
+						text-align: center;
+						color: #f3f3f3;
+						font-size: 24px;
+					}
+					#field_4_51 {
+						width: 45%;
+						text-align: center;
+						label {
+							font-size: 18px;
+							background: #d9d9d2;
+							padding: 80px 65px;
+							border-radius: 10px;
+							color: #405970;
 						}
-						#field_4_51 {
-							width: 45%;
-							text-align: center;
-							label {
+						.ginput_container_fileupload {
+							display: none;
+						}
+					}
+					#field_4_1 {
+						padding-left: 112px;
+						width: 100%;
+						label {
+							font-size: 18px;
+							color: #f3f3f3;
+							float: left;
+							display: inline-block;
+							width: 10%;
+						}
+						.ginput_container_text {
+							width: 100%;
+							input {
+								border-radius: 5px;
+								padding: 10px;
 								font-size: 18px;
+								color: #405970;
+								text-align: center;
 								background: #d9d9d2;
-								padding: 80px 65px;
+							}
+						}
+					}
+					#field_4_50 {
+						display: none;
+					}
+					#field_4_13 {
+						padding-left: 112px;
+						label {
+							font-size: 18px;
+							color: #f3f3f3;
+							float: left;
+							display: inline-block;
+							width: 10%;
+						}
+						select {
+							padding: 8px;
+							color: #405970;
+							text-align: center !important;
+							font-size: 18px;
+							border-radius: 5px;
+							display: inline-block;
+						}
+					}
+					#field_4_19 {
+						padding-left: 112px;
+						label {
+							font-size: 18px;
+							color: #f3f3f3;
+							float: left;
+							display: inline-block;
+							width: 10%;
+						}
+						select {
+							padding: 8px;
+							color: #405970;
+							text-align: center !important;
+							font-size: 18px;
+							border-radius: 5px;
+							display: inline-block;
+						}
+					}
+					#field_4_52 {
+						padding-left: 112px;
+						width: 100%;
+						label {
+							font-size: 18px;
+							color: #f3f3f3;
+							float: left;
+							display: inline-block;
+							width: 10%;
+						}
+						.ginput_container_text {
+							width: 100%;
+							input {
+								border-radius: 5px;
+								padding: 10px;
+								font-size: 18px;
+								color: #405970;
+								text-align: center;
+								background: #d9d9d2;
+							}
+						}
+					}
+					#field_4_11 {
+						padding-left: 112px;
+						width: 100%;
+						label {
+							font-size: 18px;
+							color: #f3f3f3;
+							float: left;
+							display: inline-block;
+							width: 10%;
+						}
+						.ginput_container_textarea {
+							width: 70%;
+							textarea {
 								border-radius: 10px;
 								color: #405970;
 							}
-							.ginput_container_fileupload {
-								display: none;
-							}
-						}
-						#field_4_1 {
-							padding-left: 112px;
-							width: 100%;
-							label {
-								font-size: 18px;
-								color: #f3f3f3;
-								float: left;
-								display: inline-block;
-								width: 10%;
-							}
-							.ginput_container_text {
-								width: 100%;
-								input {
-									border-radius: 5px;
-									padding: 10px;
-									font-size: 18px;
-									color: #405970;
-									text-align: center;
-									background: #d9d9d2;
-								}
-							}
-						}
-						#field_4_50 {
-							display: none;
-						}
-						#field_4_13 {
-							padding-left: 112px;
-							label {
-								font-size: 18px;
-								color: #f3f3f3;
-								float: left;
-								display: inline-block;
-								width: 10%;
-							}
-							select {
-								padding: 8px;
-								color: #405970;
-								text-align: center !important;
-								font-size: 18px;
-								border-radius: 5px;
-								display: inline-block;
-							}
-						}
-						#field_4_19 {
-							padding-left: 112px;
-							label {
-								font-size: 18px;
-								color: #f3f3f3;
-								float: left;
-								display: inline-block;
-								width: 10%;
-							}
-							select {
-								padding: 8px;
-								color: #405970;
-								text-align: center !important;
-								font-size: 18px;
-								border-radius: 5px;
-								display: inline-block;
-							}
-						}
-						#field_4_52 {
-							padding-left: 112px;
-							width: 100%;
-							label {
-								font-size: 18px;
-								color: #f3f3f3;
-								float: left;
-								display: inline-block;
-								width: 10%;
-							}
-							.ginput_container_text {
-								width: 100%;
-								input {
-									border-radius: 5px;
-									padding: 10px;
-									font-size: 18px;
-									color: #405970;
-									text-align: center;
-									background: #d9d9d2;
-								}
-							}
-						}
-						#field_4_11 {
-							padding-left: 112px;
-							width: 100%;
-							label {
-								font-size: 18px;
-								color: #f3f3f3;
-								float: left;
-								display: inline-block;
-								width: 10%;
-							}
-							.ginput_container_textarea {
-								width: 70%;
-								textarea {
-									border-radius: 10px;
-									color: #405970;
-								}
-							}
-						}
-						#field_4_27 {
-							padding-left: 112px;
-							label {
-								font-size: 18px;
-								color: #f3f3f3;
-								float: left;
-								display: inline-block;
-								width: 10%;
-							}
-							select {
-								padding: 8px;
-								color: #405970;
-								text-align: center !important;
-								font-size: 18px;
-								border-radius: 5px;
-								display: inline-block;
-							}
 						}
 					}
-					.gform_footer  {
-						text-align: center;
+					#field_4_27 {
+						padding-left: 112px;
+						label {
+							font-size: 18px;
+							color: #f3f3f3;
+							float: left;
+							display: inline-block;
+							width: 10%;
+						}
+						select {
+							padding: 8px;
+							color: #405970;
+							text-align: center !important;
+							font-size: 18px;
+							border-radius: 5px;
+							display: inline-block;
+						}
 					}
+				}
+				.gform_footer  {
+					text-align: center;
 				}
 			}
 		}
+
 	}
 }
 
