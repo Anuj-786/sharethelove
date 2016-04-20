@@ -4,10 +4,7 @@ Template Name: Search Project Listing
 
 */
 get_header(); ?>
-
-<div id="primary" class="content-area">
-	<main id="main" class="site-main" role="main">
-	<div class="secondary-menu">
+<div class="secondary-menu">
 	<?php
 	if (is_user_logged_in()) {
 	print(' <div class="secondary-menu-logo">
@@ -20,6 +17,9 @@ get_header(); ?>
 		</div>'); }
 	?>
 	</div>
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+	
 
 		<?php get_search_form(); ?>
 	</main><!-- .site-main -->
