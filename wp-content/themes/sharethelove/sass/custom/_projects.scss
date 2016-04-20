@@ -292,7 +292,7 @@ body.home {
 }
 /* css for activity page */
 .page-template-activity-php {
-	font-family: Gotham-book;
+	font-family: Gotham-book !important;
 	.toggle-container {
 		display: none;
 		.description {
@@ -839,6 +839,24 @@ body.home {
 
 									}
 								}
+								#field_7_32 {
+									width: 100%;	
+									padding-bottom: 10px !important;
+									label {
+										display: none;
+									}
+									textarea {
+										width: 100% !important;
+										background-color: #d9d9d2;
+										font-size: 18px;
+										font-weight: 100 !important;
+										border-radius: 10px;
+										height: 100px !important; 
+									}
+									.charleft {
+										display: none;
+									}
+								}
 								#field_7_22 {
 									width: 100%;	
 									label {
@@ -1190,6 +1208,7 @@ body.home {
 /* end of css for search result page */
 /* css for search-results page */
 .search-results.logged-in {
+	font-family: Gotham-Book !important;
 	form {
 		clear: both;
 		width: 65%;
@@ -1425,6 +1444,7 @@ body.home {
 }
 /*end of css for search-results page */
 .search {
+	font-family: Gotham-Book !important;
 	.content-area {
 		width: 100%;
 		float: none;
