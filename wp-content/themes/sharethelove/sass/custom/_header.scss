@@ -56,7 +56,7 @@
       .forgot-password {
         position: absolute;
         top: 97px;
-        padding-left: 42px;
+        left: 50px;
         font-size: 14px !important;
         color: #49647e !important;
       }
@@ -203,12 +203,4 @@
     }
   }
 }
-}
-/* css for error pages */
-.gfield.gfield_error {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
-    border: medium none !important;
-}
-.validation_error{
-  display:none;
 }
