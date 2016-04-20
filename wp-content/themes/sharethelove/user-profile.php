@@ -122,7 +122,7 @@ get_header(); ?>
 			$pro_vac = get_post_meta($p,"project-vacancies",true);
 			$post_by = get_post_field( 'post_author', $p );
 			$pro_loc = get_post_meta($p,"project-location",true);
-			$pro_loc_dl = get_post_meta($p,"location-delhi",true);
+			$pro_loc_pl = get_post_meta($p,"location-place",true);
 			$pro_s_date = get_post_meta($p,"project-from-date",true);
 			$pro_e_date = get_post_meta($p,"project-to-date",true);
 			$pro_tags = get_post_meta($p,"project-tags",true);
