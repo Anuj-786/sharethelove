@@ -45,11 +45,11 @@ jQuery('#user_login').attr( 'placeholder', ' Email Id' );
 jQuery('#user_pass').attr( 'placeholder', ' Password' );
 
 // Add Project page thumbnail display
-jQuery(".header_img .medium").after(' <img src="http:dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/header_image.png" id="header_image" style="cursor: pointer;" /> ');
-jQuery(".image1 .medium").after(' <img src="http:dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer; height: 105px; width: 95px;" /> ');
-jQuery(".image2 .medium").after(' <img src="http:dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_two" style="cursor: pointer; height: 105px; width: 95px;" /> ');
-jQuery(".image3 .medium").after(' <img src="http:dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_three" style="cursor: pointer; height: 105px; width: 95px;" /> ');
-jQuery(".image4 .medium").after(' <img src="http:dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_four" style="cursor: pointer; height: 105px; width: 95px;" /> ');
+jQuery(".header_img .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/header_image.png" id="header_image" style="cursor: pointer;" /> ');
+jQuery(".image1 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
+jQuery(".image2 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_two" style="cursor: pointer;" /> ');
+jQuery(".image3 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_three" style="cursor: pointer;" /> ');
+jQuery(".image4 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_four" style="cursor: pointer;" /> ');
 function readURL5(input) {
     if (input.files && input.files[0]) {
         var reader = new FileReader();
