@@ -45,111 +45,106 @@ jQuery('#user_login').attr( 'placeholder', ' Email Id' );
 jQuery('#user_pass').attr( 'placeholder', ' Password' );
 
 // Add Project page thumbnail display
-  /*jQuery('#gform_7 .ginput_container_fileupload').on('click', function (e) {
-  	var fileFieldId = jQuery(this).find('input:first-child').next().attr('id'); 
-      var id = jQuery(this).find('input:first-child').next().attr('id');
-  	 jQuery('#' + id ).on('change', function () {
-  	var fileFieldId = jQuery(this).attr('id');
-  	var image_holder = jQuery("#result");
-  	var reader = new FileReader();
-          reader.onloadend = function (e) {
-              jQuery("<img />", {
-                  "src": e.target.result,
-                  "class": "thumb-image"
-              }).appendTo(image_holder);
+jQuery(".header_img .medium").after(' <img src="http:dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/header_image.png" id="header_image" style="cursor: pointer;" /> ');
+jQuery(".image1 .medium").after(' <img src="http:dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer; height: 105px; width: 95px;" /> ');
+jQuery(".image2 .medium").after(' <img src="http:dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_two" style="cursor: pointer; height: 105px; width: 95px;" /> ');
+jQuery(".image3 .medium").after(' <img src="http:dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_three" style="cursor: pointer; height: 105px; width: 95px;" /> ');
+jQuery(".image4 .medium").after(' <img src="http:dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_four" style="cursor: pointer; height: 105px; width: 95px;" /> ');
+function readURL5(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
 
-          }
-          image_holder.show();
-          reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
-   });
-  }); */
-  // Add project first image
-  jQuery('#input_7_15').on('change', function () {
-    var fileFieldId = jQuery(this).attr('id');
-    var image_holder = jQuery("#result");
-    var reader = new FileReader();
-          reader.onloadend = function (e) {
-              jQuery("<img />", {
-                  "src": e.target.result,
-                  "class": "thumb-image"
-              }).appendTo(image_holder);
+        reader.onload = function (e) {
+            jQuery('#header_image').attr('src', e.target.result);
+        }
 
-          }
-          image_holder.show();
-          reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
-   });
-  // Add project second image
-  jQuery('#input_7_16').on('change', function () {
-    var fileFieldId = jQuery(this).attr('id');
-    var image_holder = jQuery("#result");
-    var reader = new FileReader();
-          reader.onloadend = function (e) {
-              jQuery("<img />", {
-                  "src": e.target.result,
-                  "class": "thumb-image"
-              }).appendTo(image_holder);
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+function readURL1(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
 
-          }
-          image_holder.show();
-          reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
-   });
-  // Add project third image
-  jQuery('#input_7_17').on('change', function () {
-    var fileFieldId = jQuery(this).attr('id');
-    var image_holder = jQuery("#result");
-    var reader = new FileReader();
-          reader.onloadend = function (e) {
-              jQuery("<img />", {
-                  "src": e.target.result,
-                  "class": "thumb-image"
-              }).appendTo(image_holder);
+        reader.onload = function (e) {
+            jQuery('#image_one').attr('src', e.target.result);
+        }
 
-          }
-          image_holder.show();
-          reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
-   });
-  // Add project fourth image
-  jQuery('#input_7_18').on('change', function () {
-    var fileFieldId = jQuery(this).attr('id');
-    var image_holder = jQuery("#result");
-    var reader = new FileReader();
-          reader.onloadend = function (e) {
-              jQuery("<img />", {
-                  "src": e.target.result,
-                  "class": "thumb-image"
-              }).appendTo(image_holder);
+        reader.readAsDataURL(input.files[0]);
+    }
+}
 
-          }
-          image_holder.show();
-          reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
-   });
-  jQuery('#input_7_1').on('change', function () {
-    var fileFieldId = jQuery(this).attr('id');
-    var image_holder = jQuery("#project_image");
-    var reader = new FileReader();
-          reader.onloadend = function (e) {
-              jQuery("<img />", {
-                  "src": e.target.result,
-                  "class": "thumb-image"
-              }).appendTo(image_holder);
+function readURL2(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
 
-          }
-          image_holder.show();
-          reader.readAsDataURL(jQuery('#'+fileFieldId).prop("files")[0]);
-   });
+        reader.onload = function (e) {
+            jQuery('#image_two').attr('src', e.target.result);
+        }
+
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+function readURL3(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            jQuery('#image_three').attr('src', e.target.result);
+        }
+
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+
+function readURL4(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            jQuery('#image_four').attr('src', e.target.result);
+        }
+
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+jQuery('.medium').hide();
+jQuery('#header_image').click(function(){
+  jQuery('.header_img .medium').trigger('click');
+});
+jQuery('#image_one').click(function(){
+  jQuery('.image1 .medium').trigger('click');
+});
+jQuery('#image_two').click(function(){
+  jQuery('.image2 .medium').trigger('click');
+});
+jQuery('#image_three').click(function(){
+  jQuery('.image3 .medium').trigger('click');
+});
+jQuery('#image_four').click(function(){
+  jQuery('.image4 .medium').trigger('click');
+});
+jQuery(".header_img .medium").change(function(){
+    readURL5(this);
+});
+jQuery(".image1 .medium").change(function(){
+    readURL1(this);
+});
+
+jQuery(".image2 .medium").change(function(){
+    readURL2(this);
+});
+jQuery(".image3 .medium").change(function(){
+    readURL3(this);
+});
+
+jQuery(".image4 .medium").change(function(){
+    readURL4(this);
+});
 
 // Search page for logged out users
   jQuery( ".know-more" ).on('click',function() {
     alert( "Please login or sign up to see full details" );
   });
-
-//User Profile Page Edit toggle
-jQuery('.profile-edit').click(function(){
-   jQuery('.profile-form').toggle();
-});
-
-// js for add project images 
-jQuery("#result").appendTo("#gform_fields_7");
 
 });
 
