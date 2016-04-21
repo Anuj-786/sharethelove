@@ -2966,11 +2966,10 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
 }
 /* line 2251, ../sass/custom/_projects.scss */
 .page-manage-projects .site-main .entry-content {
-  background: #405970;
   color: #f3f3f3;
 }
 /* line 2255, ../sass/custom/_projects.scss */
-.page-manage-projects .site-main .entry-content .sticky-list tr {
+.page-manage-projects .site-main .entry-content .sticky-list-wrapper .sticky-list tr {
   background: #405870;
 }
 
