@@ -2968,7 +2968,11 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
 .page-manage-projects .site-main .entry-content {
   color: #f3f3f3;
 }
-/* line 2255, ../sass/custom/_projects.scss */
+/* line 2253, ../sass/custom/_projects.scss */
+.page-manage-projects .site-main .entry-content .sticky-list-wrapper {
+  margin-top: 15px;
+}
+/* line 2256, ../sass/custom/_projects.scss */
 .page-manage-projects .site-main .entry-content .sticky-list-wrapper .sticky-list tr {
   background: #405870;
 }
