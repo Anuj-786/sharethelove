@@ -2959,3 +2959,19 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
 }
 
 /*end of css for loged-out profile page */
+/* css for add manage project */
+/* line 2248, ../sass/custom/_projects.scss */
+.page-manage-projects .site-main .entry-header {
+  display: none;
+}
+/* line 2251, ../sass/custom/_projects.scss */
+.page-manage-projects .site-main .entry-content {
+  background: #405970;
+  color: #f3f3f3;
+}
+/* line 2255, ../sass/custom/_projects.scss */
+.page-manage-projects .site-main .entry-content .sticky-list tr {
+  background: #405870;
+}
+
+/* end of css for manage project */
