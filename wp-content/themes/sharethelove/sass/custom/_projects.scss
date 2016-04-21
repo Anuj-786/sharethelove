@@ -2249,11 +2249,12 @@ body.home {
 			display: none;
 		}
 		.entry-content {
-			background: #405970;
 			color: #f3f3f3;
-			.sticky-list {
-				tr {
-					background: #405870;
+			.sticky-list-wrapper {
+				.sticky-list {
+					tr {
+						background: #405870;
+					}
 				}
 			}
 		}
