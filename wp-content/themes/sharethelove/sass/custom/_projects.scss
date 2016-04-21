@@ -2242,3 +2242,21 @@ body.home {
 	}
 }
 /*end of css for loged-out profile page */
+/* css for add manage project */ 
+.page-manage-projects {
+	.site-main {
+		.entry-header {
+			display: none;
+		}
+		.entry-content {
+			background: #405970;
+			color: #f3f3f3;
+			.sticky-list {
+				tr {
+					background: #405870;
+				}
+			}
+		}
+	}
+}
+/* end of css for manage project */
