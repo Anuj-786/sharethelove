@@ -107,6 +107,7 @@
                                         print('<div><div class="login-trigger"><span>Login</span></div>');
                                         print('<div class="login-content">'); echo do_shortcode('[my-login-form]'); 
                                         print('</div></div>');
+                                        print('<a href="');echo home_url(); print('/#sign-up">Sign Up</a>');
                                         print('<a href="');echo home_url(); print('/search"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/search-home.png"></a>');
                                     }; ?>
                                 </div>
