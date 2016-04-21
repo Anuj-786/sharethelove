@@ -18,7 +18,7 @@
       }
     }
     .site-header-main {
-      width: 55%;
+      width: 42%;
       float: left;
       .main-navigation a {
         font-size: 25px !important;
@@ -30,7 +30,7 @@
     }
     .stl_login {
       display: inline-flex !important;
-      width: 25% !important;
+      width: 38% !important;
       
       .login-trigger {
 
@@ -47,8 +47,11 @@
       }
       a:nth-child(2) {
        position: absolute;
-       right: 10%;
-       top: 47px;
+       right: 15%;
+       top: 45px;
+       font-size: 25px;
+       font-family: Gotham-Book;
+       color: #405979;
      }
      .login-content {
       position: absolute !important;
