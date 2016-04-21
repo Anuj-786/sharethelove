@@ -132,7 +132,7 @@ body:not(.custom-background-image)::before, body:not(.custom-background-image)::
 .site .site-header .stl_login a:nth-child(2) {
   position: absolute;
   right: 15%;
-  top: 45px;
+  top: 43px;
   font-size: 25px;
   font-family: Gotham-Book;
   color: #405979;
@@ -140,7 +140,7 @@ body:not(.custom-background-image)::before, body:not(.custom-background-image)::
 /* line 56, ../sass/custom/_header.scss */
 .site .site-header .stl_login a:nth-child(3) {
   position: absolute;
-  right: 8%;
+  right: 7.5%;
   top: 45px;
   font-size: 25px;
   font-family: Gotham-Book;
@@ -2461,40 +2461,36 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
 .page-template-user-profile .site-main .user-prof-main .user-prof-bio .usr-bio {
   width: 85%;
   margin-top: 10px;
-}
-/* line 1807, ../sass/custom/_projects.scss */
-.page-template-user-profile .site-main .user-prof-main .user-prof-bio .usr-bio textarea {
+  background: #d9d9d2;
+  color: #405970;
+  padding: 5px 5px 30px;
   border-radius: 10px;
-  font-family: Gotham-Book;
-  font-size: 18px;
-  margin: 0 !important;
-  padding: 0;
 }
-/* line 1819, ../sass/custom/_projects.scss */
+/* line 1816, ../sass/custom/_projects.scss */
 .page-template-user-profile .my-projects {
   color: #405970;
   font-family: Gotham-Book;
   font-size: 24px;
   text-align: center;
 }
-/* line 1825, ../sass/custom/_projects.scss */
+/* line 1822, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container {
   display: none;
 }
-/* line 1827, ../sass/custom/_projects.scss */
+/* line 1824, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .description {
   margin: 0 auto;
   width: 80%;
   line-height: 1.2;
 }
-/* line 1832, ../sass/custom/_projects.scss */
+/* line 1829, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .description h3 {
   color: #f3f3f3;
   font-size: 24px;
   padding-top: 3px;
   padding-bottom: 3px;
 }
-/* line 1838, ../sass/custom/_projects.scss */
+/* line 1835, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .description p {
   background-color: #d9d9d2;
   color: #40597e;
@@ -2503,7 +2499,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   margin: 0;
   border-radius: 5px;
 }
-/* line 1847, ../sass/custom/_projects.scss */
+/* line 1844, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .role-description {
   border-radius: 10px;
   margin: 0 auto;
@@ -2512,14 +2508,14 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   position: relative;
   top: 10px;
 }
-/* line 1854, ../sass/custom/_projects.scss */
+/* line 1851, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .role-description h3 {
   color: #f3f3f3;
   font-size: 24px;
   padding-top: 3px;
   padding-bottom: 3px;
 }
-/* line 1860, ../sass/custom/_projects.scss */
+/* line 1857, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .role-description p {
   border-radius: 5px;
   background-color: #d9d9d2;
@@ -2528,13 +2524,13 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   padding: 5px;
   margin: 0;
 }
-/* line 1869, ../sass/custom/_projects.scss */
+/* line 1866, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .facilities {
   width: 80%;
   margin: 0 auto;
   padding-top: 20px;
 }
-/* line 1873, ../sass/custom/_projects.scss */
+/* line 1870, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .facilities h3 {
   color: #f3f3f3 !important;
   font-size: 24px;
@@ -2543,7 +2539,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   width: 35%;
   float: left;
 }
-/* line 1881, ../sass/custom/_projects.scss */
+/* line 1878, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .facilities p {
   color: #f3f3f3;
   font-size: 18px;
@@ -2552,13 +2548,13 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   padding: 0 !important;
   line-height: 2.3;
 }
-/* line 1890, ../sass/custom/_projects.scss */
+/* line 1887, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .contact-details {
   width: 80%;
   margin: 0 auto;
   padding-top: 20px;
 }
-/* line 1894, ../sass/custom/_projects.scss */
+/* line 1891, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .contact-details h3 {
   color: #f3f3f3 !important;
   font-size: 24px;
@@ -2567,7 +2563,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   width: 30%;
   float: left;
 }
-/* line 1903, ../sass/custom/_projects.scss */
+/* line 1900, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .contact-details p:nth-child(2) {
   width: 60% !important;
   float: left;
@@ -2578,7 +2574,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   color: #40597e;
   font-family: 14px;
 }
-/* line 1913, ../sass/custom/_projects.scss */
+/* line 1910, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .contact-details p:nth-child(3) {
   background: #d9d9d2 none repeat scroll 0 0;
   border-radius: 5px;
@@ -2590,7 +2586,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   color: #40597e;
   font-family: 14px;
 }
-/* line 1924, ../sass/custom/_projects.scss */
+/* line 1921, ../sass/custom/_projects.scss */
 .page-template-user-profile .toggle-container .contact-details p:nth-child(4) {
   display: inline-flex;
   background: #d9d9d2 none repeat scroll 0 0;
@@ -2604,7 +2600,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   padding-left: 70px;
   font-family: 14px;
 }
-/* line 1939, ../sass/custom/_projects.scss */
+/* line 1936, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main {
   width: 91%;
   margin: 0 auto;
@@ -2612,56 +2608,56 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   margin-bottom: 30px;
   padding-top: 15px;
 }
-/* line 1945, ../sass/custom/_projects.scss */
+/* line 1942, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .manage-projects {
   float: right;
   margin-right: 25px;
 }
-/* line 1949, ../sass/custom/_projects.scss */
+/* line 1946, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .header_image {
   width: 30%;
   height: 210px;
   float: left;
   padding-left: 75px;
 }
-/* line 1954, ../sass/custom/_projects.scss */
+/* line 1951, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .header_image img {
   height: 210px;
   width: 210px;
   border-radius: 15px !important;
 }
-/* line 1960, ../sass/custom/_projects.scss */
+/* line 1957, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .activity-desc {
   width: 65%;
   float: right;
 }
-/* line 1963, ../sass/custom/_projects.scss */
+/* line 1960, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .activity-desc p:nth-child(1) {
   font-size: 36px;
   color: #f3f3f3;
 }
-/* line 1967, ../sass/custom/_projects.scss */
+/* line 1964, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .activity-desc p {
   margin: 0;
   color: #f3f3f3;
 }
-/* line 1972, ../sass/custom/_projects.scss */
+/* line 1969, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .activity-desc p:nth-child(4) {
   float: left;
 }
-/* line 1975, ../sass/custom/_projects.scss */
+/* line 1972, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .activity-desc p:nth-child(5) {
   margin-left: 50%;
 }
-/* line 1978, ../sass/custom/_projects.scss */
+/* line 1975, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .activity-desc p:nth-child(6) {
   float: left;
 }
-/* line 1981, ../sass/custom/_projects.scss */
+/* line 1978, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .activity-desc p:nth-child(7) {
   margin-left: 50%;
 }
-/* line 1985, ../sass/custom/_projects.scss */
+/* line 1982, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .project-img {
   clear: both;
   padding-top: 30px;
@@ -2669,14 +2665,14 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   padding-bottom: 50px;
   margin: 0 auto;
 }
-/* line 1991, ../sass/custom/_projects.scss */
+/* line 1988, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .project-img img {
   height: 145px;
   margin-left: 40px;
   width: 159px;
   border-radius: 15px;
 }
-/* line 1998, ../sass/custom/_projects.scss */
+/* line 1995, ../sass/custom/_projects.scss */
 .page-template-user-profile .activity-main .moreshow {
   background: #d9d9d2;
   width: 100%;
@@ -2688,22 +2684,22 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   font-family: Gotham-Book !important;
   cursor: pointer;
 }
-/* line 2010, ../sass/custom/_projects.scss */
+/* line 2007, ../sass/custom/_projects.scss */
 .page-template-user-profile .add-project-logo {
   margin-left: 35%;
   padding-bottom: 30px;
 }
-/* line 2013, ../sass/custom/_projects.scss */
+/* line 2010, ../sass/custom/_projects.scss */
 .page-template-user-profile .add-project-logo a {
   float: left;
   display: inline-block;
 }
-/* line 2017, ../sass/custom/_projects.scss */
+/* line 2014, ../sass/custom/_projects.scss */
 .page-template-user-profile .add-project-logo img {
   width: 70px;
   height: 70px;
 }
-/* line 2021, ../sass/custom/_projects.scss */
+/* line 2018, ../sass/custom/_projects.scss */
 .page-template-user-profile .add-project-logo .add-project {
   display: inline-block;
   font-size: 24px;
@@ -2713,37 +2709,37 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
 
 /* end of css for profile page */
 /* css for update profile page */
-/* line 2031, ../sass/custom/_projects.scss */
+/* line 2028, ../sass/custom/_projects.scss */
 .page-update-profile {
   font-family: Gotham-Book !important;
 }
-/* line 2033, ../sass/custom/_projects.scss */
+/* line 2030, ../sass/custom/_projects.scss */
 .page-update-profile .site-content {
   width: 100% !important;
 }
-/* line 2035, ../sass/custom/_projects.scss */
+/* line 2032, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main {
   width: 100%;
   background: #405970;
   margin-bottom: 3.5em;
 }
-/* line 2039, ../sass/custom/_projects.scss */
+/* line 2036, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-header {
   display: none;
 }
-/* line 2044, ../sass/custom/_projects.scss */
+/* line 2041, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form .gform_heading {
   width: 100%;
   text-align: center;
   color: #f3f3f3;
   font-size: 24px;
 }
-/* line 2050, ../sass/custom/_projects.scss */
+/* line 2047, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_51 {
   width: 45%;
   text-align: center;
 }
-/* line 2053, ../sass/custom/_projects.scss */
+/* line 2050, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_51 label {
   font-size: 18px;
   background: #d9d9d2;
@@ -2751,16 +2747,16 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   border-radius: 10px;
   color: #405970;
 }
-/* line 2060, ../sass/custom/_projects.scss */
+/* line 2057, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_51 .ginput_container_fileupload {
   display: none;
 }
-/* line 2064, ../sass/custom/_projects.scss */
+/* line 2061, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_1 {
   padding-left: 112px;
   width: 100%;
 }
-/* line 2067, ../sass/custom/_projects.scss */
+/* line 2064, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_1 label {
   font-size: 18px;
   color: #f3f3f3;
@@ -2768,11 +2764,11 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   display: inline-block;
   width: 10%;
 }
-/* line 2074, ../sass/custom/_projects.scss */
+/* line 2071, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_1 .ginput_container_text {
   width: 100%;
 }
-/* line 2076, ../sass/custom/_projects.scss */
+/* line 2073, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_1 .ginput_container_text input {
   border-radius: 5px;
   padding: 10px;
@@ -2781,15 +2777,15 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   text-align: center;
   background: #d9d9d2;
 }
-/* line 2086, ../sass/custom/_projects.scss */
+/* line 2083, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_50 {
   display: none;
 }
-/* line 2089, ../sass/custom/_projects.scss */
+/* line 2086, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_13 {
   padding-left: 112px;
 }
-/* line 2091, ../sass/custom/_projects.scss */
+/* line 2088, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_13 label {
   font-size: 18px;
   color: #f3f3f3;
@@ -2797,7 +2793,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   display: inline-block;
   width: 10%;
 }
-/* line 2098, ../sass/custom/_projects.scss */
+/* line 2095, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_13 select {
   padding: 8px;
   color: #405970;
@@ -2806,11 +2802,11 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   border-radius: 5px;
   display: inline-block;
 }
-/* line 2107, ../sass/custom/_projects.scss */
+/* line 2104, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_19 {
   padding-left: 112px;
 }
-/* line 2109, ../sass/custom/_projects.scss */
+/* line 2106, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_19 label {
   font-size: 18px;
   color: #f3f3f3;
@@ -2818,7 +2814,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   display: inline-block;
   width: 10%;
 }
-/* line 2116, ../sass/custom/_projects.scss */
+/* line 2113, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_19 select {
   padding: 8px;
   color: #405970;
@@ -2827,12 +2823,12 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   border-radius: 5px;
   display: inline-block;
 }
-/* line 2125, ../sass/custom/_projects.scss */
+/* line 2122, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_52 {
   padding-left: 112px;
   width: 100%;
 }
-/* line 2128, ../sass/custom/_projects.scss */
+/* line 2125, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_52 label {
   font-size: 18px;
   color: #f3f3f3;
@@ -2840,11 +2836,11 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   display: inline-block;
   width: 10%;
 }
-/* line 2135, ../sass/custom/_projects.scss */
+/* line 2132, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_52 .ginput_container_text {
   width: 100%;
 }
-/* line 2137, ../sass/custom/_projects.scss */
+/* line 2134, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_52 .ginput_container_text input {
   border-radius: 5px;
   padding: 10px;
@@ -2853,12 +2849,12 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   text-align: center;
   background: #d9d9d2;
 }
-/* line 2147, ../sass/custom/_projects.scss */
+/* line 2144, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_11 {
   padding-left: 112px;
   width: 100%;
 }
-/* line 2150, ../sass/custom/_projects.scss */
+/* line 2147, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_11 label {
   font-size: 18px;
   color: #f3f3f3;
@@ -2866,20 +2862,20 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   display: inline-block;
   width: 10%;
 }
-/* line 2157, ../sass/custom/_projects.scss */
+/* line 2154, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_11 .ginput_container_textarea {
   width: 70%;
 }
-/* line 2159, ../sass/custom/_projects.scss */
+/* line 2156, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_11 .ginput_container_textarea textarea {
   border-radius: 10px;
   color: #405970;
 }
-/* line 2165, ../sass/custom/_projects.scss */
+/* line 2162, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_27 {
   padding-left: 112px;
 }
-/* line 2167, ../sass/custom/_projects.scss */
+/* line 2164, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_27 label {
   font-size: 18px;
   color: #f3f3f3;
@@ -2887,7 +2883,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   display: inline-block;
   width: 10%;
 }
-/* line 2174, ../sass/custom/_projects.scss */
+/* line 2171, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content form #field_4_27 select {
   padding: 8px;
   color: #405970;
@@ -2896,33 +2892,33 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   border-radius: 5px;
   display: inline-block;
 }
-/* line 2184, ../sass/custom/_projects.scss */
+/* line 2181, ../sass/custom/_projects.scss */
 .page-update-profile .site-content .site-main .entry-content .gform_footer {
   text-align: center;
 }
 
 /*end of css for update profile page */
 /* css for loged-out profile page */
-/* line 2195, ../sass/custom/_projects.scss */
+/* line 2192, ../sass/custom/_projects.scss */
 .page-user-profile-listing {
   font-family: Gotham-Book !important;
 }
-/* line 2197, ../sass/custom/_projects.scss */
+/* line 2194, ../sass/custom/_projects.scss */
 .page-user-profile-listing .site-main {
   padding-bottom: 90px;
   background-color: #182633;
 }
-/* line 2200, ../sass/custom/_projects.scss */
+/* line 2197, ../sass/custom/_projects.scss */
 .page-user-profile-listing .site-main .profile-form {
   display: none;
 }
-/* line 2203, ../sass/custom/_projects.scss */
+/* line 2200, ../sass/custom/_projects.scss */
 .page-user-profile-listing .site-main .profile-edit {
   position: absolute;
   right: 16%;
   padding-top: 10px;
 }
-/* line 2208, ../sass/custom/_projects.scss */
+/* line 2205, ../sass/custom/_projects.scss */
 .page-user-profile-listing .site-main .user-prof-img {
   margin-left: 10%;
   width: 20%;
@@ -2930,17 +2926,17 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   float: left;
   margin-top: 40px;
 }
-/* line 2214, ../sass/custom/_projects.scss */
+/* line 2211, ../sass/custom/_projects.scss */
 .page-user-profile-listing .site-main .user-prof-img img {
   border-radius: 10px;
   height: 170px;
   width: 180px;
 }
-/* line 2219, ../sass/custom/_projects.scss */
+/* line 2216, ../sass/custom/_projects.scss */
 .page-user-profile-listing .site-main .user-prof-img .user-prof-img-txt {
   display: none;
 }
-/* line 2223, ../sass/custom/_projects.scss */
+/* line 2220, ../sass/custom/_projects.scss */
 .page-user-profile-listing .site-main .user-prof-main {
   display: inline-block;
   width: 70%;
@@ -2948,22 +2944,18 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   font-size: 18px;
   padding-left: 25px;
 }
-/* line 2229, ../sass/custom/_projects.scss */
+/* line 2226, ../sass/custom/_projects.scss */
 .page-user-profile-listing .site-main .user-prof-main .user-prof-name-txt {
   font-size: 24px !important;
 }
-/* line 2234, ../sass/custom/_projects.scss */
+/* line 2231, ../sass/custom/_projects.scss */
 .page-user-profile-listing .site-main .user-prof-main .user-prof-bio .usr-bio {
   width: 85%;
   margin-top: 10px;
-}
-/* line 2237, ../sass/custom/_projects.scss */
-.page-user-profile-listing .site-main .user-prof-main .user-prof-bio .usr-bio textarea {
+  background: #d9d9d2;
+  color: #405970;
+  padding: 5px 5px 30px;
   border-radius: 10px;
-  font-family: Gotham-Book;
-  font-size: 18px;
-  margin: 0 !important;
-  padding: 0;
 }
 
 /*end of css for loged-out profile page */
