@@ -44,6 +44,28 @@ if (jQuery(this).hasClass('active')){
 jQuery('#user_login').attr( 'placeholder', ' Email Id' );
 jQuery('#user_pass').attr( 'placeholder', ' Password' );
 
+//Profile image 
+jQuery(".profile_image .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image" style="cursor: pointer;" /> ');
+function readURL6(input) {
+
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            jQuery('#image').attr('src', e.target.result);
+        }
+
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+jQuery('#image').click(function(){
+  jQuery('.profile_image .medium').trigger('click');
+});
+jQuery(".profile_image .medium").change(function(){
+    readURL6(this);
+});
+//End of profile image 
+
 // Add Project page thumbnail display
 jQuery(".header_img .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/header_image.png" id="header_image" style="cursor: pointer;" /> ');
 jQuery(".image1 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
