@@ -2062,7 +2062,29 @@ body.home {
 						padding-left: 112px;
 						width: 100%;
 						label {
-							font-size: 18px;
+							font-size: 16px;
+							color: #f3f3f3;
+							float: left;
+							display: inline-block;
+							width: 10%;
+						}
+						.ginput_container_text {
+							width: 100%;
+							input {
+								border-radius: 5px;
+								padding: 10px;
+								font-size: 16px;
+								color: #405970;
+								text-align: center;
+								background: #d9d9d2;
+							}
+						}
+					}
+					#field_4_53 {
+						padding-left: 112px;
+						width: 100%;
+						label {
+							font-size: 16px;
 							color: #f3f3f3;
 							float: left;
 							display: inline-block;
@@ -2084,9 +2106,9 @@ body.home {
 						display: none;
 					}
 					#field_4_13 {
-						padding-left: 112px;
+						padding-left: 109px;
 						label {
-							font-size: 18px;
+							font-size: 16px;
 							color: #f3f3f3;
 							float: left;
 							display: inline-block;
@@ -2099,31 +2121,15 @@ body.home {
 							font-size: 18px;
 							border-radius: 5px;
 							display: inline-block;
+							background: #d9d9d2;
 						}
 					}
-					#field_4_19 {
-						padding-left: 112px;
-						label {
-							font-size: 18px;
-							color: #f3f3f3;
-							float: left;
-							display: inline-block;
-							width: 10%;
-						}
-						select {
-							padding: 8px;
-							color: #405970;
-							text-align: center !important;
-							font-size: 18px;
-							border-radius: 5px;
-							display: inline-block;
-						}
-					}
+					
 					#field_4_52 {
 						padding-left: 112px;
 						width: 100%;
 						label {
-							font-size: 18px;
+							font-size: 16px;
 							color: #f3f3f3;
 							float: left;
 							display: inline-block;
@@ -2145,7 +2151,7 @@ body.home {
 						padding-left: 112px;
 						width: 100%;
 						label {
-							font-size: 18px;
+							font-size: 16px;
 							color: #f3f3f3;
 							float: left;
 							display: inline-block;
@@ -2159,24 +2165,7 @@ body.home {
 							}
 						}
 					}
-					#field_4_27 {
-						padding-left: 112px;
-						label {
-							font-size: 18px;
-							color: #f3f3f3;
-							float: left;
-							display: inline-block;
-							width: 10%;
-						}
-						select {
-							padding: 8px;
-							color: #405970;
-							text-align: center !important;
-							font-size: 18px;
-							border-radius: 5px;
-							display: inline-block;
-						}
-					}
+					
 				}
 				.gform_footer  {
 					text-align: center;
