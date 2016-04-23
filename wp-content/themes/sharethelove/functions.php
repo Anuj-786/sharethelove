@@ -115,3 +115,23 @@ function add_slug_body_class( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'add_slug_body_class' );
+
+add_filter("gform_after_submission_7", "custom_post_edit_entry");
+
+
+function custom_post_edit_entry ($form, $ajax_enabled, $field_values) {
+ 
+   if($_POST["action"] == "edit"){
+      $post_id = $_POST['post_id'];
+     $form_fields = GFAPI::get_entry($_POST['edit_id']);
+     $img_1 =$form_fields[15];
+     $img_2 =$form_fields[16];
+     $img_3 =$form_fields[17];
+     $img_4 =$form_fields[18];
+     update_post_meta( $post_id, 'project-image-1', $img_1);
+     update_post_meta( $post_id, 'project-image-2', $img_2);
+     update_post_meta( $post_id, 'project-image-3', $img_3);
+     update_post_meta( $post_id, 'project-image-4', $img_4);
+ }
+
+}
