@@ -5,21 +5,21 @@ Template Name: Profile Template
 */
 get_header(); ?>
 
-		<div class="secondary-menu">
-		<?php
-		if (is_user_logged_in()) {
-			print(' <div class="secondary-menu-logo">
-				<ul>
-					<li><a href="');echo home_url(); print('/activity/"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/1-e1459847100362.png" title="Activity"></a></li>
-					<li><a href="');echo home_url(); print('/search/"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/2-e1459847082992.png" title="search"></a></li>
-					<li><a href="');echo home_url(); print('/profile-page/"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/3-e1459847059371.png" title="User Profile"></a></li>
-					<li><a href="');echo home_url(); print('/add-projects/"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/4-e1459846938556.png" title="Add Project"></a></li>
-				</ul>
-				</div>'); 
-		?>
-				</div>
-<div id="primary" class="content-area">
-	<main id="main" class="site-main" role="main">
+<div class="secondary-menu">
+	<?php
+	if (is_user_logged_in()) {
+		print(' <div class="secondary-menu-logo">
+			<ul>
+			<li><a href="');echo home_url(); print('/activity/"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/1-e1459847100362.png" title="Activity"></a></li>
+			<li><a href="');echo home_url(); print('/search/"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/2-e1459847082992.png" title="search"></a></li>
+			<li><a href="');echo home_url(); print('/profile-page/"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/3-e1459847059371.png" title="User Profile"></a></li>
+			<li><a href="');echo home_url(); print('/add-projects/"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/4-e1459846938556.png" title="Add Project"></a></li>
+			</ul>
+			</div>'); 
+			?>
+		</div>
+		<div id="primary" class="content-area">
+			<main id="main" class="site-main" role="main">
 				<?php  
 				$home_url = home_url(); 
 				$user_id = $_GET['id'];
@@ -47,16 +47,31 @@ get_header(); ?>
 	</div><!-- .content-area -->
 	<h3 class="my-projects"> My Projects </h3>
 	<?php 
-            //get your custom posts ids as an array
-	$posts = get_posts(array(
+	// Define custom query parameters
+	$custom_query_args = array(
 		'post_type'   => 'projects',
 		'post_status' => 'publish',
-		'posts_per_page' => -1,
-		'fields' => 'ids'
-		)
-	);
+		'paged' => $paged,
+		'posts_per_page' => 2,
+		'fields' => 'ids' );
+
+				// Get current page and append to custom query parameters array
+	$custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+
+				// Instantiate custom query
+	$custom_query = new WP_Query( $custom_query_args );
+				// Output custom query loop
+
+	if ( $custom_query->have_posts() ) :
+		while ( $custom_query->have_posts() ) : $custom_query->the_post();
+
+	endwhile;
+	endif;
+				// Reset postdata
+	wp_reset_postdata();
+	$post_id = $custom_query->posts;
 			//loop over each post
-	foreach($posts as $p){
+	foreach($post_id as $p){
 			//get the meta you need from each post
 		$home_url = home_url();
 		$pro_h_img = get_the_post_thumbnail($p);
@@ -137,5 +152,11 @@ get_header(); ?>
 			echo $project;	
 		}
 	}
+	// Custom query loop Pagination
+		echo "<div class='nav-previous alignleft'>";
+		previous_posts_link( 'Older Posts' );
+		echo "</div><div class='nav-next alignright'>";
+		next_posts_link( 'Newer Posts', $custom_query->max_num_pages );
+		echo "</div>";
 	?>
 	<?php get_footer(); ?>
