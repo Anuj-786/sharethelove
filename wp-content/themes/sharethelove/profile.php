@@ -52,7 +52,7 @@ get_header(); ?>
 		'post_type'   => 'projects',
 		'post_status' => 'publish',
 		'paged' => $paged,
-		'posts_per_page' => 2,
+		'posts_per_page' => 3,
 		'fields' => 'ids' );
 
 				// Get current page and append to custom query parameters array
@@ -153,10 +153,6 @@ get_header(); ?>
 		}
 	}
 	// Custom query loop Pagination
-		echo "<div class='nav-previous alignleft'>";
-		previous_posts_link( 'Older Posts' );
-		echo "</div><div class='nav-next alignright'>";
-		next_posts_link( 'Newer Posts', $custom_query->max_num_pages );
-		echo "</div>";
+	wp_pagenavi( array( 'query' => $custom_query ) );
 	?>
 	<?php get_footer(); ?>
