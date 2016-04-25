@@ -20,17 +20,31 @@ get_header(); ?>
 		<div id="primary" class="content-area">
 			<main id="main" class="site-main" role="main">
 				<?php 
-            //get your custom posts ids as an array
-				$posts = get_posts(array(
+				// Define custom query parameters
+				$custom_query_args = array(
 					'post_type'   => 'projects',
 					'post_status' => 'publish',
-					'posts_per_page' => -1,
-					'fields' => 'ids'
-					)
-				);
-			//loop over each post 
-				foreach($posts as $p){
-			    //get the meta you need from each post
+					'paged' => $paged,
+					'posts_per_page' => 2,
+					'fields' => 'ids' );
+
+				// Get current page and append to custom query parameters array
+				$custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+
+				// Instantiate custom query
+				$custom_query = new WP_Query( $custom_query_args );
+				// Output custom query loop
+
+				if ( $custom_query->have_posts() ) :
+					while ( $custom_query->have_posts() ) : $custom_query->the_post();
+				
+				endwhile;
+				endif;
+				// Reset postdata
+				wp_reset_postdata();
+				$post_id = $custom_query->posts;
+				foreach($post_id as $p){
+				//get the meta you need from each post
 					$home_url = home_url();
 					$pro_h_img = get_the_post_thumbnail($p);
 					$hed_img_url = wp_get_attachment_url( get_post_thumbnail_id($p) );
@@ -109,6 +123,7 @@ get_header(); ?>
 				//echo $project;
 					echo $project;	
 				}
+				wp_pagenavi( array( 'query' => $custom_query ) );
 			}
 			?>
 		</main><!-- .site-main -->
