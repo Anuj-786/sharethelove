@@ -68,36 +68,17 @@ jQuery(".profile_image .medium").change(function(){
 
 
 // Add Project page thumbnail display
-var head_img  = jQuery('.file_1 a').attr('href');
-if(typeof(head_img) == 'undefined'){
+
 jQuery(".header_img .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/header_image.png" id="header_image" style="cursor: pointer;" /> ');
-}else{
-jQuery(".header_img .medium").after(' <img src='+head_img+' id="header_image" style="cursor: pointer;" /> ');
-}
-var img_1  = jQuery('.file_15 a').attr('href');
-if(typeof(img_1) == 'undefined'){
+
 jQuery(".image1 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
-}else{
-jQuery(".image1 .medium").after(' <img src='+img_1+' id="image_one" style="cursor: pointer;" /> ');
-}
-var img_2  = jQuery('.file_16 a').attr('href');
-if(typeof(img_1) == 'undefined'){
+
 jQuery(".image2 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
-}else{
-jQuery(".image2 .medium").after(' <img src='+img_2+' id="image_two" style="cursor: pointer;" /> ');
-}
-var img_3  = jQuery('.file_17 a').attr('href');
-if(typeof(img_1) == 'undefined'){
+
 jQuery(".image3 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
-}else{
-jQuery(".image3 .medium").after(' <img src='+img_3+' id="image_three" style="cursor: pointer;" /> ');
-}
-var img_4  = jQuery('.file_18 a').attr('href');
-if(typeof(img_1) == 'undefined'){
+
 jQuery(".image4 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
-}else{
-jQuery(".image4 .medium").after(' <img src='+img_4+' id="image_four" style="cursor: pointer;" /> ');
-}
+
 function readURL5(input) {
     if (input.files && input.files[0]) {
         var reader = new FileReader();
