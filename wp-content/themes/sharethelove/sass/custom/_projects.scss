@@ -996,8 +996,8 @@ body.home {
 											height:89px;
 											border-radius: 10px;
 										}
-										.field_7_15 {
-											display: none;
+										.file_15{
+											display: none !important;
 										}
 									}
 								}
@@ -1020,8 +1020,8 @@ body.home {
 											height:89px;
 											border-radius: 10px;
 										}
-										.field_7_16 {
-											display: none;
+										.file_16 {
+											display: none ;
 										}
 									}
 								}
@@ -1045,7 +1045,7 @@ body.home {
 											height:89px;
 											border-radius: 10px;
 										}
-										.field_7_17 {
+										.file_17 {
 											display: none;
 										}
 									}
@@ -1070,7 +1070,7 @@ body.home {
 											height:89px;
 											border-radius: 10px;
 										}
-										.field_7_18 {
+										.file_18 {
 											display: none;
 										}
 									}
@@ -2422,6 +2422,17 @@ body.home {
 				width: 159px;
 				border-radius: 15px;
 			}
+		}
+		.moreshow {
+			background: #d9d9d2;
+			width: 100%;
+			display: inline-block;
+			padding:10px;
+			text-align: center;
+			font-size: 16px;
+			color: #49647e;
+			font-family: Gotham-Book !important;
+			cursor: pointer;
 		}
 	}
 }
