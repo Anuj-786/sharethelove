@@ -31,7 +31,7 @@ get_header(); ?>
 				$bio = get_user_meta($user_id ,"description", true); 
 
 				$user_profile = " ";
-				$user_profile .= "<div class='user-prof-img'><div class='usr-img'><img src=".$Image."></div><div class='user-prof-img-txt'>Image</div></div>";
+				$user_profile .= "<div class='user-prof-img'><div class='usr-img'><img src=".$image."></div><div class='user-prof-img-txt'>Image</div></div>";
 				$user_profile .= "<div class='user-prof-main'>";
 				$user_profile .= "<div class='user-prof-name'><div class='user-prof-name-txt'>Name:"." ".$name."</div></div>";
 				$user_profile .= "<div class='user-prof-state'><div class='user-prof-state-txt'>Location:"." ".$city."(".$state.")</div></div>";
