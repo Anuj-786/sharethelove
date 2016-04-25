@@ -2244,6 +2244,66 @@ body.home {
 
 		}
 	}
+	.activity-main {
+		width: 91%;
+		margin: 0 auto;
+		background-color: #405970;
+		margin-bottom: 30px;
+		padding-top: 15px;
+		.manage-projects {
+			float: right;
+			margin-right: 25px;
+		}
+		.header_image {
+			width: 30%;
+			height: 210px;
+			float: left;
+			padding-left: 75px;
+			img {
+				height: 210px;
+				width: 210px;
+				border-radius: 15px !important;
+			}
+		}
+		.activity-desc {
+			width: 65%;
+			float: right;
+			p:nth-child(1) {
+				font-size: 36px;
+				color: #f3f3f3;
+			}
+			p {
+				margin: 0;
+				color: #f3f3f3;
+
+			}
+			p:nth-child(4) {
+				float: left;
+			}
+			p:nth-child(5) {
+				margin-left: 50%;
+			}
+			p:nth-child(6) {
+				float: left;
+			}
+			p:nth-child(7) {
+				margin-left: 50%;	
+			}
+		}
+		.project-img {
+			clear: both;
+			padding-top: 30px;
+			width: 88%;
+			padding-bottom: 50px;
+			margin: 0 auto;
+			img {
+				height: 145px;
+				margin-left:40px;
+				width: 159px;
+				border-radius: 15px;
+			}
+		}
+	}
 }
 /*end of css for loged-out profile page */
 /* css for add manage project */ 

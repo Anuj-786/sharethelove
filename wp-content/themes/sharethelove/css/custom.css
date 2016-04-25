@@ -2962,22 +2962,94 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   padding: 5px 5px 30px;
   border-radius: 10px;
 }
+/* line 2247, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main {
+  width: 91%;
+  margin: 0 auto;
+  background-color: #405970;
+  margin-bottom: 30px;
+  padding-top: 15px;
+}
+/* line 2253, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main .manage-projects {
+  float: right;
+  margin-right: 25px;
+}
+/* line 2257, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main .header_image {
+  width: 30%;
+  height: 210px;
+  float: left;
+  padding-left: 75px;
+}
+/* line 2262, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main .header_image img {
+  height: 210px;
+  width: 210px;
+  border-radius: 15px !important;
+}
+/* line 2268, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main .activity-desc {
+  width: 65%;
+  float: right;
+}
+/* line 2271, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main .activity-desc p:nth-child(1) {
+  font-size: 36px;
+  color: #f3f3f3;
+}
+/* line 2275, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main .activity-desc p {
+  margin: 0;
+  color: #f3f3f3;
+}
+/* line 2280, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main .activity-desc p:nth-child(4) {
+  float: left;
+}
+/* line 2283, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main .activity-desc p:nth-child(5) {
+  margin-left: 50%;
+}
+/* line 2286, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main .activity-desc p:nth-child(6) {
+  float: left;
+}
+/* line 2289, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main .activity-desc p:nth-child(7) {
+  margin-left: 50%;
+}
+/* line 2293, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main .project-img {
+  clear: both;
+  padding-top: 30px;
+  width: 88%;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+/* line 2299, ../sass/custom/_projects.scss */
+.page-user-profile-listing .activity-main .project-img img {
+  height: 145px;
+  margin-left: 40px;
+  width: 159px;
+  border-radius: 15px;
+}
 
 /*end of css for loged-out profile page */
 /* css for add manage project */
-/* line 2252, ../sass/custom/_projects.scss */
+/* line 2312, ../sass/custom/_projects.scss */
 .page-manage-projects .site-main .entry-header {
   display: none;
 }
-/* line 2255, ../sass/custom/_projects.scss */
+/* line 2315, ../sass/custom/_projects.scss */
 .page-manage-projects .site-main .entry-content {
   color: #f3f3f3;
 }
-/* line 2257, ../sass/custom/_projects.scss */
+/* line 2317, ../sass/custom/_projects.scss */
 .page-manage-projects .site-main .entry-content .sticky-list-wrapper {
   margin-top: 15px;
 }
-/* line 2260, ../sass/custom/_projects.scss */
+/* line 2320, ../sass/custom/_projects.scss */
 .page-manage-projects .site-main .entry-content .sticky-list-wrapper .sticky-list tr {
   background: #405870;
 }
