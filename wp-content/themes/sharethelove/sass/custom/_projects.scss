@@ -2483,7 +2483,7 @@ body.home {
 }
 /* end of css for manage project */
 /* css for edit project */
-.page-edit-project{
+.page-edit-project	{
 	font-family: Gotham-Book !important;
 	.site-content {
 		width: 100% !important;
@@ -2977,6 +2977,7 @@ body.home {
 										display: none;
 									}
 									.ginput_container {
+										line-height: 1;
 										border-radius: 10px;
 										height: 80px;
 										width: 100%;
@@ -3012,6 +3013,7 @@ body.home {
 										display: none;
 									}
 									.ginput_container {
+										line-height: 1;
 										border-radius: 10px;
 										height: 80px;
 										width: 100%;
@@ -3049,6 +3051,7 @@ body.home {
 										display: none;
 									}
 									.ginput_container {
+										line-height: 1;
 										border-radius: 10px;
 										height: 80px;
 										width: 100%;
@@ -3076,7 +3079,7 @@ body.home {
 									}
 								}
 								#field_7_18 {
-									
+									line-height: 1;
 									font-family: Gotham-book;
 									display: inline-flex;
 									text-align: center;
