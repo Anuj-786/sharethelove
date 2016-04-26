@@ -2483,7 +2483,7 @@ body.home {
 }
 /* end of css for manage project */
 /* css for edit project */
-.page-edit-project	{
+.page-edit-entry	{
 	font-family: Gotham-Book !important;
 	.site-content {
 		width: 100% !important;
@@ -2539,6 +2539,11 @@ body.home {
 									}
 
 									.ginput_container_post_image {
+										img {
+											border-radius: 10px;
+											height: 160px;
+											width: 170px;
+										}
 										input {
 											display: none;
 										}
