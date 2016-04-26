@@ -2064,157 +2064,130 @@ body.home {
 			}
 			.entry-content {
 				form {
-					.gform_heading {
-						width: 100%;
-						text-align: center;
+					width: 70%;
+					margin: 0 auto;
+					.gform_title {
 						color: #f3f3f3;
-						font-size: 24px;
+						font-size: 24px !important;
 					}
-					#field_4_51 {
-						width: 45%;
-						text-align: center;
-						label {
-							font-size: 18px;
-							background: #d9d9d2;
-							padding: 80px 65px;
-							border-radius: 10px;
-							color: #405970;
-						}
-						.ginput_container_fileupload {
-							#gform_preview_4_51 {
+					.gform_body {
+						ul {
+							#field_4_51 {
+								display: inline-block;
+								float: left;
+								width: 15%;
+								label {
+									display: none;
+								}
+								.ginput_container_fileupload {
+									span {
+										background: #d9d9d2;
+										border-radius: 10px;	
+										color: #49647e;
+										font-size: 20px;
+										font-weight: 100;
+										input {
+											display: none;
+										}
+										img {
+											height: 100px;
+											width: 100x;
+											border-radius: 10px;
+										}
+									}
+									.ginput_preview {
+										display: none !important;
+									}
+								}
+							}
+							#field_4_50 {
 								display: none;
 							}
-							input {
-								display: none !important;
+							#field_4_1 {
+								width: 85%;
+								display: inline-block;
+								label {
+									display: none;
+								}
+								.ginput_container {
+									
+									input {
+										border-radius: 10px;
+										background: #d9d9d2;
+									}
+								}
 							}
-							img {
-								border-radius: 10px;
-								height: 185px;
-								width: 195px;
-								left: 109px;
-								position: absolute;
-								top: 95px;
+							#field_4_13 {
+								display: inline-block;
+								margin-top: 7px !important;
+								label	{
+									display: none;
+								}
+								select {
+									width: 88% !important;
+									margin: 0 !important;
+									border-radius: 10px;
+									background: #d9d9d2;
+								}
 							}
-						}
-					}
-					#field_4_1 {
-						padding-left: 112px;
-						width: 100%;
-						label {
-							font-size: 16px;
-							color: #f3f3f3;
-							float: left;
-							display: inline-block;
-							width: 10%;
-						}
-						.ginput_container_text {
-							width: 100%;
-							input {
-								border-radius: 5px;
-								padding: 10px;
-								font-size: 16px;
-								color: #405970;
-								text-align: center;
-								background: #d9d9d2;
+							#field_4_53 {
+								display: inline-block;
+								width: 100%; 
+								label {
+									display: none;
+								}
+								.ginput_container {
+									margin-left: 15%;
+									input {
+										border-radius: 10px;
+										background: #d9d9d2;
+									}
+								}
 							}
-						}
-					}
-					#field_4_53 {
-						padding-left: 112px;
-						width: 100%;
-						label {
-							font-size: 16px;
-							color: #f3f3f3;
-							float: left;
-							display: inline-block;
-							width: 10%;
-						}
-						.ginput_container_text {
-							width: 100%;
-							input {
-								border-radius: 5px;
-								padding: 10px;
-								font-size: 18px;
-								color: #405970;
-								text-align: center;
-								background: #d9d9d2;
+							#field_4_52 {
+								display: inline-block;
+								width: 100%; 
+								margin-top: 7px !important;
+								label {
+									display: none;
+								}
+								
+								.ginput_container {
+									margin-left: 15%;
+									input {
+										border-radius: 10px;
+										background: #d9d9d2;
+									}
+								}
 							}
-						}
-					}
-					#field_4_50 {
-						display: none;
-					}
-					#field_4_13 {
-						padding-left: 109px;
-						label {
-							font-size: 16px;
-							color: #f3f3f3;
-							float: left;
-							display: inline-block;
-							width: 10%;
-						}
-						select {
-							padding: 8px;
-							color: #405970;
-							text-align: center !important;
-							font-size: 18px;
-							border-radius: 5px;
-							display: inline-block;
-							background: #d9d9d2;
-						}
-					}
-					
-					#field_4_52 {
-						padding-left: 112px;
-						width: 100%;
-						label {
-							font-size: 16px;
-							color: #f3f3f3;
-							float: left;
-							display: inline-block;
-							width: 10%;
-						}
-						.ginput_container_text {
-							width: 100%;
-							input {
-								border-radius: 5px;
-								padding: 10px;
-								font-size: 18px;
-								color: #405970;
-								text-align: center;
-								background: #d9d9d2;
+							#field_4_11 {
+								margin-left: 15% !important;
+								margin-top: 12px !important;
+								width: 60%;
+								label {
+									display: none;
+								}
+								.ginput_container {
+									textarea {
+										border-radius: 10px;
+										height: 60px !important;
+										margin: 0 !important;
+										background: #d9d9d2;
+									}
+								}
 							}
+							
 						}
+
 					}
-					#field_4_11 {
-						padding-left: 112px;
-						width: 100%;
-						label {
-							font-size: 16px;
-							color: #f3f3f3;
-							float: left;
-							display: inline-block;
-							width: 10%;
-						}
-						.ginput_container_textarea {
-							width: 70%;
-							textarea {
-								border-radius: 10px;
-								color: #405970;
-							}
-						}
+					.gform_footer {
+						text-align: center;
 					}
-					
-				}
-				.gform_footer  {
-					text-align: center;
 				}
 			}
 		}
-
 	}
 }
-
 /*end of css for update profile page */
 /* css for loged-out profile page */
 .page-user-profile-listing {
@@ -2557,7 +2530,7 @@ body.home {
 
 											}
 										}
-										
+
 									}
 								}
 
@@ -3044,11 +3017,11 @@ body.home {
 											height:89px;
 											border-radius: 10px;
 										}
-										
+
 									}
 								}
 								#field_7_17 {
-									
+
 									font-family: Gotham-book;
 									display: inline-flex;
 									text-align: center;
@@ -3082,8 +3055,8 @@ body.home {
 											height:89px;
 											border-radius: 10px;
 										}
-										
-										
+
+
 									}
 								}
 								#field_7_18 {
@@ -3120,7 +3093,7 @@ body.home {
 											height:89px;
 											border-radius: 10px;
 										}
-										
+
 									}
 								}
 								div#result {
