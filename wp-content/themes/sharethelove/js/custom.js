@@ -75,13 +75,13 @@ jQuery(".file_15 .remove-entry").click(function(){
   jQuery(".image1 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
 });
 jQuery(".file_16 .remove-entry").click(function(){
-  jQuery(".image2 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
+  jQuery(".image2 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_two" style="cursor: pointer;" /> ');
 });
 jQuery(".file_17 .remove-entry").click(function(){
-  jQuery(".image3 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
+  jQuery(".image3 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_three" style="cursor: pointer;" /> ');
 });
 jQuery(".file_18 .remove-entry").click(function(){
-  jQuery(".image4 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
+  jQuery(".image4 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_four" style="cursor: pointer;" /> ');
 });
 if (jQuery('.gform_body .file_1').length) {
 }else{
@@ -93,15 +93,15 @@ if (jQuery('.gform_body .file_15').length) {
 }
 if (jQuery('.gform_body .file_16').length) {
 }else{
-  jQuery(".image2 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
+  jQuery(".image2 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_two" style="cursor: pointer;" /> ');
 }
 if (jQuery('.gform_body .file_17').length) {
 }else{
-  jQuery(".image3 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
+  jQuery(".image3 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_three" style="cursor: pointer;" /> ');
 }
 if (jQuery('.gform_body .file_18').length) {
 }else{
-  jQuery(".image4 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
+  jQuery(".image4 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_four" style="cursor: pointer;" /> ');
 }
 
 function readURL5(input) {
