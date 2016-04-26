@@ -47,7 +47,7 @@ function my_login_form_shortcode( $attr ) {
 	$attr = shortcode_atts( $defaults, $attr );
 	/* Set 'echo' to 'false' because we want it to always return instead of print for shortcodes. */
 	$attr['echo'] = false;
-	$url = "".home_url()."/forget-password";
+	$url = wp_lostpassword_url();
 	$forgot_pass = "<a class='forgot-password' href='".$url."'>Forgot Password</a>";
 	echo $forgot_pass;
 	$errors = $_GET['reason'];
