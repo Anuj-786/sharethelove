@@ -70,18 +70,33 @@ jQuery(".profile_image .medium").change(function(){
 // Add Project page thumbnail display
 jQuery(".file_1 .remove-entry").click(function(){
   jQuery(".header_img .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/header_image.png" id="header_image" style="cursor: pointer;" /> ');
+  jQuery('#header_image').click(function(){
+  jQuery('.header_img .medium').trigger('click');
+});
 });
 jQuery(".file_15 .remove-entry").click(function(){
   jQuery(".image1 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_one" style="cursor: pointer;" /> ');
+  jQuery('#image_one').click(function(){
+  jQuery('.image1 .medium').trigger('click');
+});
 });
 jQuery(".file_16 .remove-entry").click(function(){
   jQuery(".image2 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_two" style="cursor: pointer;" /> ');
+  jQuery('#image_two').click(function(){
+  jQuery('.image2 .medium').trigger('click');
+});
 });
 jQuery(".file_17 .remove-entry").click(function(){
   jQuery(".image3 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_three" style="cursor: pointer;" /> ');
+  jQuery('#image_three').click(function(){
+  jQuery('.image3 .medium').trigger('click');
+});
 });
 jQuery(".file_18 .remove-entry").click(function(){
   jQuery(".image4 .medium").after(' <img src="http://dev-sharethelove.gailabs.com/wp-content/themes/sharethelove/images/add-image.png" id="image_four" style="cursor: pointer;" /> ');
+  jQuery('#image_four').click(function(){
+  jQuery('.image4 .medium').trigger('click');
+});
 });
 if (jQuery('.gform_body .file_1').length) {
 }else{
@@ -161,10 +176,10 @@ function readURL4(input) {
         reader.readAsDataURL(input.files[0]);
     }
 }
-jQuery('#header_image').click(function(){
+jQuery('.gform_body #header_image').click(function(){
   jQuery('.header_img .medium').trigger('click');
 });
-jQuery('#image_one').click(function(){
+jQuery('.gform_body #image_one').click(function(){
   jQuery('.image1 .medium').trigger('click');
 });
 jQuery('#image_two').click(function(){
