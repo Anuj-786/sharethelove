@@ -2782,117 +2782,106 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
   display: none;
 }
 /* line 2083, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_51 .ginput_container_fileupload span {
-  background: #d9d9d2;
-  border-radius: 10px;
-  color: #49647e;
-  font-size: 20px;
-  font-weight: 100;
-}
-/* line 2089, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_51 .ginput_container_fileupload span input {
+.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_51 .ginput_container_fileupload input {
   display: none;
+}
+/* line 2086, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_51 .ginput_container_fileupload img#image {
+  height: 90px;
+  width: 85px;
+  border-radius: 10px;
 }
 /* line 2092, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_51 .ginput_container_fileupload span img {
-  height: 100px;
-  width: 100x;
-  border-radius: 10px;
-}
-/* line 2098, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_51 .ginput_container_fileupload .ginput_preview {
+.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_51 .ginput_preview {
   display: none !important;
 }
-/* line 2103, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_50 {
+/* line 2097, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_50 {
   display: none;
 }
-/* line 2106, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_1 {
+/* line 2100, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_1 {
   width: 85%;
   display: inline-block;
 }
-/* line 2109, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_1 label {
+/* line 2103, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_1 label {
   display: none;
 }
-/* line 2114, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_1 .ginput_container input {
+/* line 2108, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_1 .ginput_container input {
   border-radius: 10px;
   background: #d9d9d2;
 }
-/* line 2120, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_13 {
+/* line 2114, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_13 {
   display: inline-block;
   margin-top: 7px !important;
 }
-/* line 2123, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_13 label {
+/* line 2117, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_13 label {
   display: none;
 }
-/* line 2126, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_13 select {
-  width: 88% !important;
+/* line 2120, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_13 select {
+  width: 85% !important;
   margin: 0 !important;
   border-radius: 10px;
   background: #d9d9d2;
+  padding: 4px !important;
 }
-/* line 2133, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_53 {
+/* line 2128, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_53 {
   display: inline-block;
-  width: 100%;
+  width: 70%;
 }
-/* line 2136, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_53 label {
+/* line 2131, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_53 label {
   display: none;
 }
-/* line 2139, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_53 .ginput_container {
-  margin-left: 15%;
-}
-/* line 2141, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_53 .ginput_container input {
+/* line 2136, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_53 .ginput_container input {
   border-radius: 10px;
   background: #d9d9d2;
+  width: 58%;
+  margin-top: 7px;
 }
-/* line 2147, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_52 {
+/* line 2144, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_52 {
   display: inline-block;
-  width: 100%;
+  width: 70%;
   margin-top: 7px !important;
+  margin-left: 15% !important;
 }
-/* line 2151, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_52 label {
+/* line 2149, ../sass/custom/_projects.scss */
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_52 label {
   display: none;
 }
 /* line 2155, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_52 .ginput_container {
-  margin-left: 15%;
-}
-/* line 2157, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_52 .ginput_container input {
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_52 .ginput_container input {
   border-radius: 10px;
   background: #d9d9d2;
+  width: 58%;
 }
 /* line 2163, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_11 {
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_11 {
   margin-left: 15% !important;
   margin-top: 12px !important;
   width: 60%;
 }
 /* line 2167, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_11 label {
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_11 label {
   display: none;
 }
 /* line 2171, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_body ul #field_4_11 .ginput_container textarea {
+.page-update-profile .site-content .site-main .entry-content form .gform_body #field_4_11 .ginput_container textarea {
   border-radius: 10px;
   height: 60px !important;
   margin: 0 !important;
   background: #d9d9d2;
 }
 /* line 2183, ../sass/custom/_projects.scss */
-.page-update-profile .site-content .site-main .entry-content form .gform_footer {
+.page-update-profile .site-content .site-main .entry-content .gform_footer {
   text-align: center;
 }
 

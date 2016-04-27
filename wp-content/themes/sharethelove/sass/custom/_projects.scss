@@ -2080,114 +2080,114 @@ body.home {
 									display: none;
 								}
 								.ginput_container_fileupload {
-									span {
-										background: #d9d9d2;
-										border-radius: 10px;	
-										color: #49647e;
-										font-size: 20px;
-										font-weight: 100;
-										input {
-											display: none;
-										}
-										img {
-											height: 100px;
-											width: 100x;
-											border-radius: 10px;
-										}
+									input {
+										display: none;
 									}
-									.ginput_preview {
-										display: none !important;
+									img#image {
+										height: 90px;
+										width: 85px;
+										border-radius: 10px;
 									}
 								}
+								.ginput_preview {
+									display: none !important;
+								}
 							}
-							#field_4_50 {
+						}
+						#field_4_50 {
+							display: none;
+						}
+						#field_4_1 {
+							width: 85%;
+							display: inline-block;
+							label {
 								display: none;
 							}
-							#field_4_1 {
-								width: 85%;
-								display: inline-block;
-								label {
-									display: none;
-								}
-								.ginput_container {
-									
-									input {
-										border-radius: 10px;
-										background: #d9d9d2;
-									}
-								}
-							}
-							#field_4_13 {
-								display: inline-block;
-								margin-top: 7px !important;
-								label	{
-									display: none;
-								}
-								select {
-									width: 88% !important;
-									margin: 0 !important;
+							.ginput_container {
+
+								input {
 									border-radius: 10px;
 									background: #d9d9d2;
 								}
 							}
-							#field_4_53 {
-								display: inline-block;
-								width: 100%; 
-								label {
-									display: none;
-								}
-								.ginput_container {
-									margin-left: 15%;
-									input {
-										border-radius: 10px;
-										background: #d9d9d2;
-									}
-								}
+						}
+						#field_4_13 {
+							display: inline-block;
+							margin-top: 7px !important;
+							label	{
+								display: none;
 							}
-							#field_4_52 {
-								display: inline-block;
-								width: 100%; 
-								margin-top: 7px !important;
-								label {
-									display: none;
-								}
+							select {
+								width: 85% !important;
+								margin: 0 !important;
+								border-radius: 10px;
+								background: #d9d9d2;
+								padding: 4px !important;
+							}
+						}
+						#field_4_53 {
+							display: inline-block;
+							width: 70%; 
+							label {
+								display: none;
+							}
+							.ginput_container {
 								
-								.ginput_container {
-									margin-left: 15%;
-									input {
-										border-radius: 10px;
-										background: #d9d9d2;
-									}
+								input {
+									border-radius: 10px;
+									background: #d9d9d2;
+									width: 58%;
+									margin-top: 7px;
 								}
 							}
-							#field_4_11 {
-								margin-left: 15% !important;
-								margin-top: 12px !important;
-								width: 60%;
-								label {
-									display: none;
-								}
-								.ginput_container {
-									textarea {
-										border-radius: 10px;
-										height: 60px !important;
-										margin: 0 !important;
-										background: #d9d9d2;
-									}
+						}
+						#field_4_52 {
+							display: inline-block;
+							width: 70%; 
+							margin-top: 7px !important;
+							margin-left: 15% !important;
+							label {
+								display: none;
+							}
+
+							.ginput_container {
+								
+								input {
+									border-radius: 10px;
+									background: #d9d9d2;
+									width: 58%;
+									
 								}
 							}
-							
+						}
+						#field_4_11 {
+							margin-left: 15% !important;
+							margin-top: 12px !important;
+							width: 60%;
+							label {
+								display: none;
+							}
+							.ginput_container {
+								textarea {
+									border-radius: 10px;
+									height: 60px !important;
+									margin: 0 !important;
+									background: #d9d9d2;
+								}
+							}
 						}
 
 					}
-					.gform_footer {
-						text-align: center;
-					}
+
+				}
+				.gform_footer {
+					text-align: center;
 				}
 			}
 		}
 	}
 }
+
 /*end of css for update profile page */
 /* css for loged-out profile page */
 .page-user-profile-listing {
