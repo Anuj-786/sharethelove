@@ -72,7 +72,7 @@ get_header(); ?>
 					'post_type'   => 'projects',
 					'post_status' => 'publish',
 					'paged' => $paged,
-					'posts_per_page' => 3,
+					'posts_per_page' => 10,
 					'fields' => 'ids' );
 
 				// Get current page and append to custom query parameters array
