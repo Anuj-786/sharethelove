@@ -447,15 +447,25 @@ body.home {
 					}
 					p:nth-child(4) {
 						float: left;
+						a {
+							color: #f3f3f3;
+							text-decoration: underline;
+						}
 					}
 					p:nth-child(5) {
 						margin-left: 50%;
+						a {
+							color: #f3f3f3;
+						}
 					}
 					p:nth-child(6) {
 						float: left;
 					}
 					p:nth-child(7) {
 						margin-left: 50%;	
+						a {
+							color: #f3f3f3;
+						}
 					}
 				}
 				.project-img {
@@ -1427,15 +1437,25 @@ body.home {
 					}
 					p:nth-child(4) {
 						float: left;
+						a {
+							color: #f3f3f3;
+							text-decoration: underline;
+						}
 					}
 					p:nth-child(5) {
 						margin-left: 50%;
+						a {
+							color: #f3f3f3;
+						}
 					}
 					p:nth-child(6) {
 						float: left;
 					}
 					p:nth-child(7) {
-						margin-left: 50%;	
+						margin-left: 50%;
+						a {
+							color: #f3f3f3;
+						}	
 					}
 				}
 				.project-img {
@@ -1543,15 +1563,25 @@ body.home {
 				}
 				p:nth-child(4) {
 					float: left;
+					a {
+						color: #f3f3f3;
+						text-decoration: underline;
+					}
 				}
 				p:nth-child(5) {
 					margin-left: 50%;
+					a {
+						color: #f3f3f3;
+					}
 				}
 				p:nth-child(6) {
 					float: left;
 				}
 				p:nth-child(7) {
 					margin-left: 50%;	
+					a {
+						color: #f3f3f3;
+					}
 				}
 			}
 			.project-img {
@@ -1775,6 +1805,9 @@ body.home {
 			margin: 0;
 			line-height: 1.3;
 		}
+		p:nth-child(2) {
+			margin-top: 10px;
+		}
 	}
 }
 /* end of css for privacy policy page */
@@ -1989,15 +2022,25 @@ body.home {
 			}
 			p:nth-child(4) {
 				float: left;
+				a {
+					color: #f3f3f3;
+					text-decoration: underline;
+				}
 			}
 			p:nth-child(5) {
 				margin-left: 50%;
+				a {
+					color: #f3f3f3;
+				}
 			}
 			p:nth-child(6) {
 				float: left;
 			}
 			p:nth-child(7) {
 				margin-left: 50%;	
+				a {
+					color: #f3f3f3;
+				}
 			}
 		}
 		.project-img {
@@ -2396,6 +2439,10 @@ body.home {
 			}
 			p:nth-child(4) {
 				float: left;
+				a {
+					color: #f3f3f3;
+					text-decoration: underline;
+				}
 			}
 			p:nth-child(5) {
 				margin-left: 50%;
@@ -2405,6 +2452,9 @@ body.home {
 			}
 			p:nth-child(7) {
 				margin-left: 50%;	
+				a {
+					color: #f3f3f3;
+				}
 			}
 		}
 		.project-img {
