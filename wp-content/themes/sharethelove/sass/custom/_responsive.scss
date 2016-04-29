@@ -1,0 +1,126 @@
+@media only screen and (max-width: 480px) {
+
+	.home {
+		.home_text {
+			.share-description {
+				font-size: 18px !important;
+				line-height: 1.2 !important;
+			}
+			.home_connect {
+				h3 {
+					font-size: 18px !important;
+				}
+			}
+			.featured_project_text {
+				h4 {
+					font-size: 18px !important;
+				}
+			}
+		}
+		form {
+			padding-left: 40px !important;
+			.gform_heading {
+				h3 {
+					font-size: 24px !important;
+				}
+			}
+			input {
+				width: 85% !important;
+				font-size: 18px !important;
+			}
+			#field_2_3 {
+				padding-left: 0 !important;
+				.gchoice_2_3_1 {
+					width: 45% !important;
+					label {
+						padding-left: 0 !important;
+						font-size: 13px !important;
+						&:after {
+							width: 10px !important;
+							height: 10px !important;
+						}
+					}
+				}
+				.gchoice_2_3_2  {
+					width: 45% !important;
+					label {
+						font-size: 13px !important;
+						padding-left: 0 !important;
+						&:after {
+							width: 10px !important;
+							height: 10px !important;
+						}
+					}
+				}
+			}
+			#field_2_7 {
+				font-size: 11px !important;
+				width: 80%;
+			}
+
+		}       
+	}
+	.page-about {
+		.about-team-member {
+			width: 120px !important;
+			height: 120px !important;
+			.about-team-name {
+				font-size: 12px;
+				padding-top: 3em;
+			}
+			.about-team-post {
+				font-size: 12px;
+			}
+
+			
+		}
+		.about-team-img {
+			padding-top: 0;
+		}
+		.about-team-second-block {
+			.about-left-block {
+				float: left;
+				width: 58%;
+			}
+			.about-right-block {
+				width: 42%;
+				padding-left: 0;
+			}
+		}
+		.about-team-last-block {
+			padding-top: 3em;
+		}
+	}
+}
+/* media query for header */
+@media screen and (max-width: 640px) {
+	header {
+		height: 104px !important;
+		.header-image {
+			img {
+				width: 85px !important;
+				height: 85px !important;
+			}
+		}
+		.stl_login {
+			.box-shadow-menu {
+				margin-top: 35px !important;
+			}
+			.login-menu {
+				width: 30% !important;
+				top: 61% !important;
+			}
+		}
+	}
+	.secondary-menu-logo {
+		ul {
+			img {
+				width: 50px !important;
+				height: 50px !important;
+			}
+			li {
+				text-align: center !important;
+			}
+		}
+	}
+}
