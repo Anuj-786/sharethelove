@@ -102,7 +102,6 @@
                             $ham_menu .="<li><a href='" .$home_url. "/faqs'>FAQs</a></li>";
                             echo $ham_menu;
                             $rediect = " " .$home_url. "/home";
-                            echo $rediect;
                             print('<li><a href="'); echo wp_logout_url($rediect); print('" title="Logout">Logout</a>
                                 </ul></div>');                               }
                                     else {
