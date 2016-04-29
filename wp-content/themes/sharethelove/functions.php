@@ -135,3 +135,14 @@ function custom_post_edit_entry ($form, $ajax_enabled, $field_values) {
 		update_post_meta( $post_id, 'project-image-4', $img_4);
 		}
 }
+
+    if( is_user_logged_in() ) {
+    $page = get_page_by_title( 'Activity');
+    update_option( 'page_on_front', $page->ID );
+    update_option( 'show_on_front', 'page' );
+	}
+	else {
+	    $page = get_page_by_title( 'Home' );
+	    update_option( 'page_on_front', $page->ID );
+	    update_option( 'show_on_front', 'page' );
+	}

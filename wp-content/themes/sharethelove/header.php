@@ -101,8 +101,7 @@
                             $ham_menu .="<li><a href='" .$home_url. "/about'>Support Us</a></li>";
                             $ham_menu .="<li><a href='" .$home_url. "/faqs'>FAQs</a></li>";
                             echo $ham_menu;
-                            $rediect = " " .$home_url. "/home";
-                            print('<li><a href="'); echo wp_logout_url($rediect); print('" title="Logout">Logout</a>
+                            print('<li><a href="'); echo wp_logout_url($home_url); print('" title="Logout">Logout</a>
                                 </ul></div>');                               }
                                     else {
                                         print('<div><div class="login-trigger"><span>Login</span></div>');
