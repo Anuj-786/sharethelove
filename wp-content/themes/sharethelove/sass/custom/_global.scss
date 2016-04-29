@@ -1,65 +1,67 @@
 @font-face {
-	font-family: Gotham-Book;
-	src: url("../fonts/Gotham Book.ttf");
+    font-family: Gotham-Book;
+    src: url("../fonts/Gotham Book.ttf");
 }
 
 body {
-	font-family: Gotham-Book;
-	width: 1031px;
-	margin: 0 auto !important;
-	background: none !important;
-	background-color: #fff !important;
-	.site-content {
-		padding: 0;
-		.site-main {
-			width: 91% !important;
-			margin: 0 auto;
-		}
-	}
-	.content-area {
-		width: 100%;
-		margin: 0;
-		padding: 0;
-		float: none;
-		clear: both;
-		.entry-content {
-			margin: 0 !important;
-		}
-		.entry-header {
-			margin: 0 !important;
-		}
-		.entry-footer {
-			display: none;
-		}
-	}
-	input {
-		border: 1px solid #49647e !important;
-		font-family: Gotham-Book !important
-	}
-	/* css for error pages */
-	.gfield.gfield_error {
-		background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
-		border: medium none !important;
-		display: inline-block !important;
-		margin: 0 !important;
-		padding: 0 !important;				
-	}
-	.validation_error{
-		display:none;
-	}
-	.validation_message {
-		width: 80%;
-		text-align: center;
-		margin: 0 !important;
-		padding: 0 !important;
-	}
+    font-family: Gotham-Book;
+    max-width: 1031px;
+    width: 100%;
+    margin: 0 auto !important;
+    background: none !important;
+    background-color: #fff !important;
+    .site-content {
+        padding: 0;
+        .site-main {
+            width: 91% !important;
+            margin: 0 auto;
+        }
+    }
+    .content-area {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: none;
+        clear: both;
+        .entry-content {
+            margin: 0 !important;
+        }
+        .entry-header {
+            margin: 0 !important;
+        }
+        .entry-footer {
+            display: none;
+        }
+    }
+    input {
+        border: 1px solid #49647e !important;
+        font-family: Gotham-Book !important
+    }
+    /* css for error pages */
+    .gfield.gfield_error {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+        border: medium none !important;
+        display: inline-block !important;
+        margin: 0 !important;
+        padding: 0 !important;                
+    }
+    .validation_error{
+        display:none;
+    }
+    .validation_message {
+        width: 80%;
+        text-align: center;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
 }
 body:not(.custom-background-image)::before, body:not(.custom-background-image)::after {
-	height: 0 !important;
+    height: 0 !important;
 }
 /**mixin***/
 @mixin chrome {
-	@media (-webkit-min-device-pixel-ratio:0) {
-		@content;
-	}
+    @media (-webkit-min-device-pixel-ratio:0) {
+        @content;
+    }
 }
+
