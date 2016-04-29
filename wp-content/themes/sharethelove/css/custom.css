@@ -469,7 +469,7 @@ body.home .content-area .site-main .entry-content .home_text .featured_project_t
 body.home .content-area .site-main .entry-content .home_text .featured_project_text h4 {
   color: #405970;
   font-family: Gotham-Book !important;
-  font-size: 28px;
+  font-size: 28px !important;
   margin: 0;
   padding-top: 10px;
   font-weight: normal !important;
@@ -565,29 +565,26 @@ body.home .content-area .site-main .entry-content form .gform_body #gform_fields
   padding-left: 12px;
   color: #405970;
 }
-/* line 122, ../sass/custom/_projects.scss */
-body.home .content-area .site-main .entry-content form .gform_body #gform_fields_2 #field_2_3 {
-  padding-left: 15px;
-}
-/* line 124, ../sass/custom/_projects.scss */
+/* line 123, ../sass/custom/_projects.scss */
 body.home .content-area .site-main .entry-content form .gform_body #gform_fields_2 #field_2_3 .gfield_required {
   display: none !important;
 }
-/* line 127, ../sass/custom/_projects.scss */
+/* line 126, ../sass/custom/_projects.scss */
 body.home .content-area .site-main .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container {
   width: 100%;
 }
-/* line 129, ../sass/custom/_projects.scss */
+/* line 128, ../sass/custom/_projects.scss */
 body.home .content-area .site-main .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container input {
   width: 80%;
   font-size: 24px;
   line-height: 1;
   padding-left: 12px;
 }
-/* line 135, ../sass/custom/_projects.scss */
+/* line 134, ../sass/custom/_projects.scss */
 body.home .content-area .site-main .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li {
   float: left;
   width: 35%;
+  padding-left: 15px !important;
 }
 /* line 138, ../sass/custom/_projects.scss */
 body.home .content-area .site-main .entry-content form .gform_body #gform_fields_2 #field_2_3 .ginput_container li input {
@@ -1677,7 +1674,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
 .page-id-104 .site-content .site-main .status-publish .entry-content form .gform_body ul div#result {
   width: 100%;
   margin-left: 38%;
-  /*    */
+  /*	*/
 }
 /* line 1101, ../sass/custom/_projects.scss */
 .page-id-104 .site-content .site-main .status-publish .entry-content form .gform_body ul div#result img.thumb-image {
@@ -4026,7 +4023,7 @@ body.home .content-area .site-main .entry-content form .gform_footer.top_label .
 .page-edit-project .site-content .site-main .status-publish .entry-content form .gform_body ul div#result {
   width: 100%;
   margin-left: 38%;
-  /*    */
+  /*	*/
 }
 /* line 3179, ../sass/custom/_projects.scss */
 .page-edit-project .site-content .site-main .status-publish .entry-content form .gform_body ul div#result img.thumb-image {
