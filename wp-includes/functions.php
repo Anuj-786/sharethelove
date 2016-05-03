@@ -5172,24 +5172,4 @@ function mysql_to_rfc3339( $date_string ) {
 	return preg_replace( '/(?:Z|[+-]\d{2}(?::\d{2})?)$/', '', $formatted );
 }
 
-function wp_delete_user_account_delete_button( $button_text = '' ) {
-
-	// Bail if user is logged out
-	if ( ! is_user_logged_in() ) {
-		return;	
-	}
-
-	// Bail to prevent administrators from deleting their own accounts
-	if ( current_user_can( 'manage_options' ) ) {
-		return;
-	}
-
-	// Defauly button text
-	if ( $button_text == '' ) {
-		$button_text = __( 'Delete My Account', 'wp-delete-user-accounts' );
-	}
-
-	// Button
-	printf( '<button id="delete-my-account">%s</button>', $button_text );
-}
 
