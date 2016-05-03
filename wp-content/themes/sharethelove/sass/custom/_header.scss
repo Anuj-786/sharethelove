@@ -141,6 +141,7 @@
     }
 
   }
+
   .box-shadow-menu {
     position: relative;
     height: 30px;
@@ -148,8 +149,8 @@
     border: none;
     width: 35px;
     cursor: pointer !important;
-    margin-left: 25%;
-    margin-top: 45px;
+    margin-left: 19.5em;
+    margin-top: 48px;
   }
 
   .box-shadow-menu:before {
@@ -168,8 +169,8 @@
     list-style: outside none none;
     margin: 0;
     position: absolute;
-    right: 11%;
-    top: 56%;
+    right: 0;
+    top: 60%;
     width: 15%;
     background:rgba(64, 89, 112, 0.6) none repeat scroll 0 0;
     z-index: 10;
@@ -218,4 +219,8 @@
     }
   }
 }
+}
+#menu-logged-in{
+  position: relative;
+  left: 18em;
 }
