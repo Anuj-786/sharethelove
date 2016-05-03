@@ -48,7 +48,7 @@ get_header(); ?>
 				$website = get_user_meta($user_id ,"website", true); 
 				$bio = get_user_meta($user_id ,"description", true); 
 				$user_profile = " ";
-				$user_profile .= "<a class='profile-edit' href='".$home_url."/update-profile'>Update Profile</a>";
+				$user_profile .= "<a class='profile-edit' href='".$home_url."/update-profile'>Edit Profile</a>";
 				$user_profile .= "<div class='user-prof-img'><div class='usr-img'><img src=".$image."></div><div class='user-prof-img-txt'>Image</div></div>";
 				$user_profile .= "<div class='user-prof-main'>";
 				
