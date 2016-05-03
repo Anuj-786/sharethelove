@@ -77,7 +77,7 @@ get_header(); ?>
 					$project .= "<p>". $post_title .  "</p>";
 					$project .= "<p>Role Title: ". $role_title .  "</p>";
 					$project .= "<p>Vacancies: ". $pro_vac .  "</p>";
-					$project .= "<p>Posted By: <a href='". $home_url."/user-profile-listing/?id=". $post_by ."'>" . $user_info->user_login . "</a></p>";
+					$project .= "<p>Posted By: <a href='". $home_url."/user-profile-listing/?id=". $post_by ."'>" . $user_info->first_name . "</a></p>";
 					$project .= "<p>Location: <a href='".$home_url."/?s=".$pro_loc_pl."'>". $pro_loc_pl . "</a>";
 					$project .= "<a href='".$home_url."/?s=".$pro_loc."'>(". $pro_loc . ")</a></p>" ;
 					$project .= "<p>Start Date: " . $pro_s_date . "</p>";
