@@ -182,6 +182,9 @@ body.page-home {
 									font-size: 24px;
 									font-family: Gotham-Book;
 									font-weight: 100;
+									span {
+										display: none;
+									}
 								}
 								.ginput_container {
 									.gfield_date_day {
@@ -452,10 +455,9 @@ body.page-home {
 						float: left;
 						a {
 							color: #f3f3f3;
-						}
-						a:hover {
 							text-decoration: underline;
 						}
+						
 					}
 					p:nth-child(5) {
 						margin-left: 50%;
@@ -601,6 +603,14 @@ body.page-home {
 											text-align: center;
 										}
 									}
+									.ginput_container::after {
+										color: #790000;
+										content: "*";
+										position: absolute;
+										right: 14em; 	
+										top: 7.8%;
+									}
+
 								}
 								#field_7_3 {
 									display: inline-flex;
@@ -619,7 +629,14 @@ body.page-home {
 											font-size: 24px;
 											text-align: center;
 										}
+										&::after {
+											color: #790000;
+											content: "*";
+											position: absolute;
+											right: 15.6em;
+										}
 									}
+
 								}
 								#field_7_4 {
 									display: inline-flex;
@@ -661,6 +678,13 @@ body.page-home {
 											text-align: center !important;
 											padding: 8px 80px;
 
+										}
+										&::after {
+											color: #790000;
+											content: "*";
+											position: absolute;
+											right: 14.7em;
+											top: 16.6%;
 										}
 									}
 								}
@@ -941,8 +965,13 @@ body.page-home {
 											background-color: #d9d9d2;
 											text-align: center;
 										}
+										&::after {
+											color: #790000;
+											content: "*";
+											position: absolute;
+											right: 18.8em;
+										}
 									}
-
 								}
 								#field_7_13 {
 									display: inline-block;
@@ -1448,8 +1477,6 @@ body.page-home {
 						float: left;
 						a {
 							color: #f3f3f3;
-						}
-						a:hover {
 							text-decoration: underline;
 						}
 					}
@@ -1570,7 +1597,6 @@ body.page-home {
 				p {
 					margin: 0;
 					color: #f3f3f3;
-
 				}
 				a {
 					color: #f3f3f3;
@@ -1579,8 +1605,6 @@ body.page-home {
 					float: left;
 					a {
 						color: #f3f3f3;
-					}
-					a:hover {
 						text-decoration: underline;
 					}
 				}
@@ -2043,8 +2067,6 @@ body.page-home {
 				float: left;
 				a {
 					color: #f3f3f3;
-				}
-				a:hover {
 					text-decoration: underline;
 				}
 			}
@@ -2465,8 +2487,6 @@ body.page-home {
 				float: left;
 				a {
 					color: #f3f3f3;
-				}
-				a:hover {
 					text-decoration: underline;
 				}
 			}
