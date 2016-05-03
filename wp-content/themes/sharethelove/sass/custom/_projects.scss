@@ -1,4 +1,4 @@
-body.home {
+body.page-home {
 	
 	.content-area {
 		width: 100% !important;
@@ -505,7 +505,7 @@ body.home {
 	}
 }
 /* css for add project page */
-.page-id-104 {
+.page-add-projects {
 	font-family: Gotham-Book !important;
 	.site-content {
 		width: 100% !important;
@@ -594,10 +594,10 @@ body.home {
 										text-align: right;
 										padding-bottom: 10px;
 										input {
-											width: 365px !important;
+											width: 365px;
 											background: #d9d9d2 none repeat scroll 0 0 !important;
 											border-radius: 5px !important;
-											font-size: 24px !important;
+											font-size: 24px;
 											text-align: center;
 										}
 									}
@@ -613,10 +613,10 @@ body.home {
 										text-align: right;
 										padding-bottom: 10px;
 										input {
-											width: 365px !important;
+											width: 365px;
 											background: #d9d9d2 none repeat scroll 0 0 !important;
 											border-radius: 5px !important;
-											font-size: 24px !important;
+											font-size: 24px;
 											text-align: center;
 										}
 									}
@@ -655,8 +655,8 @@ body.home {
 											border-radius: 5px;
 											color: blue;
 											font-family: Gotham-Book !important;
-											font-size: 20px !important;
-											width: 79% !important;
+											font-size: 20px;
+											width: 79%;
 											color: #405970;
 											text-align: center !important;
 											padding: 8px 80px;
@@ -724,7 +724,7 @@ body.home {
 										width: 100% !important;
 										padding-top: 10px;
 										input {
-											width: 79% !important;
+											width: 79%;
 											border-radius: 5px;
 											background-color: #d9d9d2;
 											font-size: 18px;
@@ -750,10 +750,10 @@ body.home {
 										text-align: right;
 										padding-bottom: 10px;
 										input {
-											width: 362px !important;
+											width: 362px;
 											background: #d9d9d2 none repeat scroll 0 0 !important;
 											border-radius: 5px !important;
-											font-size: 24px !important;
+											font-size: 24px;
 											text-align: center;
 										}
 									}
@@ -761,7 +761,7 @@ body.home {
 								}
 								#field_7_6 {
 									display: inline-flex;
-									padding-left: 15px;
+									padding-left: 62px;
 									label {
 										font-weight: 100 !important;
 										font-size: 18px;	
@@ -782,7 +782,8 @@ body.home {
 									font-size: 18px;
 									color: #f3f3f3;
 									margin-top: 7px;
-									margin-left: 50px !important;
+									position: relative;
+									left: 50px;
 								}
 								#field_7_7 {
 									display: inline-flex;
@@ -2531,7 +2532,7 @@ body.home {
 }
 /* end of css for manage project */
 /* css for edit project */
-.page-edit-project	{
+.page-edit-entry	{
 	font-family: Gotham-Book !important;
 	.site-content {
 		width: 100% !important;
