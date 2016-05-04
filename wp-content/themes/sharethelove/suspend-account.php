@@ -47,22 +47,24 @@ print(' <div class="secondary-menu-logo">
 	       }
 
 	    ?>
-	    <form action="" method="post" enctype="multipart/form-data">
-         <input type="submit"  name="delete" value="Delete Account" onclick='msg() ;' />
-        </form>
-        <?php echo do_shortcode('[gravityform id="5" title="true" description="false" ajax="true"]') ;?>
+	    <div class="del_btn">
+		    <form action="" method="post" enctype="multipart/form-data">
+	         <input type="submit" class="delete" name="delete" value="Delete Account" />
+	        </form>
+        </div>
 
 	</main><!-- .site-main -->
-
+	
 </div><!-- .content-area -->
-
-<?php get_footer(); ?>
-<html>
-<head>
- <script>
-function msg() {
-	confirm('Are you really want to suspend your account?');
-}
+<script language="JavaScript" type="text/javascript">
+jQuery(document).ready(function(){
+    jQuery(".delete").click(function(e){
+        if(!confirm('Are you sure?')){
+            e.preventDefault();
+            return false;
+        }
+        return true;
+    });
+});
 </script>
-</head>
-</html>
+<?php get_footer(); ?>
