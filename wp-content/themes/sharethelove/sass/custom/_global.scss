@@ -36,28 +36,12 @@ body {
 		border: 1px solid #49647e !important;
 		font-family: Gotham-Book !important
 	}
-	/* css for error pages */
-	.gfield.gfield_error {
-		background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
-		border: medium none !important;
-		display: inline-block !important;
-		margin: 0 !important;
-		padding: 0 !important;				
-	}
-	.validation_error{
-		display:none;
-	}
-	.validation_message {
-		width: 80%;
-		text-align: center;
-		margin: 0 !important;
-		padding: 0 !important;
-	}
 }
+
 body:not(.custom-background-image)::before, body:not(.custom-background-image)::after {
 	height: 0 !important;
 }
-/**mixin***/
+
 @mixin chrome {
 	@media (-webkit-min-device-pixel-ratio:0) {
 		@content;

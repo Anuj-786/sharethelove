@@ -13,7 +13,8 @@
 <html <?php language_attributes(); ?> class="no-js">
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=0.3, maximum-scale=1, user-scalable=yes">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -102,14 +103,14 @@
                             $ham_menu .="<li><a href='http://sharethelove.co.in/blog/2016/02/23/frequently-asked-questions/'>FAQs</a></li>";
                             echo $ham_menu;
                             print('<li><a href="'); echo wp_logout_url($home_url); print('" title="Logout">Logout</a>
-                                </ul></div>');                               }
-                                    else {
-                                        print('<div><div class="login-trigger"><span>Login</span></div>');
-                                        print('<div class="login-content">'); echo do_shortcode('[my-login-form]'); 
-                                        print('</div></div>');
-                                        print('<a href="');echo home_url(); print('/#sign-up">Sign Up</a>');
-                                        print('<a href="');echo home_url(); print('/search"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/search-home.png"></a>');
-                                    }; ?>
-                                </div>
-                            </header><!-- .site-header -->
-                            <div id="content" class="site-content">
+                        </ul></div>');                               }
+                            else {
+                                print('<div><div class="login-trigger"><span>Login</span></div>');
+                                print('<div class="login-content">'); echo do_shortcode('[my-login-form]'); 
+                                print('</div></div>');
+                                print('<a href="');echo home_url(); print('/#sign-up">Sign Up</a>');
+                                print('<a href="');echo home_url(); print('/search"><img src="');echo home_url(); print('/wp-content/uploads/2016/04/search-home.png"></a>');
+                            }; ?>
+                        </div>
+                    </header><!-- .site-header -->
+                    <div id="content" class="site-content">
