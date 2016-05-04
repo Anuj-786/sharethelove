@@ -10,7 +10,6 @@ body {
   margin: 0 auto !important;
   background: none !important;
   background-color: #fff !important;
-  /* css for error pages */
 }
 /* line 12, ../sass/custom/_global.scss */
 body .site-content {
@@ -46,32 +45,12 @@ body input {
   border: 1px solid #49647e !important;
   font-family: Gotham-Book !important;
 }
-/* line 40, ../sass/custom/_global.scss */
-body .gfield.gfield_error {
-  background: transparent none repeat scroll 0 0 !important;
-  border: medium none !important;
-  display: inline-block !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-/* line 47, ../sass/custom/_global.scss */
-body .validation_error {
-  display: none;
-}
-/* line 50, ../sass/custom/_global.scss */
-body .validation_message {
-  width: 80%;
-  text-align: center;
-  margin: 0 !important;
-  padding: 0 !important;
-}
 
-/* line 57, ../sass/custom/_global.scss */
+/* line 41, ../sass/custom/_global.scss */
 body:not(.custom-background-image)::before, body:not(.custom-background-image)::after {
   height: 0 !important;
 }
 
-/**mixin***/
 /* line 1, ../sass/custom/_header.scss */
 .site {
   margin: 0 !important;
