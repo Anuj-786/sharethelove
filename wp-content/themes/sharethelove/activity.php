@@ -121,6 +121,7 @@ get_header(); ?>
 					$project .= "<a class='moreshow'><span>Know More</span></a>";
 					$project .= "</div>";
 				//echo $project;
+					wprc_report_submission_form($p);
 					echo $project;	
 				}
 				wp_pagenavi( array( 'query' => $custom_query ) );
