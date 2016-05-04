@@ -136,16 +136,16 @@ function custom_post_edit_entry ($form, $ajax_enabled, $field_values) {
 		}
 }
 
-    if( is_user_logged_in() ) {
-    $page = get_page_by_title( 'Activity');
+if( is_user_logged_in() ) {
+$page = get_page_by_title( 'Activity');
+update_option( 'page_on_front', $page->ID );
+update_option( 'show_on_front', 'page' );
+}
+else {
+    $page = get_page_by_title( 'Home' );
     update_option( 'page_on_front', $page->ID );
     update_option( 'show_on_front', 'page' );
-	}
-	else {
-	    $page = get_page_by_title( 'Home' );
-	    update_option( 'page_on_front', $page->ID );
-	    update_option( 'show_on_front', 'page' );
-	}
+}
 
 // Date of birth for the create my profile form check for the usersw age.
 
@@ -201,3 +201,12 @@ function custom_login_logo() {
 	</style>';
 }
 add_action('login_head', 'custom_login_logo'); 
+
+add_filter( 'login_headerurl', 'custom_loginlogo_url' );
+function custom_loginlogo_url($url) {
+	return home_url();
+}
+function change_title_on_logo() {
+	return 'Share The Love';
+}
+add_filter('login_headertitle', 'change_title_on_logo');
