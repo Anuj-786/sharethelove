@@ -47,3 +47,7 @@ body:not(.custom-background-image)::before, body:not(.custom-background-image)::
 		@content;
 	}
 }
+/* css for validation pages */
+.validation_error {
+	display: none;
+}
