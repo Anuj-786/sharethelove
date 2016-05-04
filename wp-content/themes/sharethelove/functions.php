@@ -191,3 +191,13 @@ function verify_minimum_age($validation_result){
     $validation_result['form'] = $form;
     return $validation_result;
 }
+
+// Forgot password logo image
+
+// custom admin login logo
+function custom_login_logo() {
+	echo '<style type="text/css">
+	h1 a { background-image: url('.get_bloginfo('stylesheet_directory').'/images/share-logo-1.png) !important; }
+	</style>';
+}
+add_action('login_head', 'custom_login_logo'); 
