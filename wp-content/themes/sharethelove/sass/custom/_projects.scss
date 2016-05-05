@@ -581,6 +581,9 @@ body.page-home {
 						margin: 0 auto;
 						.gform_body {
 							ul {
+								.ginput_preview {
+									display: none;
+								}
 								#field_7_1 {
 									display: inline-block;
 									float: left;
