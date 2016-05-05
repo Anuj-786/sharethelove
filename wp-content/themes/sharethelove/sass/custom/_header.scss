@@ -202,6 +202,9 @@
         float: left;
         width: 25%;
         list-style: none;
+        a {
+          outline: none !important;
+        }
         img {
           height: 60px;
           width: 60px;

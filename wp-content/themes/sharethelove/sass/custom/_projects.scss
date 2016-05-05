@@ -431,6 +431,7 @@ body.page-home {
 					font-family: Gotham-Book !important;	
 					font-size: 14px !important;
 					text-transform: capitalize;
+					outline: none !important;
 				}	
 				.wprc-form {
 					select {
@@ -1218,15 +1219,26 @@ body.page-home {
 /*End  css for add project page */
 
 /* css for forget password page */
-.page-id-87 {
+.page-change-password {
 	.entry-header {
 		display: none;
 	}
+	article {
+		margin: 0 !important; 
+	}
+	.del_btn {
+		width: 100%;
+		text-align: center !important;
+		input {
+			background: #405970 !important;
+			border-radius: 10px !important;
+		}
+	}
 	.entry-content {
+
 		form {
 			text-align: center;
 			padding-top: 20px;
-			padding-bottom: 12em;
 			.gform_heading {
 				display: none;
 			}
@@ -2065,6 +2077,7 @@ body.page-home {
 		.manage-projects {
 			float: right;
 			margin-right: 25px;
+			outline: none !important;
 		}
 		.header_image {
 			width: 30%;
