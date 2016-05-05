@@ -1000,8 +1000,9 @@ body.page-home {
 										&::after {
 											color: #790000;
 											content: "*";
-											position: absolute;
-											right: 18.8em;
+											position: relative;
+											left: 14em;
+											bottom: 2em;
 
 										}
 									}
