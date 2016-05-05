@@ -59,7 +59,7 @@ print(' <div class="secondary-menu-logo">
 <script language="JavaScript" type="text/javascript">
 jQuery(document).ready(function(){
     jQuery(".delete").click(function(e){
-        if(!confirm('Are you sure?')){
+        if(!confirm('Are you sure to delete your account?')){
             e.preventDefault();
             return false;
         }
