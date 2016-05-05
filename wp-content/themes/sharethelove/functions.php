@@ -158,8 +158,7 @@ function verify_minimum_age($validation_result){
 
         // date of birth is submitted in field 7 in the format YYYY-MM-DD
         // change the 7 here to your field ID
-        $dobs = rgpost('input_11');
-        $dob = implode("/", $dobs);
+        $dob = rgpost('input_11');
         // this the minimum age requirement we are validating
         $minimum_age = 14;
         // calculate age in years like a human, not a computer, based on the same birth date every year
@@ -180,7 +179,7 @@ function verify_minimum_age($validation_result){
             // NOTE: replace 7 with the field you would like to mark invalid
             if($field['id'] == '11'){
                 $field['failed_validation'] = true;
-                $field['validation_message'] = "you are below the age of $minimum_age can not be registered.";
+                $field['validation_message'] = "Individuals under age of 14 years cannot register. Thank you for showing interest.";
                 break;
             }
 
