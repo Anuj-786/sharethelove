@@ -187,56 +187,11 @@ body.page-home {
 									}
 								}
 								.ginput_container {
-									.gfield_date_day {
-
-										width: 15%;
-										padding-bottom: 4px !important;
-										font-size: 24px !important;
-										input {
-											width: 65% !important;
-											border-radius: 12px;
-											padding-left: 10px;
-											line-height: 1;
-											color: #405970;
-										}
-										label {
-											display: none;
-										}
-									}
-									.gfield_date_month {
-
-										width: 15%;
-										padding-bottom: 24px !important;
-										font-size: 24px !important;
-										input {
-											width: 65% !important;
-											border-radius: 12px;
-											padding-left: 10px;
-											line-height: 1;
-											color: #405970;
-										}
-										label {
-											display: none;
-										}
-									}
-									.gfield_date_year {
-
-										width: 20% !important;
-										padding-bottom: 24px !important;
-										font-size: 24px !important;
-										input {
-											width: 60% !important;
-											border-radius: 12px;
-											padding-left: 10px;
-											line-height: 1;
-											color: #405970;
-										}
-										label {
-											display: none;
-										}
+									input {
+										margin-top: 10px !important;
 									}
 								}
-							}
+ 							}
 							#field_2_9 {
 								padding-top: 5px;
 								.ginput_right {
@@ -297,7 +252,7 @@ body.page-home {
 			}
 		}
 	}
-	
+
 }
 /* css for activity page */
 .page-template-activity {
@@ -1154,6 +1109,17 @@ body.page-home {
 										}
 										.file_18 {
 											display: none;
+										}
+									}
+								}
+								#field_7_34 {
+									.star_fields {
+										color: #f3f3f3;
+										font-size: 18px;
+										margin-bottom: 0;
+										margin-top: 40px;
+										span {
+											color: #790000;
 										}
 									}
 								}
