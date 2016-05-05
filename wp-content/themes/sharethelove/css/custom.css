@@ -1226,7 +1226,7 @@ body.page-home .content-area .site-main .entry-content form .gform_footer.top_la
   width: 79%;
   color: #405970;
   text-align: center !important;
-  padding: 8px 80px;
+  padding: 8px;
 }
 /* line 714, ../sass/custom/_projects.scss */
 .page-add-projects .site-content .site-main .status-publish .entry-content form .gform_body ul #field_7_28 .ginput_container_select::after {
