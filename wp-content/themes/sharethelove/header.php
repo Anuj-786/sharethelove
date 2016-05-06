@@ -100,7 +100,7 @@
                             $ham_menu .="<li><a href='" .$home_url. "/change-password'>Settings</a></li>";
                             $ham_menu .="<li><a href='" .$home_url. "/about'>About</a></li>";
                             $ham_menu .="<li><a href='" .$home_url. "/about/#support-us'>Support Us</a></li>";
-                            $ham_menu .="<li><a href='http://sharethelove.co.in/blog/2016/02/23/frequently-asked-questions/'>FAQs</a></li>";
+                            $ham_menu .="<li><a href='http://sharethelove.co.in/blog/2016/02/23/frequently-asked-questions/' target='_blank'>FAQs</a></li>";
                             echo $ham_menu;
                             print('<li><a href="'); echo wp_logout_url($home_url); print('" title="Logout">Logout</a>
                         </ul></div>');                               }
