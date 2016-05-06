@@ -42,6 +42,21 @@ print(' <div class="secondary-menu-logo">
 		   	   include("./wp-admin/includes/user.php" );
 			   $user_id = get_current_user_id();
 			   wp_delete_user($user_id);
+			   $args = array (
+			        'numberposts' => -1,
+			        'post_type' => 'projects',
+			        'post_status' => 'publish',
+			        'author' => $user_id
+			   );
+              // get all posts by this user: posts, pages, attachments, etc..
+              $user_posts = get_posts($args);
+
+			  if (empty($user_posts)) return;
+
+			  // delete all the user posts
+			  foreach ($user_posts as $user_post) {
+			        wp_delete_post($user_post->ID, true);
+			  }
 			   wp_redirect( home_url().'/home');
                exit;
 	       }
