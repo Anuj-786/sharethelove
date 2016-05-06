@@ -206,6 +206,6 @@ function custom_loginlogo_url($url) {
 	return home_url();
 }
 function change_title_on_logo() {
-	return 'Share The Love';
+	return 'sharethelove.co.in';
 }
 add_filter('login_headertitle', 'change_title_on_logo');
