@@ -4085,13 +4085,24 @@ body.page-home .content-area .site-main .entry-content form .gform_footer.top_la
   height: 89px;
   border-radius: 10px;
 }
-/* line 3199, ../sass/custom/_projects.scss */
+/* line 3200, ../sass/custom/_projects.scss */
+.page-edit-project .site-content .site-main .status-publish .entry-content form .gform_body ul #field_7_34 .star_fields {
+  color: #f3f3f3;
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+/* line 3205, ../sass/custom/_projects.scss */
+.page-edit-project .site-content .site-main .status-publish .entry-content form .gform_body ul #field_7_34 .star_fields span {
+  color: #790000;
+}
+/* line 3210, ../sass/custom/_projects.scss */
 .page-edit-project .site-content .site-main .status-publish .entry-content form .gform_body ul div#result {
   width: 100%;
   margin-left: 38%;
   /*	*/
 }
-/* line 3204, ../sass/custom/_projects.scss */
+/* line 3215, ../sass/custom/_projects.scss */
 .page-edit-project .site-content .site-main .status-publish .entry-content form .gform_body ul div#result img.thumb-image {
   width: 88px;
   height: 92px;
@@ -4099,7 +4110,7 @@ body.page-home .content-area .site-main .entry-content form .gform_footer.top_la
   margin-left: 12px;
   margin-top: -120px;
 }
-/* line 3213, ../sass/custom/_projects.scss */
+/* line 3224, ../sass/custom/_projects.scss */
 .page-edit-project .site-content .site-main .status-publish .entry-content form .gform_body ul #field_7_19 {
   padding-top: 10px;
   font-family: Gotham-book;
@@ -4114,15 +4125,15 @@ body.page-home .content-area .site-main .entry-content form .gform_footer.top_la
   margin-left: 15px !important;
   display: inline-flex;
 }
-/* line 3225, ../sass/custom/_projects.scss */
+/* line 3236, ../sass/custom/_projects.scss */
 .page-edit-project .site-content .site-main .status-publish .entry-content form .gform_body ul #field_7_19 label {
   color: #405970;
 }
-/* line 3229, ../sass/custom/_projects.scss */
+/* line 3240, ../sass/custom/_projects.scss */
 .page-edit-project .site-content .site-main .status-publish .entry-content form .gform_body ul #field_7_19 .ginput_container {
   display: none;
 }
-/* line 3236, ../sass/custom/_projects.scss */
+/* line 3247, ../sass/custom/_projects.scss */
 .page-edit-project .site-content .site-main .status-publish .entry-content form .gform_footer.top_label {
   left: 34%;
   position: relative;
@@ -4130,7 +4141,7 @@ body.page-home .content-area .site-main .entry-content form .gform_footer.top_la
   padding-top: 25px;
   float: left;
 }
-/* line 3244, ../sass/custom/_projects.scss */
+/* line 3255, ../sass/custom/_projects.scss */
 .page-edit-project .site-content .site-main .status-publish .entry-content .add-project {
   color: #f3f3f3;
   font-family: Gotham-Book !important;
@@ -4140,7 +4151,7 @@ body.page-home .content-area .site-main .entry-content form .gform_footer.top_la
   width: 60%;
   padding-left: 6%;
 }
-/* line 3254, ../sass/custom/_projects.scss */
+/* line 3265, ../sass/custom/_projects.scss */
 .page-edit-project .site-content .site-main .status-publish .entry-footer {
   display: none;
 }
